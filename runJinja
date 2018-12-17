@@ -64,13 +64,13 @@ env.filters['listText'] = listText
 #---------------------
 
 navStruct = dict()
+date = datetime.today().strftime('%Y-%m-%d')
 
 #---------------------
 # Run Templater
 #---------------------
 for path in Path(args.input).glob('**/*.yml'):
 
-    date = datetime.today().strftime('%Y-%m-%d')
     
     with open(path) as y_file:
         y_data = yaml.load(y_file)
@@ -107,5 +107,13 @@ config = Path('mkdocs.yml')
 with open(config, 'w') as configFile:
     configFile.write(template.render(navStruct = navStruct))
 
+#---------------------
+# Write the Main Page
+#---------------------
 
+template = env.get_template('index.md')
+index = Path('./docs', 'index.md')
 
+with open(index, 'w') as indexFile:
+    indexFile.write(template.render(navStruct = navStruct,
+                                    date = date))

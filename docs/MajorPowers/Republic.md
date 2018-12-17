@@ -73,6 +73,10 @@ The Cult of Five is the official religion of the Republic, with the Deacon of Si
 
 - *Parliamentary Election* :
 
+    Every year, on the Winter Solstice, citizens of the Republic gather to nominate candidates for Parliament. Although the position lacks real legislative authority, Member-Electors of Parliament carry a great deal of influence within the Republic. Each District and recognized Guild is free to select a Member-Elector by whatever means they see fit. As a result, different mechanisms have arisen over the years in each body, from a random lottery draw to highly contested popular elections.
+    
+- *Election of a Lord Protector* :
+
     Upon the death of the Lord Protector, each Republic District is represented in Parliament by a Member-Elector. The Electors are sequestered in the Lord Protector's Palace until a unanimous decision has been reached, and a new Lord Protector has been elected.
     
 - *Draft Lottery* :

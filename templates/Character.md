@@ -1,7 +1,7 @@
 {% extends 'base.md' %}
 
 {% block title%}
-{{ name }}
+{{ title }}
 {% endblock %}
 
 {% block summary %}
