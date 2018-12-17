@@ -21,7 +21,7 @@ date: 2018-12-17
 
 ### Government
 
-As the capital of the [Republic of Siddarmark](Republic.md), Siddar City is in theory under the direct control of the Lord Protector.
+As the capital of the [Republic of Siddarmark](../MajorPowers/Republic.md), Siddar City is in theory under the direct control of the Lord Protector.
 
 In practice however, the administration of the ever-growing Republic, its Army, and the complex web of political and economic treaties has necessitated the separation of the city government from the direct apparatus of the national State.
 
