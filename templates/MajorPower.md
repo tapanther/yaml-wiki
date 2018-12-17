@@ -1,36 +1,14 @@
----
-title: Republic of Siddarmark
-summary: Main topic page for {{ title }}
-authors: Juan P. Sierra
-date: {{ date }}
----
+{% extends 'base.md' %}
 
-{% macro dictSection(dict) %}
-{% for name, desc in dict.items() %}
-**{{ name }}**
+{% block title%}
+{{ title }}
+{% endblock %}
 
-{{ desc }}
+{% block summary %}
+Main Page for {{ title }}
+{% endblock %}
 
-{% endfor %}
-{% endmacro %}
-
-{% macro dictTable(dict) %}
-{% for name, desc in dict.items() %}
-| {{ name }} | {{ desc }} |
-{% endfor %}
-{% endmacro %}
-
-{% macro dictList(dict) %}
-{% for name, desc in dict.items() %}
-- *{{ name }}* :
-
-    {{ desc|listText }}
-    
-{% endfor %}
-{% endmacro %}
-
-# {{ title | title }}
-
+{% block pagecontent %}
 ## General Info
 
 - Population : {{ GeneralInfo.Population | numberFormat }}
@@ -48,7 +26,7 @@ date: {{ date }}
 
 ### Prominent Figures and Organizations
 
-{{ dictSection(Society.Organizations) }}
+{{ macros.dictSection(Society.Organizations) }}
 
 ## Culture
 
@@ -78,17 +56,17 @@ date: {{ date }}
 
 ### Traditions
 
-{{ dictList(Culture.Traditions) }}
+{{ macros.dictList(Culture.Traditions) }}
 
 ### Heroes & Villains
 
 #### Heroes
 
-{{ dictList(Culture.Heroes) }}
+{{ macros.dictList(Culture.Heroes) }}
 
 #### Villains
 
-{{ dictList(Culture.Villains) }}
+{{ macros.dictList(Culture.Villains) }}
 
 ## History
 
@@ -99,3 +77,5 @@ Date | Name | Event
 {% for event in History.PivotalEvents %}
 {{ event.Date }} | {{ event.Name }} | {{ event.Description }}
 {% endfor %}
+
+{% endblock %}

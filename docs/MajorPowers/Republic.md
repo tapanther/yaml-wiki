@@ -1,10 +1,9 @@
 ---
 title: Republic of Siddarmark
-summary: Main topic page for Republic of Siddarmark
+summary: Main Page for Republic of Siddarmark
 authors: Juan P. Sierra
 date: 2018-12-17
 ---
-
 
 
 
@@ -126,3 +125,4 @@ Date | Name | Event
 25 AGS | Founding of the Republic | Ludovyc officially founds the Republic by becoming the first Lord Protector. His protectorship sets the standard to which all future Lord Protectors are bound.
 27 - 35 AGS | Tallowburn Joins the Republic | Tallowburn and Siddar sign a series of trade and defense treaties that lay the groundwork for future admittance into the Republic.
 393 AGS | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom.
+
