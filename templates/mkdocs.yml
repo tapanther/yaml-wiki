@@ -1,0 +1,21 @@
+site_name: Tritan
+theme:
+  name: material
+  custom_dir: 'theme'
+  palette:
+    primary: blue
+    accent: blue
+    icon: 'book'
+repo_name: 'tapanther/Tritan'
+repo_url: 'https://github.com/tapanther/Tritan'
+
+nav:
+  - Home: 'index.md'
+{% for category, data in navStruct.items() %}
+  - {{ category }}:
+{% for item in data %}
+{% for name, file in item.items() %}
+      - {{ name }} : '{{ file }}'
+{% endfor %}
+{% endfor %}
+{% endfor %}

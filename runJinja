@@ -1,0 +1,111 @@
+#! /usr/bin/env python3
+
+import sys
+import argparse
+import yaml
+
+from datetime import datetime
+from pathlib import Path, PurePath
+from jinja2 import Environment, FileSystemLoader
+
+
+#---------------------
+# Parse Arguments
+#---------------------
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument(
+    '-l',
+    '--lib',
+    default = './templates',
+    help = 'Directory path to get templates from.'
+)
+
+parser.add_argument(
+    '-i',
+    '--input',
+    default = './lib',
+    help = 'Directory to get YAML inputs.'
+)
+
+parser.add_argument(
+    '-o',
+    '--output',
+    default = './docs',
+    help = 'Output root directory.'
+)
+
+args = parser.parse_args()
+
+
+#---------------------
+# Setup Jinja2
+#---------------------
+
+def numberFormat(value):
+    return format(int(value), ',d')
+
+def listText(text):
+    return '\n    '.join(text.split('\n'))
+
+env = Environment(
+    loader=FileSystemLoader(args.lib),
+    trim_blocks = True,
+    lstrip_blocks = True
+)
+
+env.filters['numberFormat'] = numberFormat
+env.filters['listText'] = listText
+
+
+#---------------------
+# Prepare the nav
+#---------------------
+
+navStruct = dict()
+
+#---------------------
+# Run Templater
+#---------------------
+for path in Path(args.input).glob('**/*.yml'):
+
+    date = datetime.today().strftime('%Y-%m-%d')
+    
+    with open(path) as y_file:
+        y_data = yaml.load(y_file)
+
+    template = env.get_template(y_data['template'])
+
+    outpath = PurePath(args.output, y_data['class'], path.stem).with_suffix('.md')
+
+    Path(outpath.parent).mkdir(parents = True, exist_ok = True)
+    
+    with open(outpath, 'w') as outfile:
+        outfile.write(template.render(y_data, date=date))
+
+    #---------------------
+    # Assemble the nav
+    #---------------------
+
+    rFile = PurePath(y_data['class'], outpath.name)
+    
+    try:
+        navStruct[y_data['class']].append({ y_data['title'] : str(rFile) })
+    except KeyError:
+        navStruct[y_data['class']] = [ { y_data['title'] : str(rFile) } ]
+
+
+
+        
+#---------------------
+# Write the config
+#---------------------
+
+template = env.get_template('mkdocs.yml')
+config = Path('mkdocs.yml')
+with open(config, 'w') as configFile:
+    configFile.write(template.render(navStruct = navStruct))
+
+
+
