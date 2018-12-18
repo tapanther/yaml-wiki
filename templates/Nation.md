@@ -24,6 +24,10 @@ Main Page for {{ title }}
 
 {{ Society.Government }}
 
+### Notable Locations
+
+{{ macros.dictList(Society.Locations) }}
+
 ### Prominent Figures and Organizations
 
 {{ macros.dictSection(Society.Organizations) }}

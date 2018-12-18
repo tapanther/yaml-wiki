@@ -17,7 +17,10 @@ Use the navigation bar to explore the different aspects of Tritan.
 ## Quick Links
 
 - MajorPowers:
-    - [Republic of Siddarmark](MajorPowers/Republic.md)
+    - [Republic of Siddarmark][]
 - Settlements:
-    - [Siddar City](Settlements/SiddarCity.md)
+    - [Siddar City][]
 
+
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Siddar City]: SiddarCity.md (Siddar City)

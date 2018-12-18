@@ -11,3 +11,5 @@ date: {{ date }}
 # {{ title | title }}
 
 {% block pagecontent %}{% endblock %}
+
+{% include 'links.md.j2' %}

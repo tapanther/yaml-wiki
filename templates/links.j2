@@ -1,0 +1,7 @@
+{% for category, data in navStruct.items() %}
+{% for item in data %}
+{% for name, file in item.items() %}
+[{{ name }}]: {{ file }} ({{ name}})
+{% endfor %}
+{% endfor %}
+{% endfor %}

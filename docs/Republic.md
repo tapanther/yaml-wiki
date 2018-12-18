@@ -24,6 +24,14 @@ date: 2018-12-17
 The Republic of Siddarmark is an elective dictatorship, with supreme executive and legislative power vested in the Lord Protector.
 Although a parliamentary body exists, its only purpose is to elect a new Lord Protector. Despite the substantive lack of power, parliamentary membership is highly coveted, as Member-Electors often have direct access to the current Lord Protector.
 
+### Notable Locations
+
+- *[Siddar City][]* :
+
+    The Republic's capital city. Located on the far Northeast coast of the Old Province, Siddar City is a bustling trade hub and the busiest port in all of Tritan.
+    
+
+
 ### Prominent Figures and Organizations
 
 **Lord Protector**
@@ -130,3 +138,6 @@ Date | Name | Event
 27 - 35 AGS | Tallowburn Joins the Republic | Tallowburn and Siddar sign a series of trade and defense treaties that lay the groundwork for future admittance into the Republic.
 393 AGS | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom.
 
+
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Siddar City]: SiddarCity.md (Siddar City)

@@ -16,15 +16,15 @@ from jinja2 import Environment, FileSystemLoader
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
-    '-l',
-    '--lib',
+    '-t',
+    '--templates',
     default = './templates',
     help = 'Directory path to get templates from.'
 )
 
 parser.add_argument(
-    '-i',
-    '--input',
+    '-l',
+    '--lib',
     default = './lib',
     help = 'Directory to get YAML inputs.'
 )
@@ -50,7 +50,7 @@ def listText(text):
     return '\n    '.join(text.split('\n'))
 
 env = Environment(
-    loader=FileSystemLoader(args.lib),
+    loader=FileSystemLoader(args.templates),
     trim_blocks = True,
     lstrip_blocks = True
 )
@@ -66,29 +66,23 @@ env.filters['listText'] = listText
 navStruct = dict()
 date = datetime.today().strftime('%Y-%m-%d')
 
-#---------------------
-# Run Templater
-#---------------------
-for path in Path(args.input).glob('**/*.yml'):
+md_lib = list()
+
+for path in Path(args.lib).glob('**/*.yml'):
 
     
     with open(path) as y_file:
         y_data = yaml.load(y_file)
 
-    template = env.get_template(y_data['template'])
+    outpath = PurePath(args.output, path.stem).with_suffix('.md')
 
-    outpath = PurePath(args.output, y_data['class'], path.stem).with_suffix('.md')
-
-    Path(outpath.parent).mkdir(parents = True, exist_ok = True)
-    
-    with open(outpath, 'w') as outfile:
-        outfile.write(template.render(y_data, date=date))
+    md_lib.append({'path' : outpath, 'data' : y_data})
 
     #---------------------
     # Assemble the nav
     #---------------------
 
-    rFile = PurePath(y_data['class'], outpath.name)
+    rFile = PurePath(outpath.name)
     
     try:
         navStruct[y_data['class']].append({ y_data['title'] : str(rFile) })
@@ -96,6 +90,33 @@ for path in Path(args.input).glob('**/*.yml'):
         navStruct[y_data['class']] = [ { y_data['title'] : str(rFile) } ]
 
 
+
+#---------------------
+# Run link templater
+#---------------------
+
+links = Path(args.templates, 'links.md.j2')
+template = env.get_template('links.j2')
+
+with open(links, 'w') as linkFile:
+    linkFile.write(template.render(navStruct = navStruct))
+
+
+#---------------------
+# Run Templater
+#---------------------
+for entry in md_lib:
+
+    outpath = entry['path']
+    
+    y_data = entry['data']
+    
+    template = env.get_template(y_data['template'])
+
+    Path(outpath.parent).mkdir(parents = True, exist_ok = True)
+    
+    with open(outpath, 'w') as outfile:
+        outfile.write(template.render(y_data, date=date))
 
         
 #---------------------
