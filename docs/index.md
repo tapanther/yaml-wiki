@@ -5,8 +5,6 @@ authors: Juan P. Sierra
 date: 2018-12-17
 ---
 
-
-
 # 
 
 

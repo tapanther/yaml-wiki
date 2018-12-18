@@ -5,8 +5,6 @@ authors: Juan P. Sierra
 date: 2018-12-17
 ---
 
-
-
 # Siddar City
 
 ## General Info
@@ -34,7 +32,10 @@ Despite the seemingly autocratic nature of military rule, citizens of Siddar Cit
 - *Lord Protector's Palace* :
 
     At the heart of Siddar City lies a small complex of unassuming government buildings which at first glace may be mistaken for an administrative annex. Constructed at the direction of Urwyn Ludovic, the first Lord Protector, the Lord's Protector Palace is as much a symbol of the idealism of the [Republic][Republic of Siddarmark] as it is a tangible representation of the current state of the Republic.
+    
     The palace, unlike its name may suggest, is not walled off and isolated from the rest of the City. Citizens are free to enter the palace grounds, and even request admission to the Palace itself for an audience with the Lord Protector. To hide away behind ramparts and fortifications is anathema to the founding principles of the Republic.
+    
+    At the same time, the increasing militarization and aggressive expansionism can be plainly seen at the Palace. The Army's honor guard routinely parades through the palace grounds, and every entrance to the palace buildings is placed under the careful watch of a posted sentry. Many neighboring buildings have been taken over by the Army to house its growing bureaucracy. Perhaps most telling of all, the adjoining army academy fills the air with a cacophany of drums, whistles, and lockstep footfalls.
     
 
 
@@ -46,59 +47,6 @@ Descended from the original town watch, the Gendarmerie is an independent branch
 
 
 
-## Culture
-
-TEXT
-
-### Core Beliefs
-
-- **LIST**
-
-### Values
-
-- TEXT
-
-### Prejudices
-
-- LIST
-
-### Religion
-
-TEXT
-
-### Traditions
-
-- *NAME* :
-
-    TEXT
-    
-
-
-### Heroes & Villains
-
-#### Heroes
-
-- *NAME* :
-
-    TEXT
-    
-
-
-#### Villains
-
-- *NAME* :
-
-    TEXT
-    
-
-
-## History
-
-### Timeline
-
-Date | Name | Event
-:---:|:----:|:----
-YEAR | NAME | TEXT
 
 
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)

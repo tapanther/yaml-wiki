@@ -5,8 +5,6 @@ authors: Juan P. Sierra
 date: 2018-12-17
 ---
 
-
-
 # Republic Of Siddarmark
 
 ## General Info
@@ -62,17 +60,14 @@ Officially, the Republic embraces an egalitarian, commercialist society, though 
 - **Citizen Service**
 - **Strength via Unity**
 - **Mercantile Power**
-
 ### Values
 
 - The Republic is the last best hope for civilization in Tritan. Its flame can only be kept alight by constant vigilance.
 - Strength through unity. Properity through trade. Security through sacrifice.
-
 ### Prejudices
 
 - Monstrous Races
 - Titles of Nobility
-
 ### Religion
 
 The Cult of Five is the official religion of the Republic, with the Deacon of Siddar City as the de facto spiritual leader. 
