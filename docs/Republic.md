@@ -2,7 +2,7 @@
 title: Republic of Siddarmark
 summary: Main Page for Republic of Siddarmark
 authors: Juan P. Sierra
-date: 2018-12-18
+date: 2018-12-19
 ---
 
 # Republic Of Siddarmark
@@ -130,11 +130,12 @@ Date | Name | Event
 :---:|:----:|:----
 0 AGS | The Great Sack | Thousands of people were displaced to the uninhabited regions of the Northeast, eventually founding and settling the towns and cities that comprise the Republic and it's allies today.
 25 AGS | Founding of the Republic | Ludovyc officially founds the Republic by becoming the first Lord Protector. His protectorship sets the standard to which all future Lord Protectors are bound.
-27 - 35 AGS | Tallowburn Joins the Republic | Tallowburn and Siddar sign a series of trade and defense treaties that lay the groundwork for future admittance into the Republic.
+27 AGS | Tallowburn Joins the Republic | Tallowburn and Siddar sign a series of trade and defense treaties that lay the groundwork for future admittance into the Republic.
 393 AGS | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom.
 
 
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Siddar City]: SiddarCity.md (Siddar City)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Timeline]: timeline.md (Timeline)

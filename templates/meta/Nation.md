@@ -40,7 +40,7 @@ Culture :
   Religion : >-
     TEXT
 History :
-  PivotalEvents :
+  Timeline :
     -
       Name : NAME
       Date : YEAR

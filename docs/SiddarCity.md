@@ -2,7 +2,7 @@
 title: Siddar City
 summary: Main Page for Siddar City
 authors: Juan P. Sierra
-date: 2018-12-18
+date: 2018-12-19
 ---
 
 # Siddar City
@@ -49,7 +49,8 @@ Descended from the original town watch, the Gendarmerie is an independent branch
 
 
 
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Siddar City]: SiddarCity.md (Siddar City)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Timeline]: timeline.md (Timeline)

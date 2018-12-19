@@ -2,7 +2,7 @@
 title: Tritan
 summary: Main Page
 authors: Juan P. Sierra
-date: 2018-12-18
+date: 2018-12-19
 ---
 
 # 
@@ -15,20 +15,26 @@ Use the navigation bar to explore the different aspects of Tritan.
 ## Quick Links
 
 *********
+**General**
+
+- [Timeline][]
+
+*********
 **MajorPowers**
 
-- [Kingdom of Dohlar][]
 - [Republic of Siddarmark][]
+- [Kingdom of Dohlar][]
 
 *********
 **Settlements**
 
-- [Blackpoint (City)][]
 - [Siddar City][]
+- [Blackpoint (City)][]
 
 
 
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Siddar City]: SiddarCity.md (Siddar City)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Timeline]: timeline.md (Timeline)

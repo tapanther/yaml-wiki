@@ -1,6 +1,6 @@
 {% extends 'base.md' %}
 
-{% block title%}
+{% block title %}
 Tritan
 {% endblock %}
 
@@ -16,7 +16,7 @@ Use the navigation bar to explore the different aspects of Tritan.
 
 ## Quick Links
 
-{% for category, data in navStruct.items() %}
+{% for category, data in navStruct|dictsort %}
 *********
 **{{ category }}**
 

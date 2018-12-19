@@ -4,6 +4,8 @@ import sys
 import argparse
 import yaml
 
+import re
+
 from datetime import datetime
 from pathlib import Path, PurePath
 from jinja2 import Environment, FileSystemLoader
@@ -66,6 +68,8 @@ env.filters['listText'] = listText
 navStruct = dict()
 date = datetime.today().strftime('%Y-%m-%d')
 
+timelineStruct = list()
+
 md_lib = list()
 
 for path in Path(args.lib).glob('**/*.yml'):
@@ -89,7 +93,34 @@ for path in Path(args.lib).glob('**/*.yml'):
     except KeyError:
         navStruct[y_data['class']] = [ { y_data['title'] : str(rFile) } ]
 
+    # Gather timeline information for a common timeline
+    if ('History' in y_data) and ('Timeline' in y_data['History']):
+        for event in y_data['History']['Timeline']:
+            event.update({'Source' : y_data['title']})
+            timelineStruct.append(event)
 
+#---------------------
+# Write the Timeline
+#---------------------
+
+def ageDecode(event):
+    ageStr = event['Date']
+    age = re.sub(r'[^-0-9]', '', ageStr)
+    age = age.split('-')
+    age = list(filter(lambda x: x.isdigit(), age))
+    age = list(map(int, age))
+    age.extend([0,0,0])
+    return (age[0], age[1], age[2])
+    
+template = env.get_template('timeline.md')
+timeline = Path('./docs', 'timeline.md')
+
+navStruct['General'] = [ { 'Timeline' : str(timeline.name) } ]
+
+timelineSorted = sorted(timelineStruct, key=ageDecode)
+
+with open(timeline, 'w') as timelineFile:
+    timelineFile.write(template.render(timeline = timelineSorted, date=date))
 
 #---------------------
 # Run link templater
@@ -100,7 +131,6 @@ template = env.get_template('links.j2')
 
 with open(links, 'w') as linkFile:
     linkFile.write(template.render(navStruct = navStruct))
-
 
 #---------------------
 # Run Templater
@@ -117,8 +147,7 @@ for entry in md_lib:
     
     with open(outpath, 'w') as outfile:
         outfile.write(template.render(y_data, date=date))
-
-        
+            
 #---------------------
 # Write the config
 #---------------------
@@ -138,3 +167,4 @@ index = Path('./docs', 'index.md')
 with open(index, 'w') as indexFile:
     indexFile.write(template.render(navStruct = navStruct,
                                     date = date))
+

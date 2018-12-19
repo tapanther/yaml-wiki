@@ -5,13 +5,15 @@ theme:
   palette:
     primary: blue
     accent: blue
-    icon: 'book'
+  favicon: 'img/favicon.ico'
+  logo:
+    icon: 'account_balance'
 repo_name: 'tapanther/Tritan'
 repo_url: 'https://github.com/tapanther/Tritan'
 
 nav:
   - Home: 'index.md'
-{% for category, data in navStruct.items() %}
+{% for category, data in navStruct|dictsort %}
   - {{ category }}:
 {% for item in data %}
 {% for name, file in item.items() %}

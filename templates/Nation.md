@@ -102,7 +102,7 @@ Main Page for {{ title }}
 
 Date | Name | Event
 :---:|:----:|:----
-{% for event in History.PivotalEvents %}
+{% for event in History.Timeline %}
 {{ event.Date }} | {{ event.Name }} | {{ event.Description }}
 {% endfor %}
 {% endif %}{# History #}
