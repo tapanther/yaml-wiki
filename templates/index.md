@@ -17,12 +17,15 @@ Use the navigation bar to explore the different aspects of Tritan.
 ## Quick Links
 
 {% for category, data in navStruct.items() %}
-- {{ category }}:
+*********
+**{{ category }}**
+
 {% for item in data %}
 {% for name, file in item.items() %}
-    - [{{ name }}][]
+- [{{ name }}][]
 {% endfor %}
 {% endfor %}
+
 {% endfor %}
 
 {% endblock pagecontent %}

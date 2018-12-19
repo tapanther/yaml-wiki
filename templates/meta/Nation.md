@@ -1,6 +1,6 @@
 ---
 class : MajorPowers
-template : MajorPower.md
+template : Nation.md
 title : TEXT
 GeneralInfo :
   Population : NUM
@@ -9,6 +9,9 @@ GeneralInfo :
     - LIST
 Society :
   Government : >-
+      TEXT
+  Locations:
+    NAME : >-
       TEXT
   Organizations:
     NAME : >-

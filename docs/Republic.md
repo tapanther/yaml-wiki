@@ -2,7 +2,7 @@
 title: Republic of Siddarmark
 summary: Main Page for Republic of Siddarmark
 authors: Juan P. Sierra
-date: 2018-12-17
+date: 2018-12-18
 ---
 
 # Republic Of Siddarmark
@@ -134,5 +134,7 @@ Date | Name | Event
 393 AGS | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom.
 
 
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Siddar City]: SiddarCity.md (Siddar City)
