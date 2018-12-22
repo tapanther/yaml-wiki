@@ -1,0 +1,15 @@
+---
+class : NPC
+template : Character.md
+title : TEXT
+GeneralInfo :
+  Race : TEXT
+  Age : NUMBER
+  Traits :
+    - LIST
+Occupation :
+  Role : TEXT
+  Note : TEXT
+  Location : TEXT
+Description : >-
+  TEXT

@@ -53,4 +53,5 @@ Descended from the original town watch, the Gendarmerie is an independent branch
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
 [Timeline]: timeline.md (Timeline)
