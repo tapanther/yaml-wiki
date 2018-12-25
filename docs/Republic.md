@@ -2,7 +2,7 @@
 title: Republic of Siddarmark
 summary: Main Page for Republic of Siddarmark
 authors: Juan P. Sierra
-date: 2018-12-19
+date: 2018-12-24
 ---
 
 # Republic Of Siddarmark
@@ -52,7 +52,7 @@ As Ludovyc had no prior exprience with governance, he relied solely on military 
 
 Cultural development has largely stagnated since the Great Sack. The Republic holds onto a nostalgic view of the past, and whole-heartedly embraces remnants of fallen civilization. Haute Couture is dictated by the latest finds among the ruins of the past.
 
-Officially, the Republic embraces an egalitarian, commercialist society, though it has grown increasingly militaristic in recent decades due to an uptick in raids by the barbarous hordes.
+Officially, the Republic embraces an egalitarian, commercialist society, though it has grown increasingly militaristic in recent decades due in part to an uptick in raids by the barbarous hordes. For many citizens, the military is the only available opportunity to rise through the social strata. This perception is encouraged by the Republic's military leadership, who understand all too well the necessity of a steady recruiting base.
 
 ### Core Beliefs
 
@@ -84,11 +84,17 @@ The Cult of Five is the official religion of the Republic, with the Deacon of Si
     
 - *Draft Lottery* :
 
-    Military service is not only required, but expected of every young adult in the Republic. To maintain the necessary personnel levels, the Army conducts a yearly drawing of lots to select a new class of recruits.
+    Military service is not only required, but expected of every young adult in the Republic. While basic training and military preparation is provided on a rotating basis, the Army still requires a great many trained officers to lead the troops. To maintain the necessary personnel levels, the Army conducts a yearly drawing of lots to select a new class of recruits.
+    
+    Those selected can look forward to a demanding six month training regimen followed by an additional two years compulsory service. In exchange, the Republic grants every conscript a not inconsiderable salary, paid partly upon completion of service. Many who are selected will extend their service, as the Army provides a better life than many would find in the fields and manufactories.
+    
+    It is not uncommon for wealthy or influential families to petition for a service waiver for first-borns, who are expected to take over the family business. Although a full waiver is rarely granted, a conscription transfer (wherein a younger sibling is volunteered in their stead) is usually attainable.
     
 - *Unity Festival* :
 
-    One of the Republic's oldest traditions, the Unity Festival is held whenever a settlement formally joins the Republic.
+    One of the Republic's oldest traditions, the Unity Festival is held whenever a settlement formally joins the Republic. The event is effectively a cultural exchange in a mix that is part carnival, part market, where both sides can mingle and explore the other's offerings.
+    
+    The festival is typically held only at the newly admitted settlement and Siddar City, though the celebration has slowly spread to other major towns and cities within the Republic.
     
 
 
@@ -128,10 +134,10 @@ The Cult of Five is the official religion of the Republic, with the Deacon of Si
 
 Date | Name | Event
 :---:|:----:|:----
-0 AGS | The Great Sack | Thousands of people were displaced to the uninhabited regions of the Northeast, eventually founding and settling the towns and cities that comprise the Republic and it's allies today.
-25 AGS | Founding of the Republic | Ludovyc officially founds the Republic by becoming the first Lord Protector. His protectorship sets the standard to which all future Lord Protectors are bound.
-27 AGS | Tallowburn Joins the Republic | Tallowburn and Siddar sign a series of trade and defense treaties that lay the groundwork for future admittance into the Republic.
-393 AGS | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom.
+0Y | The Great Sack | Thousands of people were displaced to the uninhabited regions of the Northeast, eventually founding and settling the towns and cities that comprise the Republic and it's allies today.
+25Y | Founding of the Republic | Ludovyc officially founds the Republic by becoming the first Lord Protector. His protectorship sets the standard to which all future Lord Protectors are bound.
+27Y | Tallowburn Joins the Republic | Tallowburn and Siddar sign a series of trade and defense treaties that lay the groundwork for future admittance into the Republic.
+393Y | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom.
 
 
 [Siddar City]: SiddarCity.md (Siddar City)

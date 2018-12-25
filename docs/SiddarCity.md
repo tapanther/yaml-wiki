@@ -2,7 +2,7 @@
 title: Siddar City
 summary: Main Page for Siddar City
 authors: Juan P. Sierra
-date: 2018-12-19
+date: 2018-12-24
 ---
 
 # Siddar City
@@ -47,6 +47,20 @@ Descended from the original town watch, the Gendarmerie is an independent branch
 
 
 
+## Culture
+
+Siddar City practically sets the cutlural tone of the [Republic][]. Although many smaller towns and villages retain their unique personality, the contemporary zeitgeist is set by the whims and fancies of Siddar's merchant princes.
+
+The Republic's fascination with the relics of the First Age is strongest in Siddar City. Many powerful and influential families use archaic name spellings, or at least their best attempts at an archaic spelling. Some nuveau-riche families have been known to change their family name to something more traditional upon attaining public visibitlity. The Gahrdyn family, of Gahrdynyr Trading House fame, rebreanded themselves upon the nomination of Sahmael Gahrdyn, nee Samuel Garden, to Member Elector for the Marine Tradesmen Guild.
+
+## History
+
+### Timeline
+
+Date | Name | Event
+:---:|:----:|:----
+0Y 7M | Arrival at Siddar Bay | After two grueling months, the refugee caravan from The Gate arrives at Siddar Bay. With summer quickly receeding, the refugees set up a makeshift encampment and begin preparing for an arduous winter.
+12Y | Siddar City Officially Founded | Under the direction of Urwyn Ludovic, the makeshift wooden structures would be rebuilt out of more permanent materials starting with the harbour, the lifeblood of the burgeoning city.
 
 
 [Siddar City]: SiddarCity.md (Siddar City)

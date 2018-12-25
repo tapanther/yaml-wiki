@@ -65,6 +65,16 @@ env.filters['listText'] = listText
 # Prepare the nav
 #---------------------
 
+def ageDecode(event):
+    ageStr = event['Date']
+    age = re.sub(r'[^ 0-9]', '', ageStr)
+    age = age.split(' ')
+    age = list(filter(lambda x: x.isdigit(), age))
+    age = list(map(int, age))
+    age.extend([0,0,0])
+    print(age)
+    return (age[0], age[1], age[2])
+    
 navStruct = dict()
 date = datetime.today().strftime('%Y-%m-%d')
 
@@ -95,6 +105,14 @@ for path in Path(args.lib).glob('**/*.yml'):
 
     # Gather timeline information for a common timeline
     if ('History' in y_data) and ('Timeline' in y_data['History']):
+
+
+        # Custom sort for timeline entries
+        y_data['History']['Timeline'] = sorted(
+            y_data['History']['Timeline'],
+            key=ageDecode)
+
+
         for event in y_data['History']['Timeline']:
             event.update({'Source' : y_data['title']})
             timelineStruct.append(event)
@@ -103,15 +121,6 @@ for path in Path(args.lib).glob('**/*.yml'):
 # Write the Timeline
 #---------------------
 
-def ageDecode(event):
-    ageStr = event['Date']
-    age = re.sub(r'[^-0-9]', '', ageStr)
-    age = age.split('-')
-    age = list(filter(lambda x: x.isdigit(), age))
-    age = list(map(int, age))
-    age.extend([0,0,0])
-    return (age[0], age[1], age[2])
-    
 template = env.get_template('timeline.md')
 timeline = Path('./docs', 'timeline.md')
 
@@ -140,7 +149,7 @@ for entry in md_lib:
     outpath = entry['path']
     
     y_data = entry['data']
-    
+
     template = env.get_template(y_data['template'])
 
     Path(outpath.parent).mkdir(parents = True, exist_ok = True)

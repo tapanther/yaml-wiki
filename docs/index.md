@@ -2,7 +2,7 @@
 title: Tritan
 summary: Main Page
 authors: Juan P. Sierra
-date: 2018-12-19
+date: 2018-12-24
 ---
 
 # 
