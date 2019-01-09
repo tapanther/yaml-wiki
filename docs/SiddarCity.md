@@ -2,7 +2,7 @@
 title: Siddar City
 summary: Main Page for Siddar City
 authors: Juan P. Sierra
-date: 2018-12-24
+date: 2019-01-08
 ---
 
 # Siddar City
@@ -63,6 +63,7 @@ Date | Name | Event
 12Y | Siddar City Officially Founded | Under the direction of Urwyn Ludovic, the makeshift wooden structures would be rebuilt out of more permanent materials starting with the harbour, the lifeblood of the burgeoning city.
 
 
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)

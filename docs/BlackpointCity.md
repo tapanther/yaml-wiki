@@ -2,7 +2,7 @@
 title: Blackpoint (City)
 summary: Main Page for Blackpoint (City)
 authors: Juan P. Sierra
-date: 2018-12-24
+date: 2019-01-08
 ---
 
 # Blackpoint (City)
@@ -85,6 +85,7 @@ Date | Name | Event
 162Y | Shay Cowen Hung | Shay Cowen, upstart rebel leader, is put to death by hanging at the Kilmainham Gaol courtyard by order of the Crown. 
 
 
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)

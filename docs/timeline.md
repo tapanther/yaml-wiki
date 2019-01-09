@@ -2,7 +2,7 @@
 title: Timeline
 summary: Combined Timeline from all pages
 authors: Juan P. Sierra
-date: 2018-12-24
+date: 2019-01-08
 hide_toc: true
 ---
 
@@ -23,6 +23,7 @@ hide_toc: true
 | 393Y | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom. |
 
 
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)

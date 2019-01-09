@@ -1,0 +1,38 @@
+---
+class : Organization
+template : Organization.md
+title : TEXT
+GeneralInfo :
+  Type : TEXT
+  Membership : NUM
+  Allegiance : TEXT
+  Description : >-
+    TEXT
+Structure :
+  Governance : >-
+      TEXT
+  Locations :
+    NAME : >-
+      TEXT
+  Members :
+    NAME : >-
+      TEXT
+  Associations :
+    NAME : >-
+      TEXT
+Culture :
+  Description : >-
+    TEXT
+  Values :
+    - >-
+      TEXT
+  Traditions :
+    NAME : >-
+      TEXT
+History :
+  Timeline :
+    -
+      Name : NAME
+      Date : YEAR
+      Description : >-
+        TEXT

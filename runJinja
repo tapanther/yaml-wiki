@@ -72,7 +72,6 @@ def ageDecode(event):
     age = list(filter(lambda x: x.isdigit(), age))
     age = list(map(int, age))
     age.extend([0,0,0])
-    print(age)
     return (age[0], age[1], age[2])
     
 navStruct = dict()

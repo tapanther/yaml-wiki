@@ -2,7 +2,7 @@
 title: Tritan
 summary: Main Page
 authors: Juan P. Sierra
-date: 2018-12-24
+date: 2019-01-08
 ---
 
 # 
@@ -31,6 +31,11 @@ Use the navigation bar to explore the different aspects of Tritan.
 - [Lyhl Habborhlyn][]
 
 *********
+**Organization**
+
+- [Gahrdynyr Trade House][]
+
+*********
 **Settlements**
 
 - [Siddar City][]
@@ -38,6 +43,7 @@ Use the navigation bar to explore the different aspects of Tritan.
 
 
 
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
