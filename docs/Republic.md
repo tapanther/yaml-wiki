@@ -2,7 +2,7 @@
 title: Republic of Siddarmark
 summary: Main Page for Republic of Siddarmark
 authors: Juan P. Sierra
-date: 2019-01-08
+date: 2019-01-11
 ---
 
 # Republic Of Siddarmark
@@ -140,10 +140,11 @@ Date | Name | Event
 393Y | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom.
 
 
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Siddar City]: SiddarCity.md (Siddar City)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Siddar City]: SiddarCity.md (Siddar City)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Timeline]: timeline.md (Timeline)

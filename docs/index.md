@@ -2,7 +2,7 @@
 title: Tritan
 summary: Main Page
 authors: Juan P. Sierra
-date: 2019-01-08
+date: 2019-01-11
 ---
 
 # 
@@ -17,13 +17,14 @@ Use the navigation bar to explore the different aspects of Tritan.
 *********
 **General**
 
+- [Book of Prophesy][]
 - [Timeline][]
 
 *********
 **MajorPowers**
 
-- [Republic of Siddarmark][]
 - [Kingdom of Dohlar][]
+- [Republic of Siddarmark][]
 
 *********
 **NPC**
@@ -38,15 +39,16 @@ Use the navigation bar to explore the different aspects of Tritan.
 *********
 **Settlements**
 
-- [Siddar City][]
 - [Blackpoint (City)][]
+- [Siddar City][]
 
 
 
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Siddar City]: SiddarCity.md (Siddar City)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Siddar City]: SiddarCity.md (Siddar City)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Timeline]: timeline.md (Timeline)

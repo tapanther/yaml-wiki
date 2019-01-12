@@ -96,7 +96,7 @@ for path in Path(args.lib).glob('**/*.yml'):
     #---------------------
 
     rFile = PurePath(outpath.name)
-    
+
     try:
         navStruct[y_data['class']].append({ y_data['title'] : str(rFile) })
     except KeyError:
@@ -123,7 +123,10 @@ for path in Path(args.lib).glob('**/*.yml'):
 template = env.get_template('timeline.md')
 timeline = Path('./docs', 'timeline.md')
 
-navStruct['General'] = [ { 'Timeline' : str(timeline.name) } ]
+try:
+    navStruct['General'].append({ 'Timeline' : str(timeline.name) })
+except KeyError:
+    navStruct['General'] = [ { 'Timeline' : str(timeline.name) } ]
 
 timelineSorted = sorted(timelineStruct, key=ageDecode)
 
