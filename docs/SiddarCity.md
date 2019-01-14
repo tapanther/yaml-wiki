@@ -2,7 +2,7 @@
 title: Siddar City
 summary: Main Page for Siddar City
 authors: Juan P. Sierra
-date: 2019-01-13
+date: 2019-01-14
 ---
 
 # Siddar City
@@ -63,12 +63,12 @@ Date | Name | Event
 12Y | Siddar City Officially Founded | Under the direction of Urwyn Ludovic, the makeshift wooden structures would be rebuilt out of more permanent materials starting with the harbour, the lifeblood of the burgeoning city.
 
 
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Timeline]: timeline.md (Timeline)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Siddar City]: SiddarCity.md (Siddar City)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Siddar City]: SiddarCity.md (Siddar City)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Timeline]: timeline.md (Timeline)

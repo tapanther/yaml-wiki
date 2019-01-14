@@ -2,7 +2,7 @@
 title: Lyhl Habborhlyn
 summary: Character description for Lyhl Habborhlyn
 authors: Juan P. Sierra
-date: 2019-01-13
+date: 2019-01-14
 ---
 
 # Lyhl Habborhlyn
@@ -31,12 +31,12 @@ Since his election, Lord Protector Habborhlyn has launched a series of important
 
 His signature reform however lies in the official codification of the Republic's laws under a civil system which has come to be known as the Lyhlian Code. This has proven a widely popular move, as it has revolutionized civil tort jurisprudence within the Republic. Where even a simple civil suit could easily take months to adjudicate prior to the reforms, the Code not only clarifies the laws, but it allows for rapid summary judgements. Wronged merchants and tradesmen can often receive restitution within days, eliminating the need for costly extended stays while awaiting judgement.
 
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Timeline]: timeline.md (Timeline)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Siddar City]: SiddarCity.md (Siddar City)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Siddar City]: SiddarCity.md (Siddar City)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Timeline]: timeline.md (Timeline)

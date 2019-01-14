@@ -2,7 +2,7 @@
 title: Greghor Stonhyr
 summary: Character description for Greghor Stonhyr
 authors: Juan P. Sierra
-date: 2019-01-13
+date: 2019-01-14
 ---
 
 # Greghor Stonhyr
@@ -35,12 +35,12 @@ Despite rampant racial prejudice, he quickly gained a reputation as a fierce sol
 
 Three decades of distinguished service have made Stonhyr a household name within the Republic. Though there are those who believe it is improper to allow someone of monstrous heritage to hold such a distinguished position, Stonhyr's heritage makes him a symbol of the Republic's ideals - that good and evil are a choice; and that greatness is earned, not inherited.
 
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Timeline]: timeline.md (Timeline)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Siddar City]: SiddarCity.md (Siddar City)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Siddar City]: SiddarCity.md (Siddar City)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Timeline]: timeline.md (Timeline)

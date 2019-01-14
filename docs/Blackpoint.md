@@ -2,7 +2,7 @@
 title: Kingdom of Dohlar
 summary: Main Page for Kingdom of Dohlar
 authors: Juan P. Sierra
-date: 2019-01-13
+date: 2019-01-14
 ---
 
 # Kingdom Of Dohlar
@@ -99,12 +99,12 @@ Date | Name | Event
 161Y | Shay's Rebellion | Shay Cowen leads a popular uprising of peasants and serfs against the Dohlaran feudal system. The rebellion is brutally put down by the Dusk Templars at the direction of the Crown. The nascent [Republic][Republic of Siddarmark] is suspected of inciting the rebellion by the nobility in Blackpoint, leading to a rapid deterioration of relations between the two cities.
 
 
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Timeline]: timeline.md (Timeline)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Siddar City]: SiddarCity.md (Siddar City)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Siddar City]: SiddarCity.md (Siddar City)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Timeline]: timeline.md (Timeline)
