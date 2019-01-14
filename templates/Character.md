@@ -22,7 +22,9 @@ Character description for {{ title }}
 
 - Role : {{ Occupation.Role }}
 {% if Occupation.Note %}
+
     {{ Occupation.Note }}
+    
 {% endif %}{# Note #}
 {% if Occupation.Location %}
 - Location : {{ Occupation.Location }}
