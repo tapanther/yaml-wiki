@@ -2,7 +2,7 @@
 title: Republic of Siddarmark
 summary: Main Page for Republic of Siddarmark
 authors: Juan P. Sierra
-date: 2019-01-14
+date: 2019-01-15
 ---
 
 # Republic Of Siddarmark

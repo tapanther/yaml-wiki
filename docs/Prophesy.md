@@ -2,7 +2,7 @@
 title: Book of Prophesy
 summary: Main Page for Book of Prophesy
 authors: Juan P. Sierra
-date: 2019-01-14
+date: 2019-01-15
 ---
 
 # Book Of Prophesy
