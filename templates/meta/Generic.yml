@@ -1,0 +1,13 @@
+---
+class : General
+template : generic.md
+title : TEXT
+Description: >-
+  TEXT
+Content:
+  -
+    separate: BOOL
+    Subtitle: TEXT
+    Title: TEXT
+    Text: |
+      TEXT

@@ -11,4 +11,14 @@ date: {{ date }}
 
 {% block pagecontent %}{% endblock %}
 
+{% block pagelinks %}
+{% if Links %}
+## Related Links
+
+{% for link in Links %}
+- [{{ link }}][]
+{% endfor %}
+{% endif %}{# Links #}
+{% endblock %}
+
 {% include 'links.md.j2' %}

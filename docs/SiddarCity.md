@@ -63,6 +63,7 @@ Date | Name | Event
 12Y | Siddar City Officially Founded | Under the direction of Urwyn Ludovic, the makeshift wooden structures would be rebuilt out of more permanent materials starting with the harbour, the lifeblood of the burgeoning city.
 
 
+
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
@@ -71,4 +72,5 @@ Date | Name | Event
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: timeline.md (Timeline)

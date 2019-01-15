@@ -52,6 +52,7 @@ The Gahrdynyr Trade House presents itself as a throwback to simpler times. Its b
 
 
 
+
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
@@ -60,4 +61,5 @@ The Gahrdynyr Trade House presents itself as a throwback to simpler times. Its b
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: timeline.md (Timeline)

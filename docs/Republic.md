@@ -140,6 +140,12 @@ Date | Name | Event
 393Y | Treaty of Ravenhelm | The Republic signs a treaty of non-aggression with the Crown of Blackpoint, stabilizing and formalizing relations with the kingdom.
 
 
+## Related Links
+
+- [Siddar City][]
+- [Lyhl Habborhlyn][]
+- [Greghor Stonhyr][]
+
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
@@ -148,4 +154,5 @@ Date | Name | Event
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: timeline.md (Timeline)

@@ -31,6 +31,7 @@ Since his election, Lord Protector Habborhlyn has launched a series of important
 
 His signature reform however lies in the official codification of the Republic's laws under a civil system which has come to be known as the Lyhlian Code. This has proven a widely popular move, as it has revolutionized civil tort jurisprudence within the Republic. Where even a simple civil suit could easily take months to adjudicate prior to the reforms, the Code not only clarifies the laws, but it allows for rapid summary judgements. Wronged merchants and tradesmen can often receive restitution within days, eliminating the need for costly extended stays while awaiting judgement.
 
+
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
@@ -39,4 +40,5 @@ His signature reform however lies in the official codification of the Republic's
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: timeline.md (Timeline)

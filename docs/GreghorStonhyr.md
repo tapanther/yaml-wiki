@@ -35,6 +35,10 @@ Despite rampant racial prejudice, he quickly gained a reputation as a fierce sol
 
 Three decades of distinguished service have made Stonhyr a household name within the Republic. Though there are those who believe it is improper to allow someone of monstrous heritage to hold such a distinguished position, Stonhyr's heritage makes him a symbol of the Republic's ideals - that good and evil are a choice; and that greatness is earned, not inherited.
 
+## Related Links
+
+- [Stonhyr's Speech At Noxwall][]
+
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
@@ -43,4 +47,5 @@ Three decades of distinguished service have made Stonhyr a household name within
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: timeline.md (Timeline)
