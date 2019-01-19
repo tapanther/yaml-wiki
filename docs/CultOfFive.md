@@ -32,7 +32,7 @@ While lesser gods and other supernatural beings are known to exist, the Cult doe
 ### Governnance
 
 As the Cult arose independently all throughout Tritan, there is no common curia. The Cult's clerics are largely independent, and the early Cult faced several schisms that prevented a centralized organization from developing. In more recent years however, with the expansion of major political powers, there has been a greater degree of cultural mixing and a renewed push for a common set of tenets and rituals.
-As of 520 AGS, two major centers of influence have arisen within the Cult of Five: [Siddar City][] and [Blackpoint][]. While they share the same pantheon and basic tenets, the two cities have developed very different interpretations and teachings.
+As of 520 AGS, two major centers of influence have arisen within the Cult of Five: [Siddar City][] and [Blackpoint][Blackpoint (City)]. While they share the same pantheon and basic tenets, the two cities have developed very different interpretations and teachings.
 
 ### Notable Locations
 
