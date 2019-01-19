@@ -15,6 +15,9 @@ site_url: 'https://tapanther.github.io/Tritan/Prophesy/'
 extra:
   disqus: 'tritan'
 
+markdown_extensions:
+  - admonition
+
 nav:
   - Home: 'index.md'
 {% for category, data in navStruct|dictsort %}

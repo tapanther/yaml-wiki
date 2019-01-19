@@ -22,6 +22,7 @@ Use the navigation bar to explore the different aspects of Tritan.
 *********
 **General**
 
+- [Tritanian Calendar][]
 - [Book of Prophesy][]
 - [Stonhyr's Speech at Noxwall][]
 - [Timeline][]
@@ -56,10 +57,11 @@ Use the navigation bar to explore the different aspects of Tritan.
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Siddar City]: SiddarCity.md (Siddar City)
+[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Timeline]: Timeline.md (Timeline)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
-[Timeline]: Timeline.md (Timeline)
