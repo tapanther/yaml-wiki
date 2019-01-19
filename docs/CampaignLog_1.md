@@ -46,4 +46,4 @@ The Party encounters gnoll hunting parties in Cantfall, indicating that a warban
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
-[Timeline]: timeline.md (Timeline)
+[Timeline]: Timeline.md (Timeline)

@@ -135,8 +135,8 @@ for path in Path(args.lib).glob('**/*.yml'):
 # Write the Timeline
 #---------------------
 
-template = env.get_template('timeline.md')
-timeline = Path('./docs', 'timeline.md')
+template = env.get_template('Timeline.md')
+timeline = Path('./docs', 'Timeline.md')
 
 try:
     navStruct['General'].append({ 'Timeline' : str(timeline.name) })
