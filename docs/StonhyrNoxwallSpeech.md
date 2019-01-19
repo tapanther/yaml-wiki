@@ -2,7 +2,7 @@
 title: Stonhyr's Speech at Noxwall
 summary: Main Page for Stonhyr's Speech at Noxwall
 authors: Juan P. Sierra
-date: 2019-01-15
+date: 2019-01-18
 ---
 
 # Stonhyr's Speech At Noxwall
@@ -12,6 +12,7 @@ date: 2019-01-15
 ---
 
 ## Noxwall Address
+
 In this solemn hour it is a consolation to recall and to dwell upon our repeated efforts for peace and unity. All have been ill-starred, but all have been faithful and sincere. This is of the highest moral value - and not only moral value, but practical value - because the wholehearted concurrence of scores of millions of men and women, whose co-operation is indispensable and whose comradeship and brotherhood are indispensable, is the only foundation upon which the trial and tribulation of war can be endured and surmounted. Outside, the storms of war may blow and the lands may be lashed with the fury of its gales, but in our own hearts there is peace.
 
 We must not underrate the gravity of the task which lies before us or the temerity of the ordeal, to which we shall not be found unequal. We must expect many disappointments, and many unpleasant surprises, but we may be sure that the task which we have freely accepted is one not beyond the compass and the strength of the Republic.
@@ -24,6 +25,7 @@ This is not a question of fighting for Noxwall or fighting for Cantfall. We are 
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Siddar City]: SiddarCity.md (Siddar City)
+[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)

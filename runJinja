@@ -66,14 +66,21 @@ env.filters['listText'] = listText
 #---------------------
 
 def ageDecode(event):
+    map = {'KAL' : 1, 'IDE' : 20, 'NON' : 28, 'X' : 2}
     ageStr = event['Date']
-    age = re.sub(r'[^ 0-9]', '', ageStr)
-    age = age.split(' ')
-    age = list(filter(lambda x: x.isdigit(), age))
-    age = list(map(int, age))
-    age.extend([0,0,0])
-    return (age[0], age[1], age[2])
-    
+    ageList = ageStr.split(' ')
+    ageList.extend(['0KAL','0KAL','0KAL'])
+    ageList[0] = int(re.sub(r'[^ 0-9]', '', ageList[0]))
+    ageList[1] = int(re.sub(r'[^ 0-9]', '', ageList[1]))
+    try:
+        day = int(re.sub(r'([0-9]*).*', r'\1', ageList[2]))
+    except ValueError:
+        day = 1
+    mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', ageList[2])
+    ageList[2] = (32 - map[mark] - (day - 2)) % 31
+    return (ageList[0], ageList[1], ageList[2])
+
+
 navStruct = dict()
 date = datetime.today().strftime('%Y-%m-%d')
 
@@ -97,10 +104,11 @@ for path in Path(args.lib).glob('**/*.yml'):
 
     rFile = PurePath(outpath.name)
 
-    try:
-        navStruct[y_data['class']].append({ y_data['title'] : str(rFile) })
-    except KeyError:
-        navStruct[y_data['class']] = [ { y_data['title'] : str(rFile) } ]
+    if not ('control' in y_data and 'no_link' in y_data['control']):
+        try:
+            navStruct[y_data['class']].append({ y_data['title'] : str(rFile) })
+        except KeyError:
+            navStruct[y_data['class']] = [ { y_data['title'] : str(rFile) } ]
 
     # Gather timeline information for a common timeline
     if ('History' in y_data) and ('Timeline' in y_data['History']):

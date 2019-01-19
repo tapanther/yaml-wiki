@@ -2,7 +2,7 @@
 title: Book of Prophesy
 summary: Main Page for Book of Prophesy
 authors: Juan P. Sierra
-date: 2019-01-15
+date: 2019-01-18
 ---
 
 # Book Of Prophesy
@@ -12,6 +12,7 @@ Book of Prophesy written by Mary the Prophetess in the First Age.
 ---
 
 ## Aforr Þe Empire Changes
+
 *Quatern I*
 
 I.  
@@ -42,6 +43,7 @@ Crumbl’d, buried inne Þe ashen lot
 ---
 
 ## A DeaÞ Too Late
+
 *Quatern II*
 
 I.  
@@ -72,6 +74,7 @@ Inne Cedar’s Bay Þe monarchy wil ende
 ---
 
 ## Strangers GaÞered inne Þe Archer’s Reeve
+
 *Quatern III*
 
 I.  
@@ -102,6 +105,7 @@ It wil burn lime, lodestone sulfur and pitch
 ---
 
 ## By Candle’s Litte
+
 *Quatern IV*
 
 I.  
@@ -132,6 +136,7 @@ It wil burn lime, lodestone sulfur and pitch
 ---
 
 ## Þe Republick Chang’d
+
 *Quatern V*
 
 I.  
@@ -162,6 +167,7 @@ By Þe one whose face is splatter’d wiÞ blood
 ---
 
 ## Þe Crimson King
+
 *Quatern VI*
 
 I.  
@@ -192,6 +198,7 @@ Inne Þe past Þan wil come to Þe Raven’s Helm
 ---
 
 ## Pease and Plenty, Dust and Ashe
+
 *Quatern VII*
 
 I.  
@@ -222,6 +229,7 @@ Pease and plenty, dust and ashe
 ---
 
 ## Heart Inhuman
+
 *Quatern VIII*
 
 I.  
@@ -254,6 +262,7 @@ Pease and plenty, dust and ashe
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Siddar City]: SiddarCity.md (Siddar City)
+[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)

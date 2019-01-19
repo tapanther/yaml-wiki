@@ -18,7 +18,10 @@ Main Page for {{ title }}
 {% endif %}{# Description Separate #}
 {% endif %}{# Description#}
 {% for entry in Content %}
+{% if entry.Title %}
 ## {{ entry.Title }}
+
+{% endif %}
 {% if entry.Subtitle %}
 *{{ entry.Subtitle }}*
 

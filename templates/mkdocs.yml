@@ -21,7 +21,7 @@ nav:
   - {{ category }}:
 {% for item in data %}
 {% for name, file in item.items() %}
-      - {{ name }} : '{{ file }}'
+      - '{{ name | e }}' : '{{ file }}'
 {% endfor %}
 {% endfor %}
 {% endfor %}
