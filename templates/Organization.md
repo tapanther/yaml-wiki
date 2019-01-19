@@ -12,7 +12,9 @@ Main Page for {{ title }}
 ## General Info
 
 - Type : {{ GeneralInfo.Type }}
+{% if GeneralInfo.Membership %}
 - Membership : {{ GeneralInfo.Membership | numberFormat }}
+{% endif %}{# Membership #}
 - Allegiance : {{ GeneralInfo.Allegiance }}
 
 {% if GeneralInfo.Description %}

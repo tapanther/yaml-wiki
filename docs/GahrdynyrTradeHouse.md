@@ -2,7 +2,7 @@
 title: Gahrdynyr Trade House
 summary: Main Page for Gahrdynyr Trade House
 authors: Juan P. Sierra
-date: 2019-01-18
+date: 2019-01-19
 ---
 
 # Gahrdynyr Trade House
@@ -53,12 +53,14 @@ The Gahrdynyr Trade House presents itself as a throwback to simpler times. Its b
 
 
 
+[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Gnolls]: Gnolls.md (Gnolls)
 [Timeline]: Timeline.md (Timeline)
+[Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))

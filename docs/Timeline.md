@@ -2,7 +2,7 @@
 title: Timeline
 summary: Combined Timeline from all pages
 authors: Juan P. Sierra
-date: 2019-01-18
+date: 2019-01-19
 hide_toc: true
 ---
 
@@ -17,6 +17,7 @@ hide_toc: true
 | 12Y | Siddar City Officially Founded | Under the direction of Urwyn Ludovic, the makeshift wooden structures would be rebuilt out of more permanent materials starting with the harbour, the lifeblood of the burgeoning city. |
 | 25Y | Founding of the Republic | Ludovyc officially founds the Republic by becoming the first Lord Protector. His protectorship sets the standard to which all future Lord Protectors are bound. |
 | 27Y | Tallowburn Joins the Republic | Tallowburn and Siddar sign a series of trade and defense treaties that lay the groundwork for future admittance into the Republic. |
+| 50Y 1M KAL | Pyrael Reveals Herself | On the 50th anniversay of the Great Sack, Ysabahl Stywyrt, a rather unknown and inconsequential apothecary in Siddar City, is shocked to discover a fierce woman in resplendent armor watching over a dying soldier within her ward, only for the figure to disappear as the soldier died. The figure would re-appear in Ysabahl's ward throughout her life, always watching over a soldier on the verge of death. |
 | 57Y | The Divine Restoration | Tasar Thexysis, a minor noble in Blackpoint, makes a claim on the vacant Dohlaran throne, presenting a letter from his mother alleging that he is the result of a secret love affair with Haarahld I. The Regency Council backs Tasar's claim, who is then crowned Maximillien III. |
 | 161Y | Shay's Rebellion | Shay Cowen leads a popular uprising of peasants and serfs against the Dohlaran feudal system. The rebellion is brutally put down by the Dusk Templars at the direction of the Crown. The nascent [Republic][Republic of Siddarmark] is suspected of inciting the rebellion by the nobility in Blackpoint, leading to a rapid deterioration of relations between the two cities. |
 | 162Y | Shay Cowen Hung | Shay Cowen, upstart rebel leader, is put to death by hanging at the Kilmainham Gaol courtyard by order of the Crown.  |
@@ -24,12 +25,14 @@ hide_toc: true
 
 
 
+[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Gnolls]: Gnolls.md (Gnolls)
 [Timeline]: Timeline.md (Timeline)
+[Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
