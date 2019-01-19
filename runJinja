@@ -9,6 +9,7 @@ import re
 from datetime import datetime
 from pathlib import Path, PurePath
 from jinja2 import Environment, FileSystemLoader
+from shutil import copytree, rmtree
 
 
 #---------------------
@@ -39,6 +40,12 @@ parser.add_argument(
 )
 
 args = parser.parse_args()
+
+outdir = Path(args.output)
+if outdir.exists():
+    rmtree(outdir)
+
+outdir.mkdir(parents = True, exist_ok = True)
 
 
 #---------------------
@@ -162,8 +169,6 @@ for entry in md_lib:
 
     template = env.get_template(y_data['template'])
 
-    Path(outpath.parent).mkdir(parents = True, exist_ok = True)
-    
     with open(outpath, 'w') as outfile:
         outfile.write(template.render(y_data, date=date))
             
@@ -187,3 +192,7 @@ with open(index, 'w') as indexFile:
     indexFile.write(template.render(navStruct = navStruct,
                                     date = date))
 
+
+libpath = Path('lib')
+copytree(libpath.joinpath('img'), outdir.joinpath('img'))
+copytree(libpath.joinpath('stylesheets'), outdir.joinpath('stylesheets'))
