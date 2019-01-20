@@ -2,7 +2,7 @@
 title: Lyhl Habborhlyn
 summary: Character description for Lyhl Habborhlyn
 authors: Juan P. Sierra
-date: 2019-01-19
+date: 2019-01-20
 ---
 
 # Lyhl Habborhlyn
@@ -41,7 +41,9 @@ His signature reform however lies in the official codification of the Republic's
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)

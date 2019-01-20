@@ -2,7 +2,7 @@
 title: Cult of Five
 summary: Main Page for Cult of Five
 authors: Juan P. Sierra
-date: 2019-01-19
+date: 2019-01-20
 ---
 
 # Cult Of Five
@@ -155,7 +155,9 @@ Date | Name | Event
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
