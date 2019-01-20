@@ -20,10 +20,8 @@ Use the navigation bar to explore the different aspects of Tritan.
 *********
 **{{ category }}**
 
-{% for item in data %}
-{% for name, file in item.items() %}
-- [{{ name }}][]
-{% endfor %}
+{% for item in data|sort(attribute='title') %}
+- [{{ item.title|e }}][]
 {% endfor %}
 
 {% endfor %}

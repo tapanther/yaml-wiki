@@ -113,9 +113,13 @@ for path in Path(args.lib).glob('**/*.yml'):
 
     if not ('control' in y_data and 'no_link' in y_data['control']):
         try:
-            navStruct[y_data['class']].append({ y_data['title'] : str(rFile) })
+            navStruct[y_data['class']].append(
+                { 'title' : y_data['title'],
+                  'file' : str(rFile) }
+            )
         except KeyError:
-            navStruct[y_data['class']] = [ { y_data['title'] : str(rFile) } ]
+            navStruct[y_data['class']] = [ { 'title' : y_data['title'],
+                                             'file' : str(rFile) } ]
 
     # Gather timeline information for a common timeline
     if ('History' in y_data) and ('Timeline' in y_data['History']):
@@ -139,9 +143,11 @@ template = env.get_template('Timeline.md')
 timeline = Path('./docs', 'Timeline.md')
 
 try:
-    navStruct['General'].append({ 'Timeline' : str(timeline.name) })
+    navStruct['General'].append({ 'title' : 'Timeline',
+                                  'file' : str(timeline.name) })
 except KeyError:
-    navStruct['General'] = [ { 'Timeline' : str(timeline.name) } ]
+    navStruct['General'] = [ { 'title' : 'Timeline',
+                               'file' : str(timeline.name) } ]
 
 timelineSorted = sorted(timelineStruct, key=ageDecode)
 
