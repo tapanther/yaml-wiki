@@ -2,7 +2,7 @@
 title: Act 1 - The Ravenous Horde
 summary: Main Page for Act 1 - The Ravenous Horde
 authors: Juan P. Sierra
-date: 2019-01-20
+date: 2019-01-21
 ---
 
 # Act 1 - The Ravenous Horde
@@ -15,7 +15,7 @@ The Party exits the Tomb of the Alchemist several days later than expected. Time
 
 *570Y 3M 11KAL*
 
-The Party meets up with the refugee caravan, led by [Greghor Stonhyr][], and proceeds to Noxwall.
+The Party meets up with the refugee caravan, led by [Greghor Stonhyr][], and proceeds to [Noxwall][].
 
 ---
 
@@ -36,11 +36,12 @@ The Party leads a salvage caravan to the ruins of Cantfall so that precious docu
 The Party encounters gnoll hunting parties in Cantfall, indicating that a warband must be nearby. Taking refuge in the miniature Nonewallow of the Zhackson estate, the Party scares off a gnoll pack by exploiting their fear of the supernatural ash.
 
 
+[Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
-[Alchemist&#39;s Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
-[Stonhyr&#39;s Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Cult of Five]: CultOfFive.md (Cult of Five)
@@ -51,7 +52,7 @@ The Party encounters gnoll hunting parties in Cantfall, indicating that a warban
 [Siddar City]: SiddarCity.md (Siddar City)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Act 0 - The Alchemist&#39;s Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
+[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)

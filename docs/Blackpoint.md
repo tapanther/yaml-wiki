@@ -2,7 +2,7 @@
 title: Kingdom of Dohlar
 summary: Main Page for Kingdom of Dohlar
 authors: Juan P. Sierra
-date: 2019-01-20
+date: 2019-01-21
 ---
 
 # Kingdom Of Dohlar
@@ -19,7 +19,11 @@ date: 2019-01-20
 
 ### Government
 
-TEXT
+The Kingdom of Dohlar is a feudal monarchy, descended from the First Age nation-state of the same name. The Dohlaran Crown, seated in [Blackpoint][Blackpoint (City)], claims a direct line of succession to the old Dohlaran House, and rules by divine right.
+
+As a feudal society, the Crown does not directly control the land. Aside from the core of the capital, the Kingdom's lands are distributed amongst various noble houses. The noble houses may then further grant control of towns or estates to subordinate lords, though these holdings tend to be small compared to the noble houses.
+
+As each Lord enjoys dominion over their lands, there is no common legal code or system. Disputes between the nobility can be settled by the Crown, but commoners must rely on the judgements of their direct lords, with few legal protections beyond those enshrined in the oath of fealty.
 
 ### Notable Locations
 
@@ -31,15 +35,21 @@ TEXT
 
 ### Prominent Figures and Organizations
 
-**NAME**
+**Dusk Templars**
 
-TEXT
+Widely considered some of the fiercest warriors on Tritan, the Dusk Templars are the sole surviving heraldic order from the First Age. The Templars answer directly to the Dohlaran Crown, and are often used as elite mounted shock troops against both internal and external threats.
 
 
 
 ## Culture
 
-TEXT
+Dohlaran culture is highly stratified, with little to no social mobility. At the top of the social order is the Dohlaran Crown and the Privy Council, which is always composed of leaders of the most powerful noble houses. While the Crown is ostensibly vested with absolute power, it is a foolish monarch who disregards the advice and recommendations of the Privy Council.
+
+The Noble Houses, descendants of the surviving Dohlaran nobility, enjoy many special rights and priviledges accumulated over the centuries before and after the Great Sack. Indeed, it is not entirely uncommon for a long-lost document or royal decree to be found, describing some forgotten right or priviledge for one or more Noble Houses.
+
+The Noble Houses hold the overwhelming majority of the kingdom's land. Outside of Blackpoint City itself, vast stretches of the countryside, and all the natural resources therein, rightfully belong to the Noble Houses. In order to best use the land, the Houses will further vassalize minor lords, granting them certain land use rights in exchange for tithes and certain guarantees of military and political support.
+
+At the bottom of the social ladder is the common folk, separated between freemen and serfs. While some freemen, such as artisans and merchants, are relatively wealthy and enjoy the privileges of their station, in practice, few freemen are truly free, as many are indebted to the manufactory owners and landlords, much like their rural counterparts. 
 
 ### Core Beliefs
 
@@ -60,7 +70,11 @@ TEXT
 - Monstrous Heritage
 ### Religion
 
-TEXT
+The [Cult of Five][] is the official religion of the Dohlaran Kingdom. Both the nobility and the common folk are deeply religious, though for different reasons.
+
+The nobility believe that the Five have chosen Blackpoint, specifically the leadership of Blackpoint, to restore the natural order of the world and reestablish the Empires of Old.
+
+For the common folk, the Cult, especially as interpreted within the Kingdom, provides a sense of continuation and a link to their revered ancestors. Much like the Ancient Gods were reborn, so too will the Dohlaran people.
 
 ### Traditions
 
@@ -74,17 +88,17 @@ TEXT
 
 #### Heroes
 
-- *NAME* :
+- *Haarahld I* :
 
-    TEXT
+    Dohlaran King during the Great Sack, Haarahld I led a desperate attack on Baltatrax and his forces within Blackpoint. Although he was mortally wounded in the process, Haarahld defeated Baltatrax, putting an end to the Demogorgon's rampage.
     
 
 
 #### Villains
 
-- *NAME* :
+- *Baltatrax the Ravager* :
 
-    TEXT
+    Having recently sacked The Gate, Baltatrax turned his sights to the last remaining great First Age city. Had it not been for the valiant Haarahld's counterassault, the demogorgon would have destroyed all vestiges of civilization on Tritan.
     
 
 
@@ -99,12 +113,16 @@ Date | Name | Event
 161Y | Shay's Rebellion | Shay Cowen leads a popular uprising of peasants and serfs against the Dohlaran feudal system. The rebellion is brutally put down by the Dusk Templars at the direction of the Crown. The nascent [Republic][Republic of Siddarmark] is suspected of inciting the rebellion by the nobility in Blackpoint, leading to a rapid deterioration of relations between the two cities.
 
 
+## Related Links
 
+- [Blackpoint (City)][]
+
+[Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
-[Alchemist&#39;s Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
-[Stonhyr&#39;s Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Cult of Five]: CultOfFive.md (Cult of Five)
@@ -115,7 +133,7 @@ Date | Name | Event
 [Siddar City]: SiddarCity.md (Siddar City)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Act 0 - The Alchemist&#39;s Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
+[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)

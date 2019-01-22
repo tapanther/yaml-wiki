@@ -2,7 +2,7 @@
 title: Mother Church (Religion)
 summary: Main Page for Mother Church (Religion)
 authors: Juan P. Sierra
-date: 2019-01-20
+date: 2019-01-21
 ---
 
 # Mother Church (Religion)
@@ -24,14 +24,34 @@ Bishops are appointed directly by the Church Canons, the ruling council of the C
 
 Unlike the [Cult of Five][], the Church Leadership is highly centralized. The Vicar General leads the Church in spiritual and temporal matters, though all decisions are subject to review from the Canonical Council. The Vicar General is elected from among the Canons every 50 years, effectively making it a lifetime appointment.
 
+### Notable Locations
+
+- *Celestial Altar (Ichorburn)* :
+
+    The heart of Mother Church, the Celestial Altar is a towering cathedral made entirely of marble. The Cathedral's main chapel is open to the public, where the fortunate faithful can catch a glimpse of the Holy Canons.
+    
+
+
+## Culture
+
+Mother Church shares many of the same beliefs as the [Cult of Five][], including the respective roles and personalities of the Five. Indeed, Mother Church considers clerics of the Cult of Five as bretheren, misguided though they may be. This has led to  generally positive relations between the two religions.
+
+Where Mother Church differs from the Cult is its belief in a single, supreme being. Unlike the Five, this deity does not directly interfere in the affairs of mere mortals. Rather, the planes of existence are part of an ineffable plan of His own devising. For many, faith in the Plan brings great spiritual comfort, as it means that the pain and suffering of the past six centuries has not been meaningless.
+
+### Values
+
+- The spellplague was Gods punishment to man for their belief in false idols.
+- The [Eastern Religion][Cult of Five] are our misguided bretheren, we must help them see God's light.
+- Through God's love, even the monstrous races can be redeemed.
 
 
 
+[Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
-[Alchemist&#39;s Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
-[Stonhyr&#39;s Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Cult of Five]: CultOfFive.md (Cult of Five)
@@ -42,7 +62,7 @@ Unlike the [Cult of Five][], the Church Leadership is highly centralized. The Vi
 [Siddar City]: SiddarCity.md (Siddar City)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Act 0 - The Alchemist&#39;s Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
+[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)

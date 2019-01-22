@@ -1,0 +1,26 @@
+---
+class : Locations
+template : Nation.md
+title : TEXT
+GeneralInfo :
+  Type : TEXT
+  Region : TEXT
+  Population : NUM
+Geography :
+  Description : >-
+      TEXT
+  Features:
+    NAME : >-
+      TEXT
+  Settlements:
+    NAME : >-
+      TEXT
+History :
+  Description : >-
+    TEXT
+  Timeline :
+    -
+      Name : NAME
+      Date : YEAR
+      Description : >-
+        TEXT

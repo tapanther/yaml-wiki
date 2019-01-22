@@ -21,7 +21,7 @@ Use the navigation bar to explore the different aspects of Tritan.
 **{{ category }}**
 
 {% for item in data|sort(attribute='title') %}
-- [{{ item.title|e }}][]
+- [{{ item.title }}][]
 {% endfor %}
 
 {% endfor %}

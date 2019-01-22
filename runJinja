@@ -53,7 +53,11 @@ outdir.mkdir(parents = True, exist_ok = True)
 #---------------------
 
 def numberFormat(value):
-    return format(int(value), ',d')
+    try:
+        formattedStr = format(int(value), ',d')
+    except (TypeError, ValueError):
+        formattedStr = value
+    return formattedStr
 
 def listText(text):
     return '\n    '.join(text.split('\n'))
@@ -77,7 +81,7 @@ def ageDecode(event):
     ageStr = event['Date']
     ageList = ageStr.split(' ')
     ageList.extend(['0KAL','0KAL','0KAL'])
-    ageList[0] = int(re.sub(r'[^ 0-9]', '', ageList[0]))
+    ageList[0] = int(re.sub(r'[^- 0-9]', '', ageList[0]))
     ageList[1] = int(re.sub(r'[^ 0-9]', '', ageList[1]))
     try:
         day = int(re.sub(r'([0-9]*).*', r'\1', ageList[2]))

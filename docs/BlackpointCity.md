@@ -2,7 +2,7 @@
 title: Blackpoint (City)
 summary: Main Page for Blackpoint (City)
 authors: Juan P. Sierra
-date: 2019-01-20
+date: 2019-01-21
 ---
 
 # Blackpoint (City)
@@ -41,17 +41,11 @@ The city itself is surrounded by several large fiefdoms controlled by the oldest
     
 
 
-### Prominent Figures and Organizations
-
-**Dusk Templars**
-
-Widely considered some of the fiercest warriors on Tritan, the Dusk Templars are the sole surviving heraldic order from the First Age. The Templars answer directly to the Dohlaran Crown, and are often used as elite mounted shock troops against both internal and external threats.
-
-
-
 ## Culture
 
-TEXT
+The people of Blackpoint are strongly religious, honest, and hardworking, but suffer from a deep seated paranoia with regards to outsiders. With decades of social and religious indoctrination spreading a message of fear, the common folk view anyone not from Blackpoint as barbarous, deceitful, and malevolent. As far as the people are concerned, those from outside the walls would like nothing more than to drag the people of Blackpoint into the chaos and devastation that still festers in the world beyond.
+
+As for the nobility, there is first and foremost an overwhelming sense of superiority over both the common folk and outsiders. It is only natural that the Gods would choose Blackpoint to survive the Great Sack where all other cities fell, for Blackpoint embodies the natural order of the world. Only the strong survive, and only the noble shall rule. There is no doubt that the Five have chosen Blackpoint as the ember from which civilization shall once again light the world. 
 
 ### Core Beliefs
 
@@ -64,18 +58,6 @@ TEXT
 - Monstrous Heritage
 - Backwater Provincials
 - Republican Agitators
-### Religion
-
-TEXT
-
-### Traditions
-
-- *NAME* :
-
-    TEXT
-    
-
-
 ## History
 
 ### Timeline
@@ -86,11 +68,12 @@ Date | Name | Event
 
 
 
+[Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
-[Alchemist&#39;s Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
-[Stonhyr&#39;s Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Cult of Five]: CultOfFive.md (Cult of Five)
@@ -101,7 +84,7 @@ Date | Name | Event
 [Siddar City]: SiddarCity.md (Siddar City)
 [Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Act 0 - The Alchemist&#39;s Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
+[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
