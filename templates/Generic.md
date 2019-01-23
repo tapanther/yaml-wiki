@@ -10,7 +10,7 @@ Main Page for {{ title }}
 
 {%- block pagecontent %}
 {% if Description %}
-{{ Description }}
+{{ Description | autoLink }}
 {% if Content[0].separate %}
 
 ---
@@ -26,7 +26,7 @@ Main Page for {{ title }}
 *{{ entry.Subtitle }}*
 
 {% endif %}{# Subtitle #}
-{{ entry.Text }}
+{{ entry.Text | autoLink }}
 {% if entry.separate and not loop.last %}
 
 ---

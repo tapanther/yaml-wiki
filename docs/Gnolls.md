@@ -2,7 +2,7 @@
 title: Gnolls
 summary: Main Page for Gnolls
 authors: Juan P. Sierra
-date: 2019-01-21
+date: 2019-01-22
 ---
 
 # Gnolls
@@ -20,14 +20,14 @@ Gnolls in Tritan are one of the most dangerous of the monstrous hordes that join
 
 Despite their tentative alliance, gnolls true loyalty lies with the [Demon Lord Yeenoghu](https://www.dndbeyond.com/monsters/yeenoghu). The gnoll mind knows only an insatiable hunger, and as their ranks grew, so did the gnolls' bloodlust. In the euphoria of the Great Sack, the gnolls turned on the demogorgon - a move that would prove to be the beginning of the end for Baltatrax.
 
-For their betrayal, the gnolls were ruthlessly hunted down and slaughtered by Baltatrax's other followers. To this day, gnolls stand alone from the rest of the monstrous hordes and the civilized world. In the ruins of the First Age, gnoll packs and orc tribes frequently fight for control over hunting grounds. In the fringes of the Second Age, even the smallest sign of gnoll activity is met with overwhelming force from the [Republic][Republic of Siddarmark] and the [Kingdom of Dohlar][].
+For their betrayal, the gnolls were ruthlessly hunted down and slaughtered by Baltatrax's other followers. To this day, gnolls stand alone from the rest of the monstrous hordes and the civilized world. In the ruins of the First Age, gnoll packs and orc tribes frequently fight for control over hunting grounds. In the fringes of the Second Age, even the smallest sign of gnoll activity is met with overwhelming force from the [Republic][Republic of Siddarmark] and the [Kingdom of Dohlar][Kingdom of Dohlar].
 ## Gnoll Social Structure
 
 Gnolls, for all their savagery, are highly social creatures. All gnolls belong to a *Pack*, consisting of between 50 to 200 individuals. Gnoll Packs will roam the wilderness, ravaging and devouring anything they come across. 
 
 During their calmer periods, gnolls will form small *hunting parties* of a few dozen gnolls and hyenas. These hunting parties will spread out over a huge swath of land, which greatly reduces the strain on the ecosystem, but often brings the pack into conflict with surrounding creatures and settlements. These conflicts are generally small and self-contained, especially if the hunting party is quickly wiped out before it can regroup and reinforce. If sufficiently motivated by hunger or bloodlust, the hunting parties will reform a Gnoll Pack and begin a rampage.
 
-For unknown reasons, Gnoll Packs will sometimes join forces to rampage as a single entity known as a *Gnoll War Band*. Although extremely rare, a Gnoll War Band is an existential threat to anything caught in its sights. War Bands can grow as large as a few thousand individuals. The most recent War Band, led by the Flind, Yh Grimemaw, numbered some 1,000 gnolls, and nearly destroyed the nascent Republic.
+For unknown reasons, Gnoll Packs will sometimes join forces to rampage as a single entity known as a *Gnoll War Band*. Although extremely rare, a Gnoll War Band is an existential threat to anything caught in its sights. War Bands can grow as large as a few thousand individuals. The most recent War Band, led by the Flind, Yh Grimemaw, numbered some 1,000 gnolls, and nearly destroyed the nascent [Republic][Republic of Siddarmark].
 ## Gnoll Types
 
 ### Gnoll
@@ -65,23 +65,23 @@ With regards to their second role, Gnoll Fangs are capable of channeling Yeenogh
 A Flind is an exceptionally rare and powerful gnoll that has been blessed by Yeenoghu himself with a fraction of his power. If a Flind is present, it automatically becomes the Pack or War Band leader, and commands complete devotion from all other gnolls, including Pack Lords and Fangs.
 
 
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)

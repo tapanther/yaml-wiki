@@ -3,7 +3,7 @@
 {% for name, desc in dict.items() %}
 **{{ name }}**
 
-{{ desc }}
+{{ desc | autoLink }}
 
 {% endfor %}
 {% endmacro %}
@@ -18,7 +18,7 @@
 {% for name, desc in dict.items() %}
 - *{{ name }}* :
 
-    {{ desc|listText }}
+    {{ desc|autoLink|listText }}
     
 {% endfor %}
 {% endmacro %}

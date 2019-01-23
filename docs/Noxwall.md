@@ -2,7 +2,7 @@
 title: Noxwall
 summary: Main Page for Noxwall
 authors: Juan P. Sierra
-date: 2019-01-21
+date: 2019-01-22
 ---
 
 # Noxwall
@@ -19,11 +19,11 @@ date: 2019-01-21
 
 Until the gnoll incursion of 570 AGS, Noxwall was a small independent town governmed by the Halcom family through a hereditary aldermanship.
 
-Due to the threat presented by the gnolls, Mylz Halcom, the current Alderman, signed a treaty with the Republic, pledging the town's allegiance in exchange for the protection of the Republican Army. Although the Alderman retained his position, the full details of the town's integration into the Republic are still unknown.
+Due to the threat presented by the gnolls, Mylz Halcom, the current Alderman, signed a treaty with the [Republic][Republic of Siddarmark], pledging the town's allegiance in exchange for the protection of the Republican Army. Although the Alderman retained his position, the full details of the town's integration into the Republic are still unknown.
 
 ## Culture
 
-Prior to the events of 570 AGS, Noxwall was a prosperous town along the Black Highway, a major trade route between the Republic of Siddarmark and the Kingdom of Dohlar.
+Prior to the events of 570 AGS, Noxwall was a prosperous town along the Black Highway, a major trade route between the [Republic of Siddarmark][Republic of Siddarmark] and the [Kingdom of Dohlar][Kingdom of Dohlar].
 
 The town provided much needed respite to weary traders, and offered a fine, though somewhat limited, selection of goods from local artisans. As trade prospered and the town grew, it was decided that a new sister town should be established nearby, along the Serpent's Pass, an alternative trade route. This new town, christened Cantfall due to it's position at the foot of the Ophidian Mountains, would give younger members of Noxwall families an opportunity to make their own fortunes, while remaining close enough to their relatives.
 
@@ -45,7 +45,7 @@ The [Cult of Five][] is the sole religion in Noxwall. [Mother Church][Mother Chu
 
 - *Baihd Halcom* :
 
-    A minor son of a Ravenhelm noble, Baihd gathered a small following of the independent-minded downtrodden, and set off into the wilderness in search of new opportunities, leading to the establishment of Noxwall.
+    A minor son of a Ravenhelm noble, Baihd gathered a small following of the independent-minded downtrodden, and set off into the wilderness in search of new opportunities, leading to the establishment of [Noxwall][Noxwall].
     
 
 
@@ -60,23 +60,23 @@ Date | Name | Event
 
 
 
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)

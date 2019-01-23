@@ -2,7 +2,7 @@
 title: Cult of Five
 summary: Main Page for Cult of Five
 authors: Juan P. Sierra
-date: 2019-01-21
+date: 2019-01-22
 ---
 
 # Cult Of Five
@@ -38,7 +38,7 @@ As of 520 AGS, two major centers of influence have arisen within the Cult of Fiv
 
 - *Cathedral of the Republic (Siddar City)* :
 
-    The Cathedral of the Republic, sometimes called Siddar Cathedral, is the largest Temple of the Five within Siddar City and the Republic. Located on the outskirts of the Government District, the Cathedral was founded by Ahrya Veldamahn, the 7th Lord Protector of the Republic, to establish the Cult of Five as the official state religion.
+    The Cathedral of the [Republic][Republic of Siddarmark], sometimes called Siddar Cathedral, is the largest Temple of the Five within [Siddar City][Siddar City] and the Republic. Located on the outskirts of the Government District, the Cathedral was founded by Ahrya Veldamahn, the 7th Lord Protector of the Republic, to establish the [Cult of Five][Cult of Five] as the official state religion.
     
 - *Draseotheoa (Blackpoint)* :
 
@@ -54,11 +54,11 @@ As of 520 AGS, two major centers of influence have arisen within the Cult of Fiv
 
 - *Ahnsahl Crowle* :
 
-    As the Deacon of Siddar City, Ahnsahl Crowle is nominally part of the Republic's government, though the Cult remains an independent entity. Ahnsahl is a cleric of Pyrael, as is traditional for the Deaconship.
+    As the Deacon of [Siddar City][Siddar City], Ahnsahl Crowle is nominally part of the Republic's government, though the Cult remains an independent entity. Ahnsahl is a cleric of Pyrael, as is traditional for the Deaconship.
     
 - *Rober Jocelin* :
 
-    The Primate of Blackpoint, Vicar Jocelin wields a tremendous amount of power within the Kingdom of Dohlar. The Kingdom's unique take on the Cult asserts that the Primate of Blackpoint is the Five's representative on the material plane, and as such is the ultimate authority on matters of faith.
+    The Primate of [Blackpoint][Blackpoint (City)] Vicar Jocelin wields a tremendous amount of power within the [Kingdom of Dohlar][Kingdom of Dohlar]. The Kingdom's unique take on the Cult asserts that the Primate of Blackpoint is the Five's representative on the material plane, and as such is the ultimate authority on matters of faith.
     
 
 
@@ -116,7 +116,7 @@ Racial deities, such as the Drow Lolth, the draconic Asgorath, the Orcish Gruums
 
 - *Proclamation of the Word* :
 
-    The primary tradition of the Cult of Five, a rotation of clerics perform selected readings from the Holy Scrolls on the Ides and Kalends of every moon.
+    The primary tradition of the [Cult of Five][Cult of Five], a rotation of clerics perform selected readings from the Holy Scrolls on the Ides and Kalends of every moon.
     
 - *Consecration of the Elements* :
 
@@ -128,11 +128,11 @@ Racial deities, such as the Drow Lolth, the draconic Asgorath, the Orcish Gruums
     
 - *Prayer of Humble Access* :
 
-    Also known as the Lord Protector's Prayer, this tradition is unique to Siddar City. Performed during the Kalends of the First Moon of each Year, the ceremony is led by the current Lord Protector from within Siddar Cathedral. The prayer was originally written by Urwin Ludovyc, the first Lord Protector, as a memorial and tribute to the lives that were lost during that first terrible winter. Since then, the prayer has been rededicated to the Five, imploring them to accept the souls of all those lost in the past year.
+    Also known as the Lord Protector's Prayer, this tradition is unique to [Siddar City][Siddar City]. Performed during the Kalends of the First Moon of each Year, the ceremony is led by the current Lord Protector from within Siddar Cathedral. The prayer was originally written by Urwin Ludovyc, the first Lord Protector, as a memorial and tribute to the lives that were lost during that first terrible winter. Since then, the prayer has been rededicated to the Five, imploring them to accept the souls of all those lost in the past year.
     
 - *Anointment and Coronation (of the Monarch of Blackpoint)* :
 
-    The holiest ceremony within the Kingdom, the Anointment and Coronation establishes for all to see the divine right of the monarch to rule. The coronation is performed by the Primate of Blackpoint within a fortnite of the death of the previous monarch. In theory, the Crown has no authority unless the Anointment has been performed, though no Primate to date has dared to test this theory.
+    The holiest ceremony within the Kingdom, the Anointment and Coronation establishes for all to see the divine right of the monarch to rule. The coronation is performed by the Primate of [Blackpoint][Blackpoint (City)]within a fortnite of the death of the previous monarch. In theory, the Crown has no authority unless the Anointment has been performed, though no Primate to date has dared to test this theory.
     
 
 
@@ -146,23 +146,23 @@ Date | Name | Event
 
 
 
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)

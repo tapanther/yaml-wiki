@@ -2,7 +2,7 @@
 title: Siddar City
 summary: Main Page for Siddar City
 authors: Juan P. Sierra
-date: 2019-01-21
+date: 2019-01-22
 ---
 
 # Siddar City
@@ -21,7 +21,7 @@ date: 2019-01-21
 
 As the capital of the [Republic of Siddarmark][], Siddar City is in theory under the direct control of the Lord Protector.
 
-In practice however, the administration of the ever-growing Republic, its Army, and the complex web of political and economic treaties has necessitated the separation of the city government from the direct apparatus of the national State.
+In practice however, the administration of the ever-growing [Republic][Republic of Siddarmark], its Army, and the complex web of political and economic treaties has necessitated the separation of the city government from the direct apparatus of the national State.
 
 In keeping with the Republic's military roots, authority over the city is vested in the Gendarmerie of Siddar City, the direct descendant organization from the city's original town watch. Upon election or vacation of the position, the Lord Protector appoints a *Sergeant-at-Arms of the Gendarmerie*, who administrates the daily business of the City on the Lord Protector's behalf.
 
@@ -31,7 +31,7 @@ Despite the seemingly autocratic nature of military rule, citizens of Siddar Cit
 
 - *Lord Protector's Palace* :
 
-    At the heart of Siddar City lies a small complex of unassuming government buildings which at first glace may be mistaken for an administrative annex. Constructed at the direction of Urwyn Ludovic, the first Lord Protector, the Lord's Protector Palace is as much a symbol of the idealism of the [Republic][Republic of Siddarmark] as it is a tangible representation of the current state of the Republic.
+    At the heart of [Siddar City][Siddar City] lies a small complex of unassuming government buildings which at first glace may be mistaken for an administrative annex. Constructed at the direction of Urwyn Ludovic, the first Lord Protector, the Lord's Protector Palace is as much a symbol of the idealism of the [Republic][Republic of Siddarmark] as it is a tangible representation of the current state of the [Republic][Republic of Siddarmark].
     
     The palace, unlike its name may suggest, is not walled off and isolated from the rest of the City. Citizens are free to enter the palace grounds, and even request admission to the Palace itself for an audience with the Lord Protector. To hide away behind ramparts and fortifications is anathema to the founding principles of the Republic.
     
@@ -43,7 +43,7 @@ Despite the seemingly autocratic nature of military rule, citizens of Siddar Cit
 
 **Gendarmerie of Siddar City**
 
-Descended from the original town watch, the Gendarmerie is an independent branch within the Army of the Republic whose primary duty is the administration and defence of the city itself.
+Descended from the original town watch, the Gendarmerie is an independent branch within the Army of the [Republic][Republic of Siddarmark] whose primary duty is the administration and defence of the city itself.
 
 
 
@@ -64,23 +64,23 @@ Date | Name | Event
 
 
 
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)

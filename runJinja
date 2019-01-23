@@ -8,7 +8,7 @@ import re
 
 from datetime import datetime
 from pathlib import Path, PurePath
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, contextfilter
 from shutil import copytree, rmtree
 
 
@@ -71,6 +71,24 @@ env = Environment(
 env.filters['numberFormat'] = numberFormat
 env.filters['listText'] = listText
 
+#---------------------
+#
+#---------------------
+@contextfilter
+def autoLink(ctx, rawText):
+    myTitle = ctx.resolve('title')
+    for categoryList in navStruct.values():
+        for linkTarget in categoryList:
+            searchText = linkTarget['title']
+            altText = linkTarget['altLink'] if 'altLink' in linkTarget else searchText
+            ##print(f'{myTitle} : {searchText}')
+            if (searchText != myTitle):
+                linkText = r'([^:[(] *?)(' + searchText + r'|' + altText + r')( *?[^]):\'])'
+                replaceText = r'\1[\2][' + searchText + r']\3'
+                rawText = re.sub(linkText, replaceText, rawText, count=1)
+    return rawText
+
+env.filters['autoLink'] = autoLink
 
 #---------------------
 # Prepare the nav
@@ -125,6 +143,9 @@ for path in Path(args.lib).glob('**/*.yml'):
             navStruct[y_data['class']] = [ { 'title' : y_data['title'],
                                              'file' : str(rFile) } ]
 
+        if 'altLink' in y_data:
+            navStruct[y_data['class']][-1]['altLink'] = y_data['altLink']
+            
     # Gather timeline information for a common timeline
     if ('History' in y_data) and ('Timeline' in y_data['History']):
 
@@ -168,6 +189,7 @@ template = env.get_template('links.j2')
 with open(links, 'w') as linkFile:
     linkFile.write(template.render(navStruct = navStruct))
 
+    
 #---------------------
 # Run Templater
 #---------------------

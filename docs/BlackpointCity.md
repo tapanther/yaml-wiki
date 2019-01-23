@@ -2,7 +2,7 @@
 title: Blackpoint (City)
 summary: Main Page for Blackpoint (City)
 authors: Juan P. Sierra
-date: 2019-01-21
+date: 2019-01-22
 ---
 
 # Blackpoint (City)
@@ -33,11 +33,11 @@ The city itself is surrounded by several large fiefdoms controlled by the oldest
     
 - *Draseotheoa* :
 
-    A First Age temple dedicated to long forgotten gods, the Draseotheoa was appropriated by the early followers of the Cult of Five. Many of the old idols and statues are still present, thanks in large part to the strong deference given to First Age relics by the population.
+    A First Age temple dedicated to long forgotten gods, the Draseotheoa was appropriated by the early followers of the [Cult of Five][Cult of Five]. Many of the old idols and statues are still present, thanks in large part to the strong deference given to First Age relics by the population.
     
 - *Kilmainham Gaol* :
 
-    An ancient fortress and one of the oldest structures in Blackpoint, the Kilmainham Gaol has been used as a state prison by the Dohlaran Crown since before the Great Sack. The fortress currently holds a wide range of prisoners, from petty thieves to nobles who have offended the Crown in some manner.
+    An ancient fortress and one of the oldest structures in [Blackpoint][Blackpoint (City)] the Kilmainham Gaol has been used as a state prison by the Dohlaran Crown since before the Great Sack. The fortress currently holds a wide range of prisoners, from petty thieves to nobles who have offended the Crown in some manner.
     
 
 
@@ -68,23 +68,23 @@ Date | Name | Event
 
 
 
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)

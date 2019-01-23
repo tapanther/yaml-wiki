@@ -24,7 +24,7 @@ Main Page for {{ title }}
 {% if Society.Government %}
 ### Government
 
-{{ Society.Government }}
+{{ Society.Government | autoLink }}
 
 {% endif %}{# Government #}
 {% if Society.Locations %}
@@ -43,7 +43,7 @@ Main Page for {{ title }}
 {% if Culture %}
 ## Culture
 
-{{ Culture.Description }}
+{{ Culture.Description | autoLink }}
 
 {% if Culture.CoreBeliefs %}
 ### Core Beliefs

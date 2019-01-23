@@ -2,7 +2,7 @@
 title: Gahrdynyr Trade House
 summary: Main Page for Gahrdynyr Trade House
 authors: Juan P. Sierra
-date: 2019-01-21
+date: 2019-01-22
 ---
 
 # Gahrdynyr Trade House
@@ -26,7 +26,7 @@ Like most companies, the Gahrdynyr Trade House is owned entirely by the establis
 
 - *Old Gahrdyn Trade House* :
 
-    The original location along the wharf in Siddar City, the Old Trade House has been meticulously restored to maintain the original wood log structure that was so symbolic of an early Siddar.
+    The original location along the wharf in [Siddar City][Siddar City], the Old Trade House has been meticulously restored to maintain the original wood log structure that was so symbolic of an early Siddar.
     
 
 
@@ -34,7 +34,7 @@ Like most companies, the Gahrdynyr Trade House is owned entirely by the establis
 
 - *Sahbyna Gahrdyn* :
 
-    Governess of the Gahrdynyr Trade House and Member Elector for the Merchant's Guild. She is the embodiment of the ideal Merchant Princess: charming, refined, and ruthlessly cunning.
+    Governess of the [Gahrdynyr Trade House][Gahrdynyr Trade House] and Member Elector for the Merchant's Guild. She is the embodiment of the ideal Merchant Princess: charming, refined, and ruthlessly cunning.
     
 
 
@@ -42,7 +42,7 @@ Like most companies, the Gahrdynyr Trade House is owned entirely by the establis
 
 **Merchant's Guild**
 
-The Gahrdynyr Trade House is a founding house of the Merchant's Guild.
+The [Gahrdynyr Trade House][Gahrdynyr Trade House] is a founding house of the Merchant's Guild.
 
 
 
@@ -53,23 +53,23 @@ The Gahrdynyr Trade House presents itself as a throwback to simpler times. Its b
 
 
 
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
 [Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)
