@@ -18,7 +18,7 @@ Main Page for {{ title }}
 - Allegiance : {{ GeneralInfo.Allegiance }}
 
 {% if GeneralInfo.Description %}
-{{ GeneralInfo.Description }}
+{{ GeneralInfo.Description | autoLink }}
 {% endif %}{# Description #}
 {% if Structure %}
 ## Structure
@@ -26,7 +26,7 @@ Main Page for {{ title }}
 {% if Structure.Governance %}
 ### Governnance
 
-{{ Structure.Governance }}
+{{ Structure.Governance | autoLink }}
 
 {% endif %}{# Governance #}
 {% if Structure.Locations %}
@@ -51,7 +51,7 @@ Main Page for {{ title }}
 {% if Culture %}
 ## Culture
 
-{{ Culture.Description }}
+{{ Culture.Description | autoLink }}
 
 {% if Culture.Values %}
 ### Values
@@ -67,16 +67,4 @@ Main Page for {{ title }}
 
 {% endif %}{# Traditions #}
 {% endif %}{# Culture #}
-{% if History %}
-## History
-
-### Timeline
-
-Date | Name | Event
-:---:|:----:|:----
-{% for event in History.Timeline %}
-{{ event.Date }} | {{ event.Name }} | {{ event.Description }}
-{% endfor %}
-{% endif %}{# History #}
-
 {% endblock %}

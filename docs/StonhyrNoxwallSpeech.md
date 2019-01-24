@@ -2,12 +2,12 @@
 title: Stonhyr's Speech at Noxwall
 summary: Main Page for Stonhyr's Speech at Noxwall
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Stonhyr's Speech At Noxwall
 
-[Greghor Stonhyr][]'s speech at Noxwall's introduction into the [Republic][Republic of Siddarmark].
+[Greghor Stonhyr][Greghor Stonhyr]'s speech at [Noxwall][Noxwall]'s introduction into the [Republic][Republic of Siddarmark].
 
 ---
 
@@ -18,6 +18,8 @@ In this solemn hour it is a consolation to recall and to dwell upon our repeated
 We must not underrate the gravity of the task which lies before us or the temerity of the ordeal, to which we shall not be found unequal. We must expect many disappointments, and many unpleasant surprises, but we may be sure that the task which we have freely accepted is one not beyond the compass and the strength of the [Republic][Republic of Siddarmark].
 
 This is not a question of fighting for [Noxwall][Noxwall] or fighting for Cantfall. We are fighting to save the whole world from the pestilence of the abyss and in defense of all that is most sacred to man. This is no war of domination or imperial aggrandizement or material gain; no war to shut any settlement out of its sunlight and means of prosperity. It is a war, viewed  in its inherent quality, to establish, on impregnable rocks, the rights of the individual, and it is a war to establish and revive the stature of man. Perhaps it might seem a paradox, that a war undertaken in the name of liberty and right should require, as  a necessary part of its processes, the surrender for the time being of so many of the dearly valued liberties and rights. In these last few weeks, I have called for a force 2,000 strong to liberate and secure Ravenhelm and the surrounding villages. Though this may, for a time, hand over to the military our most dearly valued liberties, we are sure that these will be in hands which will not abuse them, which will use them for no crass or petty interests, which will cherish and guard them, and we look forward to the day, surely and confidently we look forward to the day, when our liberties and rights will be restored to us, and when we shall be able to share them with the peoples to whom such blessings are unknown.
+
+
 
 
 

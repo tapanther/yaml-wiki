@@ -13,10 +13,12 @@ Main Page for {{ title }}
 
 - Population : {{ GeneralInfo.Population | numberFormat }}
 - Government : {{ GeneralInfo.Government }}
+{% if GeneralInfo.Ethics %}
 - Ethics :
 {% for ethic in GeneralInfo.Ethics %}
     - {{ ethic }}
 {% endfor %}
+{% endif %}{# Ethics #}
 
 {% if Society %}
 ## Society
@@ -95,16 +97,4 @@ Main Page for {{ title }}
 {% endif %}{# Villains #}
 {% endif %}{# Heroes or Villains #}
 {% endif %}{# Culture #}
-{% if History %}
-## History
-
-### Timeline
-
-Date | Name | Event
-:---:|:----:|:----
-{% for event in History.Timeline %}
-{{ event.Date }} | {{ event.Name }} | {{ event.Description }}
-{% endfor %}
-{% endif %}{# History #}
-
 {% endblock %}

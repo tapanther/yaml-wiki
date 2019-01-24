@@ -2,7 +2,7 @@
 title: Religion in Tritan
 summary: Main Page for Religion in Tritan
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Religion In Tritan
@@ -26,6 +26,8 @@ The [Cult of Five][Cult of Five] is the primary religion of Eastern Tritan. The 
 *Monotheistic*
 
 The [Church of God Awaiting][Mother Church (Religion)], colloquially known as Mother Church, is the primary religion of Western Tritan. While Mother Church recognizes the divinity of the Five, it believes that the Eastern Gods are merely messengers of an omnipotent and omniscient being.
+
+
 
 ## Related Links
 

@@ -2,7 +2,7 @@
 title: Mother Church (Religion)
 summary: Main Page for Mother Church (Religion)
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Mother Church (Religion)
@@ -22,7 +22,7 @@ There is very little distinction between the spiritual and temporal governance o
 
 Bishops are appointed directly by the Church Canons, the ruling council of the Church. Once appointed, a Bishop serves for life, unless removed by the Canons or themselves promoted to Canon.
 
-Unlike the [Cult of Five][], the Church Leadership is highly centralized. The Vicar General leads the Church in spiritual and temporal matters, though all decisions are subject to review from the Canonical Council. The Vicar General is elected from among the Canons every 50 years, effectively making it a lifetime appointment.
+Unlike the [Cult of Five][Cult of Five], the Church Leadership is highly centralized. The Vicar General leads the Church in spiritual and temporal matters, though all decisions are subject to review from the Canonical Council. The Vicar General is elected from among the Canons every 50 years, effectively making it a lifetime appointment.
 
 ### Notable Locations
 
@@ -34,7 +34,7 @@ Unlike the [Cult of Five][], the Church Leadership is highly centralized. The Vi
 
 ## Culture
 
-Mother Church shares many of the same beliefs as the [Cult of Five][], including the respective roles and personalities of the Five. Indeed, Mother Church considers clerics of the Cult of Five as bretheren, misguided though they may be. This has led to  generally positive relations between the two religions.
+Mother Church shares many of the same beliefs as the [Cult of Five][Cult of Five], including the respective roles and personalities of the Five. Indeed, Mother Church considers clerics of the Cult of Five as bretheren, misguided though they may be. This has led to  generally positive relations between the two religions.
 
 Where Mother Church differs from the Cult is its belief in a single, supreme being. Unlike the Five, this deity does not directly interfere in the affairs of mere mortals. Rather, the planes of existence are part of an ineffable plan of His own devising. For many, faith in the Plan brings great spiritual comfort, as it means that the pain and suffering of the past six centuries has not been meaningless.
 
@@ -43,6 +43,7 @@ Where Mother Church differs from the Cult is its belief in a single, supreme bei
 - The spellplague was Gods punishment to man for their belief in false idols.
 - The [Eastern Religion][Cult of Five] are our misguided bretheren, we must help them see God's light.
 - Through God's love, even the monstrous races can be redeemed.
+
 
 
 

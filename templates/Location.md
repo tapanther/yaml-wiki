@@ -19,7 +19,7 @@ Main Page for {{ title }}
 ## Geography
 
 {% if Geography.Description %}
-{{ Geography.Description }}
+{{ Geography.Description | autoLink }}
 
 {% endif %}{# Description #}
 {% if Geography.Features %}
@@ -35,16 +35,4 @@ Main Page for {{ title }}
 
 {% endif %}{# Settlements #}
 {% endif %}{# Geography #}
-{% if History %}
-## History
-
-### Timeline
-
-Date | Name | Event
-:---:|:----:|:----
-{% for event in History.Timeline %}
-{{ event.Date }} | {{ event.Name }} | {{ event.Description }}
-{% endfor %}
-{% endif %}{# History #}
-
 {% endblock %}

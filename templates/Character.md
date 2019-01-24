@@ -34,7 +34,7 @@ Character description for {{ title }}
 {% if Description %}
 ## Description
 
-{{ Description }}
+{{ Description | autoLink }}
 {% endif %}{# Description #}
 {% endblock pagecontent %}
 

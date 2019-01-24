@@ -2,7 +2,7 @@
 title: Act 1 - The Ravenous Horde
 summary: Main Page for Act 1 - The Ravenous Horde
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Act 1 - The Ravenous Horde
@@ -34,6 +34,8 @@ The Party leads a salvage caravan to the ruins of Cantfall so that precious docu
 *570Y 3M 4KAL*
 
 The Party encounters gnoll hunting parties in Cantfall, indicating that a warband must be nearby. Taking refuge in the miniature [Nonewallow][Nonewallow] of the Zhackson estate, the Party scares off a gnoll pack by exploiting their fear of the supernatural ash.
+
+
 
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)

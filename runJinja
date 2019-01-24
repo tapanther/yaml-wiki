@@ -81,10 +81,11 @@ def autoLink(ctx, rawText):
         for linkTarget in categoryList:
             searchText = linkTarget['title']
             altText = linkTarget['altLink'] if 'altLink' in linkTarget else searchText
-            ##print(f'{myTitle} : {searchText}')
             if (searchText != myTitle):
-                linkText = r'([^:[(] *?)(' + searchText + r'|' + altText + r')( *?[^]):\'])'
-                replaceText = r'\1[\2][' + searchText + r']\3'
+                linkText = r'\b' + f'({searchText}|{altText})' + r'\b' + r'(?![^[]*])'
+                replaceText = r'[\1]' + f'[{searchText}]'
+                ##linkText = r'([^:[(] *?)(' + searchText + r'|' + altText + r')( *?[^]):\'])'
+                ##replaceText = r'\1[\2][' + searchText + r']\3'
                 rawText = re.sub(linkText, replaceText, rawText, count=1)
     return rawText
 

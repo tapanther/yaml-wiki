@@ -2,7 +2,7 @@
 title: Kingdom of Dohlar
 summary: Main Page for Kingdom of Dohlar
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Kingdom Of Dohlar
@@ -19,7 +19,7 @@ date: 2019-01-22
 
 ### Government
 
-The Kingdom of Dohlar is a feudal monarchy, descended from the First Age nation-state of the same name. The Dohlaran Crown, seated in [Blackpoint][Blackpoint (City)] claims a direct line of succession to the old Dohlaran House, and rules by divine right.
+The Kingdom of Dohlar is a feudal monarchy, descended from the First Age nation-state of the same name. The Dohlaran Crown, seated in [Blackpoint][Blackpoint (City)], claims a direct line of succession to the old Dohlaran House, and rules by divine right.
 
 As a feudal society, the Crown does not directly control the land. Aside from the core of the capital, the Kingdom's lands are distributed amongst various noble houses. The noble houses may then further grant control of towns or estates to subordinate lords, though these holdings tend to be small compared to the noble houses.
 
@@ -29,7 +29,7 @@ As each Lord enjoys dominion over their lands, there is no common legal code or 
 
 - *Blackpoint* :
 
-    The last surviving First Age city, [Blackpoint][Blackpoint (City)]is the capital of the [Kingdom of Dohlar][Kingdom of Dohlar]. Laid out as a series of interlocking walled enclaves, Blackpoint is rigidly compartmentalized and the single most fortified location on Tritan.
+    The last surviving First Age city, [Blackpoint][Blackpoint (City)] is the capital of the Kingdom of Dohlar. Laid out as a series of interlocking walled enclaves, Blackpoint is rigidly compartmentalized and the single most fortified location on Tritan.
     
 
 
@@ -47,7 +47,7 @@ Dohlaran culture is highly stratified, with little to no social mobility. At the
 
 The Noble Houses, descendants of the surviving Dohlaran nobility, enjoy many special rights and priviledges accumulated over the centuries before and after the Great Sack. Indeed, it is not entirely uncommon for a long-lost document or royal decree to be found, describing some forgotten right or priviledge for one or more Noble Houses.
 
-The Noble Houses hold the overwhelming majority of the kingdom's land. Outside of [Blackpoint City][Blackpoint (City)]Cityitself, vast stretches of the countryside, and all the natural resources therein, rightfully belong to the Noble Houses. In order to best use the land, the Houses will further vassalize minor lords, granting them certain land use rights in exchange for tithes and certain guarantees of military and political support.
+The Noble Houses hold the overwhelming majority of the kingdom's land. Outside of [Blackpoint City][Blackpoint (City)] itself, vast stretches of the countryside, and all the natural resources therein, rightfully belong to the Noble Houses. In order to best use the land, the Houses will further vassalize minor lords, granting them certain land use rights in exchange for tithes and certain guarantees of military and political support.
 
 At the bottom of the social ladder is the common folk, separated between freemen and serfs. While some freemen, such as artisans and merchants, are relatively wealthy and enjoy the privileges of their station, in practice, few freemen are truly free, as many are indebted to the manufactory owners and landlords, much like their rural counterparts. 
 
@@ -90,7 +90,7 @@ For the common folk, the Cult, especially as interpreted within the Kingdom, pro
 
 - *Haarahld I* :
 
-    Dohlaran King during the Great Sack, Haarahld I led a desperate attack on Baltatrax and his forces within [Blackpoint][Blackpoint (City)] Although he was mortally wounded in the process, Haarahld defeated Baltatrax, putting an end to the Demogorgon's rampage.
+    Dohlaran King during the Great Sack, Haarahld I led a desperate attack on Baltatrax and his forces within [Blackpoint][Blackpoint (City)]. Although he was mortally wounded in the process, Haarahld defeated Baltatrax, putting an end to the Demogorgon's rampage.
     
 
 
@@ -100,6 +100,7 @@ For the common folk, the Cult, especially as interpreted within the Kingdom, pro
 
     Having recently sacked The Gate, Baltatrax turned his sights to the last remaining great First Age city. Had it not been for the valiant Haarahld's counterassault, the demogorgon would have destroyed all vestiges of civilization on Tritan.
     
+
 
 
 ## History

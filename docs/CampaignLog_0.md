@@ -2,7 +2,7 @@
 title: Act 0 - The Alchemist's Tomb
 summary: Main Page for Act 0 - The Alchemist's Tomb
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Act 0 - The Alchemist's Tomb
@@ -42,6 +42,8 @@ The Party finds the remains of a refugee camp hidden within an iron mine at the 
 *570Y 2M 5KAL*
 
 The Party enters the Tomb of the Alchemist, a long forgotten structure built within the rock walls of the Hinley Pass. Marus had previously gotten lost within the Temple, describing it as a maddening loop of rooms that did not fit with reality.
+
+
 
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)

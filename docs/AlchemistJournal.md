@@ -2,7 +2,7 @@
 title: Alchemist's Journal
 summary: Main Page for Alchemist's Journal
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Alchemist's Journal
@@ -138,6 +138,8 @@ Our age is at an end. Þough it may be centuries more, Þe world will fall to fl
 As its counterpart will doom our age, Þis weapon may yet save Þe next. It must remain hidden, lest it fall into the grasp of ruinous powers.
 
 I must make preparations.
+
+
 
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)

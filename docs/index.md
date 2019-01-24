@@ -2,7 +2,7 @@
 title: Tritan
 summary: Main Page
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # 
@@ -65,6 +65,8 @@ Use the navigation bar to explore the different aspects of Tritan.
 - [Blackpoint (City)][]
 - [Noxwall][]
 - [Siddar City][]
+
+
 
 
 

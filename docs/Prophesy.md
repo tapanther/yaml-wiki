@@ -2,7 +2,7 @@
 title: Book of Prophesy
 summary: Main Page for Book of Prophesy
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Book Of Prophesy
@@ -153,7 +153,7 @@ To Þe crimson one Þe number recount’d
 
 III.  
 Þe Crimson King Þrough his Draconic right arm  
-Seeing Þe discord of Þe great [Republic][Republic of Siddarmark]k  
+Seeing Þe discord of Þe great Republick  
 Wil cause his sworde to flourish over Þe Þree partes  
 Against Þe cope of Þe great Hierarchy  
 
@@ -255,6 +255,8 @@ IV.
 City and provinse wil gain by Þe change  
 Sworde, pease, under one divine word  
 Pease and plenty, dust and ashe  
+
+
 
 
 

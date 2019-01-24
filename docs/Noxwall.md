@@ -2,7 +2,7 @@
 title: Noxwall
 summary: Main Page for Noxwall
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Noxwall
@@ -11,7 +11,6 @@ date: 2019-01-22
 
 - Population : 3,700
 - Government : Aristocracy
-- Ethics :
 
 ## Society
 
@@ -37,7 +36,7 @@ With the existential threat presented by the gnoll War Band in early 570 AGS, an
 - So long as the caravans flow, we'll make do.
 ### Religion
 
-The [Cult of Five][] is the sole religion in Noxwall. [Mother Church][Mother Church (Religion)] has not deemed Noxwall important enough to proselytize.
+The Cult of Five is the sole religion in Noxwall. [Mother Church][Mother Church (Religion)] has not deemed Noxwall important enough to proselytize.
 
 ### Heroes & Villains
 
@@ -45,8 +44,9 @@ The [Cult of Five][] is the sole religion in Noxwall. [Mother Church][Mother Chu
 
 - *Baihd Halcom* :
 
-    A minor son of a Ravenhelm noble, Baihd gathered a small following of the independent-minded downtrodden, and set off into the wilderness in search of new opportunities, leading to the establishment of [Noxwall][Noxwall].
+    A minor son of a Ravenhelm noble, Baihd gathered a small following of the independent-minded downtrodden, and set off into the wilderness in search of new opportunities, leading to the establishment of Noxwall.
     
+
 
 
 ## History

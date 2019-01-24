@@ -2,7 +2,7 @@
 title: Blackpoint (City)
 summary: Main Page for Blackpoint (City)
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Blackpoint (City)
@@ -19,7 +19,7 @@ date: 2019-01-22
 
 ### Government
 
-The city of Blackpoint is divided into about two dozen interlocking walled enclaves. The central enclave is controlled directly by the [Dohlaran Crown][Kingdom of Dohlar], while the rest of the city is ruled jointly by the members of the Privy Council.
+The city of Blackpoint is divided into about two dozen interlocking walled enclaves. The central enclave is controlled directly by the Dohlaran Crown, while the rest of the city is ruled jointly by the members of the Privy Council.
 
 The Council's authority within the city is not absolute however. With centuries of tradition and shifting balance of power between the Crown and the nobility, navigating the intricacies of the complex power sharing structure is a delicate and often dangerous task. Many attempted reforms by the Council and the Crown have been stymied by the convenient discovery of a superceding, long lost document granting the aggrieved parties precisely the necessary rights to quash the reforms.
 
@@ -37,7 +37,7 @@ The city itself is surrounded by several large fiefdoms controlled by the oldest
     
 - *Kilmainham Gaol* :
 
-    An ancient fortress and one of the oldest structures in [Blackpoint][Blackpoint (City)] the Kilmainham Gaol has been used as a state prison by the Dohlaran Crown since before the Great Sack. The fortress currently holds a wide range of prisoners, from petty thieves to nobles who have offended the Crown in some manner.
+    An ancient fortress and one of the oldest structures in Blackpoint, the Kilmainham Gaol has been used as a state prison by the Dohlaran Crown since before the Great Sack. The fortress currently holds a wide range of prisoners, from petty thieves to nobles who have offended the Crown in some manner.
     
 
 
@@ -58,6 +58,7 @@ As for the nobility, there is first and foremost an overwhelming sense of superi
 - Monstrous Heritage
 - Backwater Provincials
 - Republican Agitators
+
 ## History
 
 ### Timeline

@@ -2,7 +2,7 @@
 title: Tritanian Calendar
 summary: Main Page for Tritanian Calendar
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Tritanian Calendar
@@ -85,6 +85,8 @@ So for example, the following three phrases all refer to the same date:
 | 29  | On the 4th Day before the Kalends  | 4 Kal |
 | 30  | On the 3rd Day before the Kalends  | 3 Kal |
 | 31  | On the Day before the Kalends      | 2 Kal |
+
+
 
 
 ## Related Links

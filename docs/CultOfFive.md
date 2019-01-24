@@ -2,7 +2,7 @@
 title: Cult of Five
 summary: Main Page for Cult of Five
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Cult Of Five
@@ -32,13 +32,13 @@ While lesser gods and other supernatural beings are known to exist, the Cult doe
 ### Governnance
 
 As the Cult arose independently all throughout Tritan, there is no common curia. The Cult's clerics are largely independent, and the early Cult faced several schisms that prevented a centralized organization from developing. In more recent years however, with the expansion of major political powers, there has been a greater degree of cultural mixing and a renewed push for a common set of tenets and rituals.
-As of 520 AGS, two major centers of influence have arisen within the Cult of Five: [Siddar City][] and [Blackpoint][Blackpoint (City)]. While they share the same pantheon and basic tenets, the two cities have developed very different interpretations and teachings.
+As of 520 AGS, two major centers of influence have arisen within the Cult of Five: [Siddar City][Siddar City] and [Blackpoint][Blackpoint (City)]. While they share the same pantheon and basic tenets, the two cities have developed very different interpretations and teachings.
 
 ### Notable Locations
 
 - *Cathedral of the Republic (Siddar City)* :
 
-    The Cathedral of the [Republic][Republic of Siddarmark], sometimes called Siddar Cathedral, is the largest Temple of the Five within [Siddar City][Siddar City] and the Republic. Located on the outskirts of the Government District, the Cathedral was founded by Ahrya Veldamahn, the 7th Lord Protector of the Republic, to establish the [Cult of Five][Cult of Five] as the official state religion.
+    The Cathedral of the [Republic][Republic of Siddarmark], sometimes called Siddar Cathedral, is the largest Temple of the Five within [Siddar City][Siddar City] and the Republic. Located on the outskirts of the Government District, the Cathedral was founded by Ahrya Veldamahn, the 7th Lord Protector of the Republic, to establish the Cult of Five as the official state religion.
     
 - *Draseotheoa (Blackpoint)* :
 
@@ -54,11 +54,11 @@ As of 520 AGS, two major centers of influence have arisen within the Cult of Fiv
 
 - *Ahnsahl Crowle* :
 
-    As the Deacon of [Siddar City][Siddar City], Ahnsahl Crowle is nominally part of the Republic's government, though the Cult remains an independent entity. Ahnsahl is a cleric of Pyrael, as is traditional for the Deaconship.
+    As the Deacon of [Siddar City][Siddar City], Ahnsahl Crowle is nominally part of the [Republic][Republic of Siddarmark]'s government, though the Cult remains an independent entity. Ahnsahl is a cleric of Pyrael, as is traditional for the Deaconship.
     
 - *Rober Jocelin* :
 
-    The Primate of [Blackpoint][Blackpoint (City)] Vicar Jocelin wields a tremendous amount of power within the [Kingdom of Dohlar][Kingdom of Dohlar]. The Kingdom's unique take on the Cult asserts that the Primate of Blackpoint is the Five's representative on the material plane, and as such is the ultimate authority on matters of faith.
+    The Primate of [Blackpoint][Blackpoint (City)], Vicar Jocelin wields a tremendous amount of power within the [Kingdom of Dohlar][Kingdom of Dohlar]. The Kingdom's unique take on the Cult asserts that the Primate of Blackpoint is the Five's representative on the material plane, and as such is the ultimate authority on matters of faith.
     
 
 
@@ -116,7 +116,7 @@ Racial deities, such as the Drow Lolth, the draconic Asgorath, the Orcish Gruums
 
 - *Proclamation of the Word* :
 
-    The primary tradition of the [Cult of Five][Cult of Five], a rotation of clerics perform selected readings from the Holy Scrolls on the Ides and Kalends of every moon.
+    The primary tradition of the Cult of Five, a rotation of clerics perform selected readings from the Holy Scrolls on the Ides and Kalends of every moon.
     
 - *Consecration of the Elements* :
 
@@ -132,8 +132,9 @@ Racial deities, such as the Drow Lolth, the draconic Asgorath, the Orcish Gruums
     
 - *Anointment and Coronation (of the Monarch of Blackpoint)* :
 
-    The holiest ceremony within the Kingdom, the Anointment and Coronation establishes for all to see the divine right of the monarch to rule. The coronation is performed by the Primate of [Blackpoint][Blackpoint (City)]within a fortnite of the death of the previous monarch. In theory, the Crown has no authority unless the Anointment has been performed, though no Primate to date has dared to test this theory.
+    The holiest ceremony within the Kingdom, the Anointment and Coronation establishes for all to see the divine right of the monarch to rule. The coronation is performed by the Primate of [Blackpoint][Blackpoint (City)] within a fortnite of the death of the previous monarch. In theory, the Crown has no authority unless the Anointment has been performed, though no Primate to date has dared to test this theory.
     
+
 
 
 ## History

@@ -2,7 +2,7 @@
 title: Republic of Siddarmark
 summary: Main Page for Republic of Siddarmark
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Republic Of Siddarmark
@@ -30,7 +30,7 @@ Although a parliamentary body exists, its only purpose is to elect a new Lord Pr
     
 - *Noxwall* :
 
-    A small but important trading town, [Noxwall][Noxwall] only recently joined the [Republic][Republic of Siddarmark] due to the gnoll incursion of 570 AGS.
+    A small but important trading town, [Noxwall][Noxwall] only recently joined the Republic due to the gnoll incursion of 570 AGS.
     
 
 
@@ -38,7 +38,7 @@ Although a parliamentary body exists, its only purpose is to elect a new Lord Pr
 
 **Lord Protector**
 
-The Lord Protector is the embodiment of the [Republic][Republic of Siddarmark]. The position was unofficially held by Urwyn Ludovic long before the Republic was formally established, and is to this day defined by the idiosyncracies of its original holder.
+The Lord Protector is the embodiment of the Republic. The position was unofficially held by Urwyn Ludovic long before the Republic was formally established, and is to this day defined by the idiosyncracies of its original holder.
 While the day-to-day procedure of the Republic is delegated to the administrative ranks of the Army, the Lord Protector's will is absolute. There is no higher authority in the Republic.
 
 **Parliament**
@@ -47,7 +47,7 @@ Originally envisioned by Urwyn Ludovic, Parliament was intended to be a check on
 
 **Army of the Republic**
 
-The Army of the [Republic][Republic of Siddarmark] evolved from the surviving members of The Gate's militia who fled with Ludovyc and the rest of the refugees.
+The Army of the Republic evolved from the surviving members of The Gate's militia who fled with Ludovyc and the rest of the refugees.
 As Ludovyc had no prior exprience with governance, he relied solely on military discipline to maintain order after the Great Sack. As time passed however, the distinction between military and civil service blurred and disappeared. Today the Army serves as both the military and administrative arms of the Republic.
 
 
@@ -80,15 +80,15 @@ The Cult of Five is the official religion of the Republic, with the Deacon of Si
 
 - *Parliamentary Election* :
 
-    Every year, on the Winter Solstice, citizens of the [Republic][Republic of Siddarmark] gather to nominate candidates for Parliament. Although the position lacks real legislative authority, Member-Electors of Parliament carry a great deal of influence within the Republic. Each District and recognized Guild is free to select a Member-Elector by whatever means they see fit. As a result, different mechanisms have arisen over the years in each body, from a random lottery draw to highly contested popular elections.
+    Every year, on the Winter Solstice, citizens of the Republic gather to nominate candidates for Parliament. Although the position lacks real legislative authority, Member-Electors of Parliament carry a great deal of influence within the Republic. Each District and recognized Guild is free to select a Member-Elector by whatever means they see fit. As a result, different mechanisms have arisen over the years in each body, from a random lottery draw to highly contested popular elections.
     
 - *Election of a Lord Protector* :
 
-    Upon the death of the Lord Protector, each [Republic][Republic of Siddarmark] District is represented in Parliament by a Member-Elector. The Electors are sequestered in the Lord Protector's Palace until a unanimous decision has been reached, and a new Lord Protector has been elected.
+    Upon the death of the Lord Protector, each Republic District is represented in Parliament by a Member-Elector. The Electors are sequestered in the Lord Protector's Palace until a unanimous decision has been reached, and a new Lord Protector has been elected.
     
 - *Draft Lottery* :
 
-    Military service is not only required, but expected of every young adult in the [Republic][Republic of Siddarmark]. While basic training and military preparation is provided on a rotating basis, the Army still requires a great many trained officers to lead the troops. To maintain the necessary personnel levels, the Army conducts a yearly drawing of lots to select a new class of recruits.
+    Military service is not only required, but expected of every young adult in the Republic. While basic training and military preparation is provided on a rotating basis, the Army still requires a great many trained officers to lead the troops. To maintain the necessary personnel levels, the Army conducts a yearly drawing of lots to select a new class of recruits.
     
     Those selected can look forward to a demanding six month training regimen followed by an additional two years compulsory service. In exchange, the Republic grants every conscript a not inconsiderable salary, paid partly upon completion of service. Many who are selected will extend their service, as the Army provides a better life than many would find in the fields and manufactories.
     
@@ -96,7 +96,7 @@ The Cult of Five is the official religion of the Republic, with the Deacon of Si
     
 - *Unity Festival* :
 
-    One of the Republic's oldest traditions, the Unity Festival is held whenever a settlement formally joins the [Republic][Republic of Siddarmark]. The event is effectively a cultural exchange in a mix that is part carnival, part market, where both sides can mingle and explore the other's offerings.
+    One of the Republic's oldest traditions, the Unity Festival is held whenever a settlement formally joins the Republic. The event is effectively a cultural exchange in a mix that is part carnival, part market, where both sides can mingle and explore the other's offerings.
     
     The festival is typically held only at the newly admitted settlement and [Siddar City][Siddar City], though the celebration has slowly spread to other major towns and cities within the Republic.
     
@@ -108,7 +108,7 @@ The Cult of Five is the official religion of the Republic, with the Deacon of Si
 
 - *Urwyn Ludovyc* :
 
-    Founder of the [Republic][Republic of Siddarmark] and first Lord Protector
+    Founder of the Republic and first Lord Protector
     
 - *Lyam Hywyt* :
 
@@ -128,8 +128,9 @@ The Cult of Five is the official religion of the Republic, with the Deacon of Si
     
 - *Yh Grimemaw* :
 
-    [Fang of Yeenoghu](https://www.dndbeyond.com/monsters/gnoll-fang-of-yeenoghu) who threatened the early [Republic][Republic of Siddarmark]. Yh ravaged the countryside for years, burning entire towns to the ground and straining the burgeoning Republic's limited resources.
+    [Fang of Yeenoghu](https://www.dndbeyond.com/monsters/gnoll-fang-of-yeenoghu) who threatened the early Republic. Yh ravaged the countryside for years, burning entire towns to the ground and straining the burgeoning Republic's limited resources.
     
+
 
 
 ## History

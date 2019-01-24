@@ -2,7 +2,7 @@
 title: Gahrdynyr Trade House
 summary: Main Page for Gahrdynyr Trade House
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Gahrdynyr Trade House
@@ -13,7 +13,7 @@ date: 2019-01-22
 - Membership : 400
 - Allegiance : [Republic of Siddarmark][]
 
-The Gahrdynyr Trade House is one of the oldest and most powerful trading houses in Siddar City. Established even before the Republic itself, the trade house was responsible for the construction of the main marketplace that bears its name, as well as many of the basic infrastructure for the port on Siddar Bay.
+The Gahrdynyr Trade House is one of the oldest and most powerful trading houses in [Siddar City][Siddar City]. Established even before the [Republic][Republic of Siddarmark] itself, the trade house was responsible for the construction of the main marketplace that bears its name, as well as many of the basic infrastructure for the port on Siddar Bay.
 
 The Gahrdynyr Trade House has effectively cornered the all-important coal trade that heats Siddar's homes and fuels its forges. They helped the early Republic negotiate a deal with settlers in the coal-rich arctic, and have enjoyed a special relationship with their descendants ever since.
 ## Structure
@@ -34,7 +34,7 @@ Like most companies, the Gahrdynyr Trade House is owned entirely by the establis
 
 - *Sahbyna Gahrdyn* :
 
-    Governess of the [Gahrdynyr Trade House][Gahrdynyr Trade House] and Member Elector for the Merchant's Guild. She is the embodiment of the ideal Merchant Princess: charming, refined, and ruthlessly cunning.
+    Governess of the Gahrdynyr Trade House and Member Elector for the Merchant's Guild. She is the embodiment of the ideal Merchant Princess: charming, refined, and ruthlessly cunning.
     
 
 
@@ -42,13 +42,14 @@ Like most companies, the Gahrdynyr Trade House is owned entirely by the establis
 
 **Merchant's Guild**
 
-The [Gahrdynyr Trade House][Gahrdynyr Trade House] is a founding house of the Merchant's Guild.
+The Gahrdynyr Trade House is a founding house of the Merchant's Guild.
 
 
 
 ## Culture
 
-The Gahrdynyr Trade House presents itself as a throwback to simpler times. Its buildings are generally simple yet charming log structures, harkening back to the early days of Siddar City and the Republic. Tradesmen are encouraged to build a close, familiar relationship with their suppliers and customers, and to participate in local festivals and events where possible.
+The Gahrdynyr Trade House presents itself as a throwback to simpler times. Its buildings are generally simple yet charming log structures, harkening back to the early days of [Siddar City][Siddar City] and the [Republic][Republic of Siddarmark]. Tradesmen are encouraged to build a close, familiar relationship with their suppliers and customers, and to participate in local festivals and events where possible.
+
 
 
 

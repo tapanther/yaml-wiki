@@ -2,7 +2,7 @@
 title: Siddar City
 summary: Main Page for Siddar City
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Siddar City
@@ -19,9 +19,9 @@ date: 2019-01-22
 
 ### Government
 
-As the capital of the [Republic of Siddarmark][], Siddar City is in theory under the direct control of the Lord Protector.
+As the capital of the [Republic of Siddarmark][Republic of Siddarmark], Siddar City is in theory under the direct control of the Lord Protector.
 
-In practice however, the administration of the ever-growing [Republic][Republic of Siddarmark], its Army, and the complex web of political and economic treaties has necessitated the separation of the city government from the direct apparatus of the national State.
+In practice however, the administration of the ever-growing Republic, its Army, and the complex web of political and economic treaties has necessitated the separation of the city government from the direct apparatus of the national State.
 
 In keeping with the Republic's military roots, authority over the city is vested in the Gendarmerie of Siddar City, the direct descendant organization from the city's original town watch. Upon election or vacation of the position, the Lord Protector appoints a *Sergeant-at-Arms of the Gendarmerie*, who administrates the daily business of the City on the Lord Protector's behalf.
 
@@ -31,7 +31,7 @@ Despite the seemingly autocratic nature of military rule, citizens of Siddar Cit
 
 - *Lord Protector's Palace* :
 
-    At the heart of [Siddar City][Siddar City] lies a small complex of unassuming government buildings which at first glace may be mistaken for an administrative annex. Constructed at the direction of Urwyn Ludovic, the first Lord Protector, the Lord's Protector Palace is as much a symbol of the idealism of the [Republic][Republic of Siddarmark] as it is a tangible representation of the current state of the [Republic][Republic of Siddarmark].
+    At the heart of Siddar City lies a small complex of unassuming government buildings which at first glace may be mistaken for an administrative annex. Constructed at the direction of Urwyn Ludovic, the first Lord Protector, the Lord's Protector Palace is as much a symbol of the idealism of the [Republic][Republic of Siddarmark] as it is a tangible representation of the current state of the [Republic][Republic of Siddarmark].
     
     The palace, unlike its name may suggest, is not walled off and isolated from the rest of the City. Citizens are free to enter the palace grounds, and even request admission to the Palace itself for an audience with the Lord Protector. To hide away behind ramparts and fortifications is anathema to the founding principles of the Republic.
     
@@ -49,9 +49,10 @@ Descended from the original town watch, the Gendarmerie is an independent branch
 
 ## Culture
 
-Siddar City practically sets the cutlural tone of the [Republic][]. Although many smaller towns and villages retain their unique personality, the contemporary zeitgeist is set by the whims and fancies of Siddar's merchant princes.
+Siddar City practically sets the cutlural tone of the [Republic][Republic of Siddarmark]. Although many smaller towns and villages retain their unique personality, the contemporary zeitgeist is set by the whims and fancies of Siddar's merchant princes.
 
 The Republic's fascination with the relics of the First Age is strongest in Siddar City. Many powerful and influential families use archaic name spellings, or at least their best attempts at an archaic spelling. Some nuveau-riche families have been known to change their family name to something more traditional upon attaining public visibitlity. The Gahrdyn family, of Gahrdynyr Trading House fame, rebreanded themselves upon the nomination of Sahmael Gahrdyn, nee Samuel Garden, to Member Elector for the Marine Tradesmen Guild.
+
 
 ## History
 

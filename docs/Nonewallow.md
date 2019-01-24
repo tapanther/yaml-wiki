@@ -2,7 +2,7 @@
 title: Nonewallow
 summary: Main Page for Nonewallow
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Nonewallow
@@ -21,7 +21,8 @@ A region of countryside at the north end of Southguard Province. The land is sco
 
 **Ashmourne (Ruins)**
 
-A former Imperial Free City, Ashmourne has been completely swallowed up by the ashen desert. It is only after a Maelstrom, a massive windstorm known to periodically arise in the [Nonewallow][Nonewallow], that the ruins are accessible for a few short days before the ash once again blankets the city.
+A former Imperial Free City, Ashmourne has been completely swallowed up by the ashen desert. It is only after a Maelstrom, a massive windstorm known to periodically arise in the Nonewallow, that the ruins are accessible for a few short days before the ash once again blankets the city.
+
 
 
 

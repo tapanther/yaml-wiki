@@ -2,7 +2,7 @@
 title: Gnolls
 summary: Main Page for Gnolls
 authors: Juan P. Sierra
-date: 2019-01-22
+date: 2019-01-23
 ---
 
 # Gnolls
@@ -63,6 +63,8 @@ With regards to their second role, Gnoll Fangs are capable of channeling Yeenogh
 ### Flind
 
 A Flind is an exceptionally rare and powerful gnoll that has been blessed by Yeenoghu himself with a fraction of his power. If a Flind is present, it automatically becomes the Pack or War Band leader, and commands complete devotion from all other gnolls, including Pack Lords and Fangs.
+
+
 
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
