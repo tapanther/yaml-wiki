@@ -82,7 +82,7 @@ def autoLink(ctx, rawText):
             searchText = linkTarget['title']
             altText = linkTarget['altLink'] if 'altLink' in linkTarget else searchText
             if (searchText != myTitle):
-                linkText = r'\b' + f'({searchText}|{altText})' + r'\b' + r'(?![^[]*])'
+                linkText = r'\b' + f"(({searchText}|{altText})('s?)?)" + r'\b' + r'(?![^[]*])'
                 replaceText = r'[\1]' + f'[{searchText}]'
                 ##linkText = r'([^:[(] *?)(' + searchText + r'|' + altText + r')( *?[^]):\'])'
                 ##replaceText = r'\1[\2][' + searchText + r']\3'
