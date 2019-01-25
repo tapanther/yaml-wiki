@@ -2,10 +2,13 @@
 title: Tritan
 summary: Main Page
 authors: Juan P. Sierra
-date: 2019-01-24
+date: 2019-01-25
 ---
 
-# 
+# Tritan
+
+-----
+
 
 
 
@@ -13,78 +16,46 @@ date: 2019-01-24
 
 Use the navigation bar to explore the different aspects of Tritan.
 
-## Quick Links
 
-- **Campaign**
-    - [Act 0 - The Alchemist's Tomb][]
-    - [Act 1 - The Ravenous Horde][]
+You can alternatively use the category pages below to narrow your
+scope, or use the search bar at the top to find a specific page.
 
-- **General**
-    - [Alchemist's Journal][]
-    - [Book of Prophesy][]
-    - [Gnolls][]
-    - [Stonhyr's Speech at Noxwall][]
-    - [Timeline][]
-    - [Tritanian Calendar][]
+## Category Pages
 
-- **History**
-    - [Religion in Tritan][]
-
-- **Locations**
-    - [Nonewallow][]
-
-- **Major Powers**
-    - [Kingdom of Dohlar][]
-    - [Republic of Siddarmark][]
-
-- **NPC**
-    - [Azoth the Wise][]
-    - [Faelix][]
-    - [Lyhl Habborhlyn][]
-    - **Republic**
-        - [Greghor Stonhyr][]
-
-- **Organization**
-    - [Cult of Five][]
-    - [Mother Church (Religion)][]
-    - **Republic**
-        - [Gahrdynyr Trade House][]
-        - [Republic Expeditionary Forces][]
-
-- **Settlements**
-    - **Kingdom of Dohlar**
-        - [Blackpoint][]
-    - **Republic**
-        - [Cantfall][]
-        - [Noxwall][]
-        - [Siddar City][]
+- [Campaign](Campaign.md)
+- [General](General.md)
+- [History](History.md)
+- [Locations](Locations.md)
+- [Major Powers](Major Powers.md)
+- [NPC](NPC.md)
+- [Organization](Organization.md)
+- [Settlements](Settlements.md)
 
 
 
 
 
-
-[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
+[Gnolls]: Gnolls.md (Gnolls)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Timeline]: Timeline.md (Timeline)
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
 [Faelix]: Faelix.md (Faelix)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
-[Azoth the Wise]: Azoth.md (Azoth the Wise)
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
-[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
-[Gnolls]: Gnolls.md (Gnolls)
-[Timeline]: Timeline.md (Timeline)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Cantfall]: Cantfall.md (Cantfall)
-[Blackpoint]: Blackpoint.md (Blackpoint)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
-[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
+[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)

@@ -20,7 +20,11 @@ markdown_extensions:
   - admonition
 
 nav:
-  - Home : 'index.md'
-{% for child in navTree.children | sort(attribute='name') if not child.noLink %}
+  - Home : index.md
+{% for child in navTree.children | sort_multi('parent', 'name') if not child.noLink %}
 {{ macros.printTreeYAML(child, 1) }}
 {%- endfor %}
+  - Categories :
+{% for child in navTree.children | sort_multi('parent', 'name') if (not child.noLink and child.children) %}
+      - {{ child.name }} : {{ child.file }}
+{% endfor %}

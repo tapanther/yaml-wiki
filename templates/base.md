@@ -7,7 +7,12 @@ date: {{ date }}
 ---
 {% import 'macros.md' as macros with context %}
 
+{% block pagetitle %}
 # {{ title | title }}
+
+-----
+
+{% endblock %}{# pagetitle #}
 
 {% block generalinformation %}
 {% if GeneralInfo %}

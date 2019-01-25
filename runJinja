@@ -3,7 +3,7 @@
 import sys
 import argparse
 import yaml
-
+import operator
 import re
 
 from datetime import datetime
@@ -15,8 +15,6 @@ from anytree.search import find_by_attr as findNode
 from anytree.resolver import ResolverError, ChildResolverError
 from anytree.exporter import DictExporter
 from anytree.iterators import PreOrderIter
-
-import anytree
 
 #---------------------
 # Parse Arguments
@@ -95,6 +93,13 @@ def autoLink(ctx, rawText):
     return rawText
 
 env.filters['autoLink'] = autoLink
+
+
+def sort_multi(L, *operators):
+    Ls = sorted(L, key=operator.attrgetter(*operators))
+    return Ls
+
+env.filters['sort_multi'] = sort_multi
 
 #---------------------
 # Prepare the nav
@@ -239,6 +244,20 @@ for entry in md_lib:
         outfile.write(template.render(y_data, date=date))
             
 #---------------------
+# Write the Cat Pages
+#---------------------
+
+template = env.get_template('Category.md')
+for category in navTree.children:
+    # Make sure it really is a category
+    if category.children:
+        page = Path(outdir, category.name).with_suffix('.md')
+        category.file = page.name
+        with open(page, 'w') as pageFile:
+            pageFile.write(template.render(navTree = category,
+                                           date = date))
+
+#---------------------
 # Write the config
 #---------------------
 
@@ -247,12 +266,14 @@ config = Path('mkdocs.yml')
 with open(config, 'w') as configFile:
     configFile.write(template.render(navTree = navTree))
 
+
+    
 #---------------------
 # Write the Main Page
 #---------------------
 
 template = env.get_template('index.md')
-index = Path('./docs', 'index.md')
+index = Path(outdir, 'index.md')
 
 with open(index, 'w') as indexFile:
     indexFile.write(template.render(navTree = navTree,

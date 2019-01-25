@@ -1,7 +1,9 @@
 {% extends 'base.md' %}
 
+{% set title = 'Tritan' %}
+
 {% block title %}
-Tritan
+{{ title }}
 {% endblock %}
 
 {% block summary %}
@@ -17,10 +19,14 @@ Main Page
 
 Use the navigation bar to explore the different aspects of Tritan.
 
-## Quick Links
+
+You can alternatively use the category pages below to narrow your
+scope, or use the search bar at the top to find a specific page.
+
+## Category Pages
 
 {% for child in navTree.children | sort(attribute='name') %}
-{{ macros.printTreeLinks(child, 0) }}
+- [{{ child.name }}]({{ child.file }})
 {% endfor %}
 
 {% endblock pagecontent %}

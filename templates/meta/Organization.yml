@@ -1,5 +1,5 @@
 ---
-class : Organization
+node : Organization
 template : Organization.md
 title : TEXT
 GeneralInfo :

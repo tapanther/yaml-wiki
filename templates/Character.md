@@ -1,6 +1,6 @@
 {% extends 'base.md' %}
 
-{% block title%}
+{% block title %}
 {{ title }}
 {% endblock %}
 

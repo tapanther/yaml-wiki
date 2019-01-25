@@ -1,5 +1,5 @@
 ---
-class : NPC
+node : NPC
 template : Character.md
 title : TEXT
 GeneralInfo :

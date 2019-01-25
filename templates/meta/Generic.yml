@@ -1,5 +1,5 @@
 ---
-class : General
+node : General
 template : Generic.md
 title : TEXT
 GeneralInfo :
