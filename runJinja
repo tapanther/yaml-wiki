@@ -10,7 +10,7 @@ from datetime import datetime
 from pathlib import Path, PurePath
 from jinja2 import Environment, FileSystemLoader, contextfilter
 from shutil import copytree, rmtree
-
+from collections import defaultdict
 
 #---------------------
 # Parse Arguments
@@ -76,17 +76,16 @@ env.filters['listText'] = listText
 #---------------------
 @contextfilter
 def autoLink(ctx, rawText):
+    if 'no_autolink' in ctx.resolve('control'):
+        return rawText
     myTitle = ctx.resolve('title')
-    for categoryList in navStruct.values():
-        for linkTarget in categoryList:
-            searchText = linkTarget['title']
-            altText = linkTarget['altLink'] if 'altLink' in linkTarget else searchText
-            if (searchText != myTitle):
-                linkText = r'\b' + f"(({searchText}|{altText})('s?)?)" + r'\b' + r'(?![^[]*])'
-                replaceText = r'[\1]' + f'[{searchText}]'
-                ##linkText = r'([^:[(] *?)(' + searchText + r'|' + altText + r')( *?[^]):\'])'
-                ##replaceText = r'\1[\2][' + searchText + r']\3'
-                rawText = re.sub(linkText, replaceText, rawText, count=1)
+    for linkTarget in globalLinks:
+        searchText = linkTarget['text']
+        linkText = linkTarget['link']
+        if (linkText != myTitle):
+            searchPattern = r'\b' + f"({searchText}('s?)?)" + r'\b' + r'(?![^[]*])'
+            replaceText = r'[\1]' + f'[{linkText}]'
+            rawText = re.sub(searchPattern, replaceText, rawText, count=1)
     return rawText
 
 env.filters['autoLink'] = autoLink
@@ -134,18 +133,27 @@ for path in Path(args.lib).glob('**/*.yml'):
 
     rFile = PurePath(outpath.name)
 
-    if not ('control' in y_data and 'no_link' in y_data['control']):
-        try:
-            navStruct[y_data['class']].append(
-                { 'title' : y_data['title'],
-                  'file' : str(rFile) }
-            )
-        except KeyError:
-            navStruct[y_data['class']] = [ { 'title' : y_data['title'],
-                                             'file' : str(rFile) } ]
+    try:
+        navStruct[y_data['class']].append(
+            { 'title' : y_data['title'],
+              'file' : str(rFile) }
+        )
+    except KeyError:
+        navStruct[y_data['class']] = [ { 'title' : y_data['title'],
+                                         'file' : str(rFile) } ]
 
-        if 'altLink' in y_data:
-            navStruct[y_data['class']][-1]['altLink'] = y_data['altLink']
+    try:
+        navStruct[y_data['class']][-1]['altLink'] = y_data['altLink']
+    except KeyError:
+        pass
+
+    
+    navStruct[y_data['class']][-1]['noLink'] = ('control' in y_data
+                                                and 'no_link' in y_data['control'])
+
+    navStruct[y_data['class']][-1]['noAutoLink'] = ('control' in y_data
+                                                    and 'no_autolink' in y_data['control'])
+
             
     # Gather timeline information for a common timeline
     if ('History' in y_data) and ('Timeline' in y_data['History']):
@@ -175,11 +183,36 @@ except KeyError:
     navStruct['General'] = [ { 'title' : 'Timeline',
                                'file' : str(timeline.name) } ]
 
+navStruct['General'][-1]['noLink'] = False
+navStruct['General'][-1]['noAutoLink'] = False    
+
+
 timelineSorted = sorted(timelineStruct, key=ageDecode)
 
 with open(timeline, 'w') as timelineFile:
     timelineFile.write(template.render(timeline = timelineSorted, date=date))
 
+
+#---------------------
+# Prepare AutoLinker
+#---------------------
+
+linksList = list()
+for categoryList in navStruct.values():
+    for linkTarget in categoryList:
+        if not linkTarget['noAutoLink']:
+            linksList.append({'text' : linkTarget['title'],
+                                'link' : linkTarget['title']})
+            try:
+                linksList.append({'text' : linkTarget['altLink'],
+                                  'link' : linkTarget['title']})
+            except KeyError:
+                pass
+
+globalLinks = sorted(linksList, key = lambda k: len(k['text']), reverse = True)
+
+##print(yaml.dump(globalLinks, default_flow_style=False))
+    
 #---------------------
 # Run link templater
 #---------------------

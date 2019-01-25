@@ -9,12 +9,50 @@ date: {{ date }}
 
 # {{ title | title }}
 
-{% block pagecontent %}{% endblock %}
+{% block generalinformation %}
+{% if GeneralInfo %}
+{% if GeneralInfo.Statistics or GeneralInfo.Ethics or GeneralInfo.Ethics %}
+## General Info
+
+{% endif %}{# GeneralInfo Header #}
+{% if GeneralInfo.Statistics %}
+{% for stat, data in GeneralInfo.Statistics | dictsort %}
+- {{ stat | capitalize }} : {{ data | numberFormat }}
+{% endfor %}
+{% endif %}{# Statistics #}
+{% if GeneralInfo.Ethics %}
+- Ethics:
+{% for ethic in GeneralInfo.Ethics %}
+    - {{ ethic }}
+{% endfor %}
+{% endif %}{# Ethics #}
+{% if GeneralInfo.Traits %}
+- Traits:
+{% for trait in GeneralInfo.Traits %}
+    - {{ trait }}
+{% endfor %}
+{% endif %}{# Traits #}
+{% if GeneralInfo.Description %}
+### Description
+
+{{ GeneralInfo.Description | autoLink }}
+
+{% endif %}{# Description #}
+{% endif %}{# GeneralInfo #}
+{% endblock generalinformation %}
+
+{% block pagecontent %}
+{% endblock %}
 
 {% block timeline %}
 {% if History %}
 ## History
 
+{% if History.Description %}
+### Historical Account
+
+{{ History.Description | autoLink }}
+{% endif %}{# Description #}
 ### Timeline
 
 Date | Name | Event

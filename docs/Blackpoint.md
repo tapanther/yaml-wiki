@@ -1,17 +1,18 @@
 ---
-title: Kingdom of Dohlar
-summary: Main Page for Kingdom of Dohlar
+title: Blackpoint
+summary: Main Page for Blackpoint
 authors: Juan P. Sierra
-date: 2019-01-23
+date: 2019-01-24
 ---
 
-# Kingdom Of Dohlar
+# Blackpoint
 
 ## General Info
 
-- Population : 805,000
 - Government : Feudal Monarchy
-- Ethics :
+- Population : 30,000
+- Region : South March Province
+- Ethics:
     - Imperial
     - Aristocratic
 
@@ -19,89 +20,45 @@ date: 2019-01-23
 
 ### Government
 
-The Kingdom of Dohlar is a feudal monarchy, descended from the First Age nation-state of the same name. The Dohlaran Crown, seated in [Blackpoint][Blackpoint (City)], claims a direct line of succession to the old Dohlaran House, and rules by divine right.
+The city of Blackpoint is divided into about two dozen interlocking walled enclaves. The central enclave is controlled directly by the Dohlaran Crown, while the rest of the city is ruled jointly by the members of the Privy Council.
 
-As a feudal society, the Crown does not directly control the land. Aside from the core of the capital, the Kingdom's lands are distributed amongst various noble houses. The noble houses may then further grant control of towns or estates to subordinate lords, though these holdings tend to be small compared to the noble houses.
+The Council's authority within the city is not absolute however. With centuries of tradition and shifting balance of power between the Crown and the nobility, navigating the intricacies of the complex power sharing structure is a delicate and often dangerous task. Many attempted reforms by the Council and the Crown have been stymied by the convenient discovery of a superceding, long lost document granting the aggrieved parties precisely the necessary rights to quash the reforms.
 
-As each Lord enjoys dominion over their lands, there is no common legal code or system. Disputes between the nobility can be settled by the Crown, but commoners must rely on the judgements of their direct lords, with few legal protections beyond those enshrined in the oath of fealty.
+The city itself is surrounded by several large fiefdoms controlled by the oldest Dohlaran noble houses. Although not legally considered part of the city proper, especially by those inside the walled enclaves, they nevertheless form an integral part of the society and wellbeing of Blackpoint.
 
 ### Notable Locations
 
-- *Blackpoint* :
+- *Rock of Cashel* :
 
-    The last surviving First Age city, [Blackpoint][Blackpoint (City)] is the capital of the Kingdom of Dohlar. Laid out as a series of interlocking walled enclaves, Blackpoint is rigidly compartmentalized and the single most fortified location on Tritan.
+    A heavily fortified castle from the late First Age, the Rock of Cashel is now the royal palace for the Dohlaran Crown.
     
+- *Draseotheoa* :
 
+    A First Age temple dedicated to long forgotten gods, the Draseotheoa was appropriated by the early followers of the [Cult of Five][Cult of Five]. Many of the old idols and statues are still present, thanks in large part to the strong deference given to First Age relics by the population.
+    
+- *Kilmainham Gaol* :
 
-### Prominent Figures and Organizations
-
-**Dusk Templars**
-
-Widely considered some of the fiercest warriors on Tritan, the Dusk Templars are the sole surviving heraldic order from the First Age. The Templars answer directly to the Dohlaran Crown, and are often used as elite mounted shock troops against both internal and external threats.
-
+    An ancient fortress and one of the oldest structures in Blackpoint, the Kilmainham Gaol has been used as a state prison by the Dohlaran Crown since before the Great Sack. The fortress currently holds a wide range of prisoners, from petty thieves to nobles who have offended the Crown in some manner.
+    
 
 
 ## Culture
 
-Dohlaran culture is highly stratified, with little to no social mobility. At the top of the social order is the Dohlaran Crown and the Privy Council, which is always composed of leaders of the most powerful noble houses. While the Crown is ostensibly vested with absolute power, it is a foolish monarch who disregards the advice and recommendations of the Privy Council.
+The people of Blackpoint are strongly religious, honest, and hardworking, but suffer from a deep seated paranoia with regards to outsiders. With decades of social and religious indoctrination spreading a message of fear, the common folk view anyone not from Blackpoint as barbarous, deceitful, and malevolent. As far as the people are concerned, those from outside the walls would like nothing more than to drag the people of Blackpoint into the chaos and devastation that still festers in the world beyond.
 
-The Noble Houses, descendants of the surviving Dohlaran nobility, enjoy many special rights and priviledges accumulated over the centuries before and after the Great Sack. Indeed, it is not entirely uncommon for a long-lost document or royal decree to be found, describing some forgotten right or priviledge for one or more Noble Houses.
-
-The Noble Houses hold the overwhelming majority of the kingdom's land. Outside of [Blackpoint City][Blackpoint (City)] itself, vast stretches of the countryside, and all the natural resources therein, rightfully belong to the Noble Houses. In order to best use the land, the Houses will further vassalize minor lords, granting them certain land use rights in exchange for tithes and certain guarantees of military and political support.
-
-At the bottom of the social ladder is the common folk, separated between freemen and serfs. While some freemen, such as artisans and merchants, are relatively wealthy and enjoy the privileges of their station, in practice, few freemen are truly free, as many are indebted to the manufactory owners and landlords, much like their rural counterparts. 
+As for the nobility, there is first and foremost an overwhelming sense of superiority over both the common folk and outsiders. It is only natural that the Gods would choose Blackpoint to survive the Great Sack where all other cities fell, for Blackpoint embodies the natural order of the world. Only the strong survive, and only the noble shall rule. There is no doubt that the Five have chosen Blackpoint as the ember from which civilization shall once again light the world. 
 
 ### Core Beliefs
 
-- **Divine Favor**
-- **Paranoid Xenophobia**
-- **Fundamentalist**
-- **Fortress-Nation**
 - **Feudal Society**
 - **Aristocratic Elite**
-### Values
-
-- Blackpoint has a divine mandate to restore civilization throughout Tritan.
-- The King rules by the blessing of the Gods.
-- Blackpoint is under constant threat from the wretched, misled masses outside the walls.
+- **First Age Inheritors**
+- **Divine Mandate**
 ### Prejudices
 
-- Ignoble Birth
 - Monstrous Heritage
-### Religion
-
-The Cult of Five is the official religion of the Dohlaran Kingdom. Both the nobility and the common folk are deeply religious, though for different reasons.
-
-The nobility believe that the Five have chosen Blackpoint, specifically the leadership of Blackpoint, to restore the natural order of the world and reestablish the Empires of Old.
-
-For the common folk, the Cult, especially as interpreted within the Kingdom, provides a sense of continuation and a link to their revered ancestors. Much like the Ancient Gods were reborn, so too will the Dohlaran people.
-
-### Traditions
-
-- *Coronation of the Monarch* :
-
-    Upon the death of the Dohlaran Monarch, the 
-    
-
-
-### Heroes & Villains
-
-#### Heroes
-
-- *Haarahld I* :
-
-    Dohlaran King during the Great Sack, Haarahld I led a desperate attack on Baltatrax and his forces within [Blackpoint][Blackpoint (City)]. Although he was mortally wounded in the process, Haarahld defeated Baltatrax, putting an end to the Demogorgon's rampage.
-    
-
-
-#### Villains
-
-- *Baltatrax the Ravager* :
-
-    Having recently sacked The Gate, Baltatrax turned his sights to the last remaining great First Age city. Had it not been for the valiant Haarahld's counterassault, the demogorgon would have destroyed all vestiges of civilization on Tritan.
-    
-
-
+- Backwater Provincials
+- Republican Agitators
 
 ## History
 
@@ -109,24 +66,23 @@ For the common folk, the Cult, especially as interpreted within the Kingdom, pro
 
 Date | Name | Event
 :---:|:----:|:----
-0Y | The Fall of Baltatrax | The surviving Dohlaran Army traps and defeats Baltatrax the Ravager and his army of fiendish abominations, putting an end to the Great Sack. Although Blackpoint emerged victorious, the battle took a heavy toll on the city, destroying not only the outer enclaves, but most importantly, breaking the line of Dohlaran succession when the heirless Haarahld I succumbed to his wounds.
-57Y | The Divine Restoration | Tasar Thexysis, a minor noble in Blackpoint, makes a claim on the vacant Dohlaran throne, presenting a letter from his mother alleging that he is the result of a secret love affair with Haarahld I. The Regency Council backs Tasar's claim, who is then crowned Maximillien III.
-161Y | Shay's Rebellion | Shay Cowen leads a popular uprising of peasants and serfs against the Dohlaran feudal system. The rebellion is brutally put down by the Dusk Templars at the direction of the Crown. The nascent [Republic][Republic of Siddarmark] is suspected of inciting the rebellion by the nobility in Blackpoint, leading to a rapid deterioration of relations between the two cities.
+162Y | Shay Cowen Hung | Shay Cowen, upstart rebel leader, is put to death by hanging at the Kilmainham Gaol courtyard by order of the Crown. 
 
 
-## Related Links
-
-- [Blackpoint (City)][]
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Faelix]: Faelix.md (Faelix)
+[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
@@ -134,7 +90,8 @@ Date | Name | Event
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
-[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)

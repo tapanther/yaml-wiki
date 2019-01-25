@@ -2,15 +2,16 @@
 title: Cult of Five
 summary: Main Page for Cult of Five
 authors: Juan P. Sierra
-date: 2019-01-23
+date: 2019-01-24
 ---
 
 # Cult Of Five
 
 ## General Info
 
-- Type : Major Religion
 - Allegiance : Varies
+- Type : Major Religion
+### Description
 
 The Cult of Five is the primary religion of Eastern Tritan, having arisen independently several times throughout the various isolated towns and villages during the Second Age.
 
@@ -27,12 +28,14 @@ The Cult of Five, as the name implies, worships five recognized major gods. In o
 
   
 While lesser gods and other supernatural beings are known to exist, the Cult does not recognize these as true gods.
+
+
 ## Structure
 
 ### Governnance
 
 As the Cult arose independently all throughout Tritan, there is no common curia. The Cult's clerics are largely independent, and the early Cult faced several schisms that prevented a centralized organization from developing. In more recent years however, with the expansion of major political powers, there has been a greater degree of cultural mixing and a renewed push for a common set of tenets and rituals.
-As of 520 AGS, two major centers of influence have arisen within the Cult of Five: [Siddar City][Siddar City] and [Blackpoint][Blackpoint (City)]. While they share the same pantheon and basic tenets, the two cities have developed very different interpretations and teachings.
+As of 520 AGS, two major centers of influence have arisen within the Cult of Five: [Siddar City][Siddar City] and [Blackpoint][Blackpoint]. While they share the same pantheon and basic tenets, the two cities have developed very different interpretations and teachings.
 
 ### Notable Locations
 
@@ -54,11 +57,11 @@ As of 520 AGS, two major centers of influence have arisen within the Cult of Fiv
 
 - *Ahnsahl Crowle* :
 
-    As the Deacon of [Siddar City][Siddar City], Ahnsahl Crowle is nominally part of the [Republic][Republic of Siddarmark]'s government, though the Cult remains an independent entity. Ahnsahl is a cleric of Pyrael, as is traditional for the Deaconship.
+    As the Deacon of [Siddar City][Siddar City], Ahnsahl Crowle is nominally part of the [Republic's][Republic of Siddarmark] government, though the Cult remains an independent entity. Ahnsahl is a cleric of Pyrael, as is traditional for the Deaconship.
     
 - *Rober Jocelin* :
 
-    The Primate of [Blackpoint][Blackpoint (City)], Vicar Jocelin wields a tremendous amount of power within the [Kingdom of Dohlar][Kingdom of Dohlar]. The Kingdom's unique take on the Cult asserts that the Primate of Blackpoint is the Five's representative on the material plane, and as such is the ultimate authority on matters of faith.
+    The Primate of [Blackpoint][Blackpoint], Vicar Jocelin wields a tremendous amount of power within the [Kingdom of Dohlar][Kingdom of Dohlar]. The Kingdom's unique take on the Cult asserts that the Primate of Blackpoint is the Five's representative on the material plane, and as such is the ultimate authority on matters of faith.
     
 
 
@@ -132,7 +135,7 @@ Racial deities, such as the Drow Lolth, the draconic Asgorath, the Orcish Gruums
     
 - *Anointment and Coronation (of the Monarch of Blackpoint)* :
 
-    The holiest ceremony within the Kingdom, the Anointment and Coronation establishes for all to see the divine right of the monarch to rule. The coronation is performed by the Primate of [Blackpoint][Blackpoint (City)] within a fortnite of the death of the previous monarch. In theory, the Crown has no authority unless the Anointment has been performed, though no Primate to date has dared to test this theory.
+    The holiest ceremony within the Kingdom, the Anointment and Coronation establishes for all to see the divine right of the monarch to rule. The coronation is performed by the Primate of [Blackpoint][Blackpoint] within a fortnite of the death of the previous monarch. In theory, the Crown has no authority unless the Anointment has been performed, though no Primate to date has dared to test this theory.
     
 
 
@@ -149,13 +152,17 @@ Date | Name | Event
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Faelix]: Faelix.md (Faelix)
+[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
@@ -163,7 +170,8 @@ Date | Name | Event
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
-[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)

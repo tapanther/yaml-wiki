@@ -22,7 +22,7 @@ nav:
   - Home: 'index.md'
 {% for category, data in navStruct|dictsort %}
   - {{ category }}:
-{% for item in data|sort(attribute='title') %}
+{% for item in (data|sort(attribute='title')) if not item.noLink %}
       - '{{ item.title | e }}' : '{{ item.file }}'
 {% endfor %}
 {% endfor %}

@@ -2,16 +2,17 @@
 title: Religion in Tritan
 summary: Main Page for Religion in Tritan
 authors: Juan P. Sierra
-date: 2019-01-23
+date: 2019-01-24
 ---
 
 # Religion In Tritan
+
+### Description
 
 It is believed that the Gods and the Weave are but two sides of the same coin. Ancient tomes contain entire treatises on the subject, and what few records remain from the Great Sack indicate that the arcane and divine powers failed simultaneously. The established dogma holds that the Old Gods died with the collapse of the Weave, and a new Pantheon was born with its restoration.
 
 Unlike the Old Gods, which numbered in the dozens, only five deities have made their presence known to mortals since the end of the spellplague. These new deities are colloquially known as The Five. Interestingly, formerly uncontacted towns and villages have developed local versions of The Five, though there are cases where wildly different Pantheons have arisen, such as the monotheistic Church of God Awaiting.
 
----
 
 ## Cult of Five
 
@@ -36,13 +37,17 @@ The [Church of God Awaiting][Mother Church (Religion)], colloquially known as Mo
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Faelix]: Faelix.md (Faelix)
+[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
@@ -50,7 +55,8 @@ The [Church of God Awaiting][Mother Church (Religion)], colloquially known as Mo
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
-[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)

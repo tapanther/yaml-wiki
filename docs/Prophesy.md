@@ -2,14 +2,17 @@
 title: Book of Prophesy
 summary: Main Page for Book of Prophesy
 authors: Juan P. Sierra
-date: 2019-01-23
+date: 2019-01-24
 ---
 
 # Book Of Prophesy
 
+### Description
+
 Book of Prophesy written by Mary the Prophetess in the First Age.
 
----
+A [modern translation][Book of Prophesy (Translated)] by Marus Daergel is available.
+
 
 ## Aforr Þe Empire Changes
 
@@ -109,28 +112,28 @@ It wil burn lime, lodestone sulfur and pitch
 *Quatern IV*
 
 I.  
-By Þe city where Þe wolfe wil enter  
-Inne Þe great tomb of Þe Alchemist  
-Þe great Þeatre wil come to be set up again  
-Þe dice cast and Þe snares already laid  
+By candle’s litte Þe houre grows dimme  
+Wen Þe litt’rs are ov’rturn’d  by wirlwin’  
+An’ faces are cover’d by cloaks  
+Þe newe republick shal be troubl’d by its people  
 
 II.  
-Strangers gaÞered inne Þe Archer’s Reeve  
-Wil be inne league, and wil bear Þem company  
-Þe five strangers enter’d inne Þe temple  
-Taken from Þe earÞ and suspend’d inne Þe air  
+Inne Þe worlde Þere wil be madde a king  
+Who wil hav’ little pease and shortte life  
+Þey wil be driv’n away for a longe fitte  
+Þe countrysid wil be most grivously troubl’d  
 
 III.  
-Þe sky of Cedar’s City forebodes to us  
-Þrough clear signs and fix’d stars  
-Þat Þe time of sudden change is approaching  
-NeiÞer for its good, nor for its evils  
+A coffin is putte into Þe vault of iron  
+Wher sev’n children of Þe king are held  
+Þe ancestors wil comme forÞ from Þe depÞs of hell  
+Lamenting to see Þus dead Þe frutte of Þeir linne  
 
 IV.  
-Þe demon’s bones are Þus reveal’d  
-It wil cause Þe earÞ to be stain’d wiÞ blood  
-It wil burn lime, lodestone sulfur and pitch  
-Þere wil be unleash’d live fire, horrible and frightful  
+Tempus Þreatens us wiÞ Þe fors of war  
+And wil caus bloode to be spilt sev’nty times  
+Plague, famin, deaÞ from miltary hands  
+Þe century approches its renew’l  
 
 
 ---
@@ -233,28 +236,28 @@ Pease and plenty, dust and ashe
 *Quatern VIII*
 
 I.  
-He who wil have Þe government of Þe great cope  
-Wil be prevail’d upon to perform sev’ral deeds  
-Þe twelve red ones who wil come to soil Þe cloÞ  
-Und’r murder, murder wil come to be perpetrat’d  
+By Þe crumbled gate a terrible choice wil come to be made  
+Þat to fire and ashe Þey wil consign Þe entire city  
+Come suddenly Þe terror wil be great  
+As to becloud Þe whole quality of Þe Sun  
 
 II.  
-Þe city of liberty made servile  
-Made Þe asylum of profligats and prostitutes  
-Malicious plot and machination  
-No heart wil be so hardy as not to tremble  
+Tears, cries and laments, howls, terror  
+Heart inhuman, cruel, black and chilly  
+A great realm wil be left desolat’d  
+Who wil want to put Þe innocent ones to Þe fire  
 
 III.  
-Some of Þose most lett’r’d inne celestial facts  
-Wil be condem’d by Þe barbarous masses  
-Punish’d by Edict, hunt’d, like criminals  
-And put to deaÞ wherev’r Þey wil be found  
+No pease agreed upon wil be kept  
+Þe serpent wil put to deaÞ every man  
+Inne pease and truce, interpret’d opposite Þeir meaning  
+He wil do much Þrough seductive means  
 
 IV.  
-Þe change wil be very dificult  
-City and provinse wil gain by Þe change  
-Sworde, pease, under one divine word  
-Pease and plenty, dust and ashe  
+Oh, what a hideous calamity draws near  
+Too late and boÞ Þe flowers wil be lost  
+Inne an instant a great scatter’d flame wil leap up  
+Þis deed wil be debat’d for a long time  
 
 
 
@@ -262,13 +265,17 @@ Pease and plenty, dust and ashe
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Faelix]: Faelix.md (Faelix)
+[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
@@ -276,7 +283,8 @@ Pease and plenty, dust and ashe
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
-[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)

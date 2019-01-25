@@ -2,8 +2,9 @@
 class : General
 template : Generic.md
 title : TEXT
-Description: >-
-  TEXT
+GeneralInfo :
+  Description: >-
+    TEXT
 Content:
   -
     separate: BOOL

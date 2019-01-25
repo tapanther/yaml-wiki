@@ -2,22 +2,23 @@
 title: Greghor Stonhyr
 summary: Character description for Greghor Stonhyr
 authors: Juan P. Sierra
-date: 2019-01-23
+date: 2019-01-24
 ---
 
 # Greghor Stonhyr
 
 ## General Info
 
-- Race : Tiefling (Zariel)
 - Age : 47
-- Traits :
+- Race : Tiefling (Zariel)
+- Traits:
     - Weary
     - Formal
     - Conscientious
+
 ## Occupation
 
-- Role : Commander, Republic Expeditionary Forces
+- Role : Commander of the Expedition
 
     Comissioned 561 AGS
     
@@ -25,7 +26,7 @@ date: 2019-01-23
 
 ## Description
 
-Colloquially known as the *Shield of the [Republic][Republic of Siddarmark]*, Greghor Stonhyr is widely credited for the current period of peace and stability within the Republic. Commander Stonhyr currently leads the REF, the branch of the Republic military tasked with maintaining order and security outside the official borders.
+Colloquially known as the *Shield of the [Republic][Republic of Siddarmark]*, Greghor Stonhyr is widely credited for the current period of peace and stability within the Republic. Commander Stonhyr currently leads the [REF][Republic Expeditionary Forces], the branch of the Republic military tasked with maintaining order and security outside the official borders.
 
 Upon first glance, many question whether the weary, ragged man standing before them could really withstand the fury of an orcish warband. Even upon confirming his identity, there is usually a flash of disappointment, or even pity, at the remains of what must have at one point been a heroic figure. In truth, the valiant figure of public imagination is just that: imaginary. Stonhyr's strength lies less within the blade, and more in the soul. None who have been in battle with Stonhyr would doubt the immense willpower hiding within.
 
@@ -43,13 +44,17 @@ Three decades of distinguished service have made Stonhyr a household name within
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Faelix]: Faelix.md (Faelix)
+[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
@@ -57,7 +62,8 @@ Three decades of distinguished service have made Stonhyr a household name within
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
-[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)

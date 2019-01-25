@@ -2,16 +2,17 @@
 title: Siddar City
 summary: Main Page for Siddar City
 authors: Juan P. Sierra
-date: 2019-01-23
+date: 2019-01-24
 ---
 
 # Siddar City
 
 ## General Info
 
-- Population : 80,000
 - Government : [Anocracy](https://en.wikipedia.org/wiki/Anocracy)
-- Ethics :
+- Population : 80,000
+- Region : Old Province
+- Ethics:
     - Militarist
     - Egalitarian
 
@@ -21,7 +22,7 @@ date: 2019-01-23
 
 As the capital of the [Republic of Siddarmark][Republic of Siddarmark], Siddar City is in theory under the direct control of the Lord Protector.
 
-In practice however, the administration of the ever-growing Republic, its Army, and the complex web of political and economic treaties has necessitated the separation of the city government from the direct apparatus of the national State.
+In practice however, the administration of the ever-growing [Republic][Republic of Siddarmark], its Army, and the complex web of political and economic treaties has necessitated the separation of the city government from the direct apparatus of the national State.
 
 In keeping with the Republic's military roots, authority over the city is vested in the Gendarmerie of Siddar City, the direct descendant organization from the city's original town watch. Upon election or vacation of the position, the Lord Protector appoints a *Sergeant-at-Arms of the Gendarmerie*, who administrates the daily business of the City on the Lord Protector's behalf.
 
@@ -31,11 +32,15 @@ Despite the seemingly autocratic nature of military rule, citizens of Siddar Cit
 
 - *Lord Protector's Palace* :
 
-    At the heart of Siddar City lies a small complex of unassuming government buildings which at first glace may be mistaken for an administrative annex. Constructed at the direction of Urwyn Ludovic, the first Lord Protector, the Lord's Protector Palace is as much a symbol of the idealism of the [Republic][Republic of Siddarmark] as it is a tangible representation of the current state of the [Republic][Republic of Siddarmark].
+    At the heart of Siddar City lies a small complex of unassuming government buildings which at first glace may be mistaken for an administrative annex. Constructed at the direction of Urwyn Ludovic, the first Lord Protector, the Lord's Protector Palace is as much a symbol of the idealism of the [Republic][Republic of Siddarmark] as it is a tangible representation of the current state of the Republic.
     
     The palace, unlike its name may suggest, is not walled off and isolated from the rest of the City. Citizens are free to enter the palace grounds, and even request admission to the Palace itself for an audience with the Lord Protector. To hide away behind ramparts and fortifications is anathema to the founding principles of the Republic.
     
     At the same time, the increasing militarization and aggressive expansionism can be plainly seen at the Palace. The Army's honor guard routinely parades through the palace grounds, and every entrance to the palace buildings is placed under the careful watch of a posted sentry. Many neighboring buildings have been taken over by the Army to house its growing bureaucracy. Perhaps most telling of all, the adjoining army academy fills the air with a cacophany of drums, whistles, and lockstep footfalls.
+    
+- *Headquarters of the Expedition* :
+
+    Located in the Government District of Siddar City, the [Republic Expeditionary Forces][Republic Expeditionary Forces] Headquarters is located within the military complex surrounding the Lord Protector's Palace.
     
 
 
@@ -67,13 +72,17 @@ Date | Name | Event
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Faelix]: Faelix.md (Faelix)
+[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
@@ -81,7 +90,8 @@ Date | Name | Event
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
-[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)

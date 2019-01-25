@@ -3,8 +3,10 @@ class : MajorPowers
 template : Nation.md
 title : TEXT
 GeneralInfo :
-  Population : NUM
-  Government : TEXT
+  Statistics :
+    Population : NUM
+    Government : TEXT
+    Region : TEXT
   Ethics :
     - LIST
 Society :

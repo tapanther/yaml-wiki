@@ -3,9 +3,10 @@ class : Locations
 template : Nation.md
 title : TEXT
 GeneralInfo :
-  Type : TEXT
-  Region : TEXT
-  Population : NUM
+  Statistics :
+    Type : TEXT
+    Region : TEXT
+    Population : NUM
 Geography :
   Description : >-
       TEXT

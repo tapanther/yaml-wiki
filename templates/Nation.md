@@ -9,17 +9,6 @@ Main Page for {{ title }}
 {% endblock %}
 
 {%- block pagecontent %}
-## General Info
-
-- Population : {{ GeneralInfo.Population | numberFormat }}
-- Government : {{ GeneralInfo.Government }}
-{% if GeneralInfo.Ethics %}
-- Ethics :
-{% for ethic in GeneralInfo.Ethics %}
-    - {{ ethic }}
-{% endfor %}
-{% endif %}{# Ethics #}
-
 {% if Society %}
 ## Society
 

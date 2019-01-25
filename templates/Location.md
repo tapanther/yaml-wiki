@@ -9,12 +9,6 @@ Main Page for {{ title }}
 {% endblock %}
 
 {%- block pagecontent %}
-## General Info
-
-- Type : {{ GeneralInfo.Type }}
-- Region : {{ GeneralInfo.Region }}
-- Population : {{ GeneralInfo.Population | numberFormat }}
-
 {% if Geography %}
 ## Geography
 

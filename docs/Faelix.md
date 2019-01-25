@@ -1,40 +1,37 @@
 ---
-title: Act 1 - The Ravenous Horde
-summary: Main Page for Act 1 - The Ravenous Horde
+title: Faelix
+summary: Character description for Faelix
 authors: Juan P. Sierra
 date: 2019-01-24
 ---
 
-# Act 1 - The Ravenous Horde
+# Faelix
 
+## General Info
 
-*570Y 3M 15KAL*
+- Age : Unknown
+- Race : Human (?)
+- Traits:
+    - Hard-Fisted
+    - Forgetful
+    - Crotchety
+    - Terse
 
-The Party exits the Tomb of the Alchemist several days later than expected. Time within the Tomb seems to pass slower than real-time on the material plane.
+## Occupation
 
----
+- Role : Wizard Impersonator
 
-*570Y 3M 11KAL*
+    Actually a Familiar
+    
+- Location : Noxwall
 
-The Party meets up with the refugee caravan, led by [Greghor Stonhyr][Greghor Stonhyr], and proceeds to [Noxwall][Noxwall].
+## Description
 
----
+Faelix appears to be a miserly old wizard enjoying his retirement as a curio shopkeeper with his scaly catlike familiar, [Azoth][Azoth the Wise]. In reality, Faelix is Azoth's familiar, though it is unknown how this arrangement came to be. Nevertheless, Faelix appears to be a wizard in his own right, as he has been known to cast some low-level spells and cantrips.
 
-*570Y 3M 10KAL*
+Since leaving the Tomb of the Alchemist, Faelix and Azoth relocated to the small town of [Noxwall][Noxwall], where the elderly familiar set up a magical curio shop. Never one to pass up an opportunity to earn additional coin, Faelix will often demand unreasonable prices for the shop's unique wares, but can usually be haggled down to a more reasonable arrangement.
 
-Stonhyr delivers an [address to the people of Noxwall][Stonhyr's Speech at Noxwall], formally welcoming them into the [Republic][Republic of Siddarmark] but warning of trying times to come.
-
----
-
-*570Y 3M 9KAL*
-
-The Party leads a salvage caravan to the ruins of [Cantfall][Cantfall] so that precious documents and farming materials can be recovered.
-
----
-
-*570Y 3M 4KAL*
-
-The Party encounters gnoll hunting parties in [Cantfall][Cantfall], indicating that a warband must be nearby. Taking refuge in the miniature [Nonewallow][Nonewallow] of the Zhackson estate, the Party scares off a gnoll pack by exploiting their fear of the supernatural ash.
+Despite his curmudgeonly behavior, he is reasonably well-liked by the townspeople. He has been known to uncharacteristically donate much needed food and supplies under the pretense that *"it is taking up too much room in my shop!"* 
 
 
 

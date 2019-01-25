@@ -2,15 +2,16 @@
 title: Noxwall
 summary: Main Page for Noxwall
 authors: Juan P. Sierra
-date: 2019-01-23
+date: 2019-01-24
 ---
 
 # Noxwall
 
 ## General Info
 
-- Population : 3,700
 - Government : Aristocracy
+- Population : 3,700
+- Region : Old Province
 
 ## Society
 
@@ -24,9 +25,9 @@ Due to the threat presented by the gnolls, Mylz Halcom, the current Alderman, si
 
 Prior to the events of 570 AGS, Noxwall was a prosperous town along the Black Highway, a major trade route between the [Republic of Siddarmark][Republic of Siddarmark] and the [Kingdom of Dohlar][Kingdom of Dohlar].
 
-The town provided much needed respite to weary traders, and offered a fine, though somewhat limited, selection of goods from local artisans. As trade prospered and the town grew, it was decided that a new sister town should be established nearby, along the Serpent's Pass, an alternative trade route. This new town, christened Cantfall due to it's position at the foot of the Ophidian Mountains, would give younger members of Noxwall families an opportunity to make their own fortunes, while remaining close enough to their relatives.
+The town provided much needed respite to weary traders, and offered a fine, though somewhat limited, selection of goods from local artisans. As trade prospered and the town grew, it was decided that a new sister town should be established nearby, along the Serpent's Pass, an alternative trade route. This new town, christened [Cantfall][Cantfall] due to it's position at the foot of the Ophidian Mountains, would give younger members of Noxwall families an opportunity to make their own fortunes, while remaining close enough to their relatives.
 
-The town's Alderman, Mylz Halcom, was a fiercely independent figure, who had resisted numerous advances from the Republic. This independent streak was shared by many in the town, as the region had enjoyed a period of prosperous stability. With no major threat on the horizon, most of the town felt that the Republic would only bring unwanted complications.
+The town's Alderman, Mylz Halcom, was a fiercely independent figure, who had resisted numerous advances from the [Republic][Republic of Siddarmark]. This independent streak was shared by many in the town, as the region had enjoyed a period of prosperous stability. With no major threat on the horizon, most of the town felt that the Republic would only bring unwanted complications.
 
 With the existential threat presented by the gnoll War Band in early 570 AGS, and with the destruction of Cantfall, Noxwall's sister city, the town quickly negotiated a treaty to join the Republic and receive its army's protection.
 
@@ -62,13 +63,17 @@ Date | Name | Event
 
 [Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
 [Gnolls]: Gnolls.md (Gnolls)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Kingdom of Dohlar]: Blackpoint.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Blackpoint (City)]: BlackpointCity.md (Blackpoint (City))
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Faelix]: Faelix.md (Faelix)
+[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
@@ -76,7 +81,8 @@ Date | Name | Event
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
-[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Religion in Tritan]: Religion.md (Religion in Tritan)

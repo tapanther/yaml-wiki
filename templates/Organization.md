@@ -9,17 +9,6 @@ Main Page for {{ title }}
 {% endblock %}
 
 {%- block pagecontent %}
-## General Info
-
-- Type : {{ GeneralInfo.Type }}
-{% if GeneralInfo.Membership %}
-- Membership : {{ GeneralInfo.Membership | numberFormat }}
-{% endif %}{# Membership #}
-- Allegiance : {{ GeneralInfo.Allegiance }}
-
-{% if GeneralInfo.Description %}
-{{ GeneralInfo.Description | autoLink }}
-{% endif %}{# Description #}
 {% if Structure %}
 ## Structure
 
