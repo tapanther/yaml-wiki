@@ -15,89 +15,76 @@ Use the navigation bar to explore the different aspects of Tritan.
 
 ## Quick Links
 
-*********
-**Campaign**
+- **Campaign**
+    - [Act 0 - The Alchemist's Tomb][]
+    - [Act 1 - The Ravenous Horde][]
 
-- [Act 0 - The Alchemist's Tomb][]
-- [Act 1 - The Ravenous Horde][]
+- **General**
+    - [Alchemist's Journal][]
+    - [Book of Prophesy][]
+    - [Gnolls][]
+    - [Stonhyr's Speech at Noxwall][]
+    - [Timeline][]
+    - [Tritanian Calendar][]
 
-*********
-**General**
+- **History**
+    - [Religion in Tritan][]
 
-- [Alchemist's Journal][]
-- [Book of Prophesy][]
-- [Gnolls][]
-- [Stonhyr's Speech at Noxwall][]
-- [Timeline][]
-- [Tritanian Calendar][]
+- **Locations**
+    - [Nonewallow][]
 
-*********
-**History**
+- **Major Powers**
+    - [Kingdom of Dohlar][]
+    - [Republic of Siddarmark][]
 
-- [Religion in Tritan][]
+- **NPC**
+    - [Azoth the Wise][]
+    - [Faelix][]
+    - [Lyhl Habborhlyn][]
+    - **Republic**
+        - [Greghor Stonhyr][]
 
-*********
-**Locations**
+- **Organization**
+    - [Cult of Five][]
+    - [Mother Church (Religion)][]
+    - **Republic**
+        - [Gahrdynyr Trade House][]
+        - [Republic Expeditionary Forces][]
 
-- [Nonewallow][]
-
-*********
-**Major Powers**
-
-- [Kingdom of Dohlar][]
-- [Republic of Siddarmark][]
-
-*********
-**NPC**
-
-- [Azoth the Wise][]
-- [Faelix][]
-- [Greghor Stonhyr][]
-- [Lyhl Habborhlyn][]
-
-*********
-**Organization**
-
-- [Cult of Five][]
-- [Gahrdynyr Trade House][]
-- [Mother Church (Religion)][]
-- [Republic Expeditionary Forces][]
-
-*********
-**Settlements**
-
-- [Blackpoint][]
-- [Cantfall][]
-- [Noxwall][]
-- [Siddar City][]
+- **Settlements**
+    - **Kingdom of Dohlar**
+        - [Blackpoint][]
+    - **Republic**
+        - [Cantfall][]
+        - [Noxwall][]
+        - [Siddar City][]
 
 
 
 
 
 
-[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
-[Gnolls]: Gnolls.md (Gnolls)
-[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
-[Timeline]: Timeline.md (Timeline)
-[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Faelix]: Faelix.md (Faelix)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
-[Blackpoint]: Blackpoint.md (Blackpoint)
-[Cantfall]: Cantfall.md (Cantfall)
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Gnolls]: Gnolls.md (Gnolls)
+[Timeline]: Timeline.md (Timeline)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
-[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
-[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Cantfall]: Cantfall.md (Cantfall)
+[Blackpoint]: Blackpoint.md (Blackpoint)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)

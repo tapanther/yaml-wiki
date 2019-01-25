@@ -13,8 +13,8 @@ hide_toc: true
 | Year | Event | Description |
 |:----:|:-----:|:------------|
 | -1Y | Nonewallow Created | Accounts from refugees fleeing beleagered Southern settlements indicates that the Nonewallow was created days before the fall of The Gate. The appearance is sudden, and no surviving records indicate how the region came to be. |
-| 0Y | The Fall of Baltatrax | The surviving Dohlaran Army traps and defeats Baltatrax the Ravager and his army of fiendish abominations, putting an end to the Great Sack. Although Blackpoint emerged victorious, the battle took a heavy toll on the city, destroying not only the outer enclaves, but most importantly, breaking the line of Dohlaran succession when the heirless Haarahld I succumbed to his wounds. |
 | 0Y | The Great Sack | Thousands of people were displaced to the uninhabited regions of the Northeast, eventually founding and settling the towns and cities that comprise the Republic and it's allies today. |
+| 0Y | The Fall of Baltatrax | The surviving Dohlaran Army traps and defeats Baltatrax the Ravager and his army of fiendish abominations, putting an end to the Great Sack. Although Blackpoint emerged victorious, the battle took a heavy toll on the city, destroying not only the outer enclaves, but most importantly, breaking the line of Dohlaran succession when the heirless Haarahld I succumbed to his wounds. |
 | 0Y 7M | Arrival at Siddar Bay | After two grueling months, the refugee caravan from The Gate arrives at Siddar Bay. With summer quickly receeding, the refugees set up a makeshift encampment and begin preparing for an arduous winter. |
 | 12Y | Siddar City Officially Founded | Under the direction of Urwyn Ludovic, the makeshift wooden structures would be rebuilt out of more permanent materials starting with the harbour, the lifeblood of the burgeoning city. |
 | 25Y | Founding of the Republic | Ludovyc officially founds the Republic by becoming the first Lord Protector. His protectorship sets the standard to which all future Lord Protectors are bound. |
@@ -32,28 +32,27 @@ hide_toc: true
 
 
 
-[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Book of Prophesy (Translated)]: Prophesy_Normal.md (Book of Prophesy (Translated))
-[Gnolls]: Gnolls.md (Gnolls)
-[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
-[Timeline]: Timeline.md (Timeline)
-[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)
 [Faelix]: Faelix.md (Faelix)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
-[Blackpoint]: Blackpoint.md (Blackpoint)
-[Cantfall]: Cantfall.md (Cantfall)
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Gnolls]: Gnolls.md (Gnolls)
+[Timeline]: Timeline.md (Timeline)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
-[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
-[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Cantfall]: Cantfall.md (Cantfall)
+[Blackpoint]: Blackpoint.md (Blackpoint)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)

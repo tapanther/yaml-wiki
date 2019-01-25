@@ -1,3 +1,4 @@
+{% import 'macros.md' as macros with context %}
 site_name: Tritan
 theme:
   name: material
@@ -19,10 +20,7 @@ markdown_extensions:
   - admonition
 
 nav:
-  - Home: 'index.md'
-{% for category, data in navStruct|dictsort %}
-  - {{ category }}:
-{% for item in (data|sort(attribute='title')) if not item.noLink %}
-      - '{{ item.title | e }}' : '{{ item.file }}'
-{% endfor %}
-{% endfor %}
+  - Home : 'index.md'
+{% for child in navTree.children | sort(attribute='name') if not child.noLink %}
+{{ macros.printTreeYAML(child, 1) }}
+{%- endfor %}

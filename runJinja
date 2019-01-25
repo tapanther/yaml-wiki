@@ -14,6 +14,9 @@ from anytree import Node, RenderTree, Resolver
 from anytree.search import find_by_attr as findNode
 from anytree.resolver import ResolverError, ChildResolverError
 from anytree.exporter import DictExporter
+from anytree.iterators import PreOrderIter
+
+import anytree
 
 #---------------------
 # Parse Arguments
@@ -114,7 +117,6 @@ def ageDecode(event):
 
 
 navTree = Node('Root')
-navStruct = dict()
 date = datetime.today().strftime('%Y-%m-%d')
 
 timelineStruct = list()
@@ -148,30 +150,16 @@ for path in Path(args.lib).glob('**/*.yml'):
 
     rFile = PurePath(outpath.name)
 
-    resolveTreeNode(navTree, f"/Root/{y_data['node']}/{y_data['title']}")
-    
-    try:
-        navStruct[y_data['class']].append(
-            { 'title' : y_data['title'],
-              'file' : str(rFile) }
-        )
-    except KeyError:
-        navStruct[y_data['class']] = [ { 'title' : y_data['title'],
-                                         'file' : str(rFile) } ]
+    node = resolveTreeNode(navTree, f"/Root/{y_data['node']}/{y_data['title']}")
 
-    try:
-        navStruct[y_data['class']][-1]['altLink'] = y_data['altLink']
-    except KeyError:
-        pass
+    node.title = y_data['title']
+    node.file = str(rFile)
+    node.noLink = ('control' in y_data and 'no_link' in y_data['control'])
+    node.noAutoLink = ('control' in y_data and 'no_autolink' in y_data['control'])
+    if 'altLink' in y_data:
+        node.altLink = y_data['altLink']
 
     
-    navStruct[y_data['class']][-1]['noLink'] = ('control' in y_data
-                                                and 'no_link' in y_data['control'])
-
-    navStruct[y_data['class']][-1]['noAutoLink'] = ('control' in y_data
-                                                    and 'no_autolink' in y_data['control'])
-
-            
     # Gather timeline information for a common timeline
     if ('History' in y_data) and ('Timeline' in y_data['History']):
 
@@ -187,9 +175,6 @@ for path in Path(args.lib).glob('**/*.yml'):
             timelineStruct.append(event)
 
 
-print(RenderTree(navTree).by_attr())
-print(yaml.dump(DictExporter().export(navTree), default_flow_style=False))
-
 #---------------------
 # Write the Timeline
 #---------------------
@@ -197,16 +182,12 @@ print(yaml.dump(DictExporter().export(navTree), default_flow_style=False))
 template = env.get_template('Timeline.md')
 timeline = Path('./docs', 'Timeline.md')
 
-try:
-    navStruct['General'].append({ 'title' : 'Timeline',
-                                  'file' : str(timeline.name) })
-except KeyError:
-    navStruct['General'] = [ { 'title' : 'Timeline',
-                               'file' : str(timeline.name) } ]
 
-navStruct['General'][-1]['noLink'] = False
-navStruct['General'][-1]['noAutoLink'] = False    
-
+node = resolveTreeNode(navTree, f"/Root/General/Timeline")
+node.title = 'Timeline'
+node.file = str(timeline.name)
+node.noLink = False
+node.noAutoLink = False
 
 timelineSorted = sorted(timelineStruct, key=ageDecode)
 
@@ -218,21 +199,19 @@ with open(timeline, 'w') as timelineFile:
 # Prepare AutoLinker
 #---------------------
 
-linksList = list()
-for categoryList in navStruct.values():
-    for linkTarget in categoryList:
-        if not linkTarget['noAutoLink']:
-            linksList.append({'text' : linkTarget['title'],
-                                'link' : linkTarget['title']})
-            try:
-                linksList.append({'text' : linkTarget['altLink'],
-                                  'link' : linkTarget['title']})
-            except KeyError:
-                pass
-
-globalLinks = sorted(linksList, key = lambda k: len(k['text']), reverse = True)
-
-##print(yaml.dump(globalLinks, default_flow_style=False))
+linkedList = list()
+fileLinks = list()
+for node in PreOrderIter(navTree):
+    if node.is_leaf and not node.noAutoLink:
+        fileLinks.append({'title' : node.title,
+                          'file' : node.file})
+        linkedList.append({'text' : node.title,
+                           'link' : node.title})
+        if hasattr(node, 'altLink'):
+            linkedList.append({'text' : node.altLink,
+                               'link' : node.title})
+globalLinks = sorted(linkedList, key = lambda k: len(k['text']), reverse = True)
+                               
     
 #---------------------
 # Run link templater
@@ -242,7 +221,7 @@ links = Path(args.templates, 'links.md.j2')
 template = env.get_template('links.j2')
 
 with open(links, 'w') as linkFile:
-    linkFile.write(template.render(navStruct = navStruct))
+    linkFile.write(template.render(fileLinks = fileLinks))
 
     
 #---------------------
@@ -266,7 +245,7 @@ for entry in md_lib:
 template = env.get_template('mkdocs.yml')
 config = Path('mkdocs.yml')
 with open(config, 'w') as configFile:
-    configFile.write(template.render(navStruct = navStruct))
+    configFile.write(template.render(navTree = navTree))
 
 #---------------------
 # Write the Main Page
@@ -276,7 +255,7 @@ template = env.get_template('index.md')
 index = Path('./docs', 'index.md')
 
 with open(index, 'w') as indexFile:
-    indexFile.write(template.render(navStruct = navStruct,
+    indexFile.write(template.render(navTree = navTree,
                                     date = date))
 
 

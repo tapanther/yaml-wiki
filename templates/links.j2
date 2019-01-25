@@ -1,5 +1,3 @@
-{% for category, data in navStruct.items() %}
-{% for item in data|sort(attribute='title') %}
+{% for item in fileLinks %}
 [{{ item.title }}]: {{ item.file }} ({{ item.title }})
-{% endfor %}
 {% endfor %}
