@@ -10,7 +10,10 @@ from datetime import datetime
 from pathlib import Path, PurePath
 from jinja2 import Environment, FileSystemLoader, contextfilter
 from shutil import copytree, rmtree
-from collections import defaultdict
+from anytree import Node, RenderTree, Resolver
+from anytree.search import find_by_attr as findNode
+from anytree.resolver import ResolverError, ChildResolverError
+from anytree.exporter import DictExporter
 
 #---------------------
 # Parse Arguments
@@ -110,12 +113,24 @@ def ageDecode(event):
     return (ageList[0], ageList[1], ageList[2])
 
 
+navTree = Node('Root')
 navStruct = dict()
 date = datetime.today().strftime('%Y-%m-%d')
 
 timelineStruct = list()
 
 md_lib = list()
+
+
+def resolveTreeNode(tree, pathStr):
+    resolver = Resolver('name')
+    try:
+        node = resolver.get(tree, pathStr)
+    except (ResolverError, ChildResolverError):
+        parent = resolveTreeNode(tree, pathStr.rsplit('/',1)[0])
+        node = Node(pathStr.split('/')[-1], parent=parent)
+        
+    return node
 
 for path in Path(args.lib).glob('**/*.yml'):
 
@@ -133,6 +148,8 @@ for path in Path(args.lib).glob('**/*.yml'):
 
     rFile = PurePath(outpath.name)
 
+    resolveTreeNode(navTree, f"/Root/{y_data['node']}/{y_data['title']}")
+    
     try:
         navStruct[y_data['class']].append(
             { 'title' : y_data['title'],
@@ -168,6 +185,10 @@ for path in Path(args.lib).glob('**/*.yml'):
         for event in y_data['History']['Timeline']:
             event.update({'Source' : y_data['title']})
             timelineStruct.append(event)
+
+
+print(RenderTree(navTree).by_attr())
+print(yaml.dump(DictExporter().export(navTree), default_flow_style=False))
 
 #---------------------
 # Write the Timeline
