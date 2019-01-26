@@ -23,7 +23,7 @@ All images and information linked from [DnDBeyond](https://www.dndbeyond.com/) a
 [Volo's Guide](https://www.dndbeyond.com/compendium/rules/vgtm/monster-lore#GnollsTheInsatiableHunger) has a great introduction to Gnolls.
 ## Gnolls in Tritan
 
-Gnolls in Tritan are one of the most dangerous of the monstrous hordes that joined Baltatrax's army during the end of the First Age. Many smaller settlements were quickly devoured by Baltatrax's gnolls, further swelling the ranks of his hordes.
+Gnolls in Tritan are one of the most dangerous of the monstrous hordes that joined [Baltatrax's][Baltatrax the Ravager] army during the end of the First Age. Many smaller settlements were quickly devoured by Baltatrax's gnolls, further swelling the ranks of his hordes.
 
 Despite their tentative alliance, gnolls true loyalty lies with the [Demon Lord Yeenoghu](https://www.dndbeyond.com/monsters/yeenoghu). The gnoll mind knows only an insatiable hunger, and as their ranks grew, so did the gnolls' bloodlust. In the euphoria of the Great Sack, the gnolls turned on the demogorgon - a move that would prove to be the beginning of the end for Baltatrax.
 
@@ -74,28 +74,29 @@ A Flind is an exceptionally rare and powerful gnoll that has been blessed by Yee
 
 
 
-[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
-[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Gnolls]: Gnolls.md (Gnolls)
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Timeline]: Timeline.md (Timeline)
-[Azoth the Wise]: Azoth.md (Azoth the Wise)
-[Faelix]: Faelix.md (Faelix)
-[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
-[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
-[Blackpoint]: Blackpoint.md (Blackpoint)
-[Cantfall]: Cantfall.md (Cantfall)
-[Noxwall]: Noxwall.md (Noxwall)
-[Siddar City]: SiddarCity.md (Siddar City)
-[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
-[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
 [Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Cult of Five]: CultOfFive.md (Cult of Five)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Terraworth]: Terraworth.md (Terraworth)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Faelix]: Faelix.md (Faelix)
+[Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
+[Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
+[Baltatrax the Ravager]: Baltatrax.md (Baltatrax the Ravager)
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Gnolls]: Gnolls.md (Gnolls)
+[Timeline]: Timeline.md (Timeline)
+[Noxwall]: Noxwall.md (Noxwall)
+[Siddar City]: SiddarCity.md (Siddar City)
+[Cantfall]: Cantfall.md (Cantfall)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
