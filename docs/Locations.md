@@ -12,6 +12,9 @@ date: 2019-01-25
 
 
 ## Pages in Locations
+##  First Age Ruins
+
+- [Terraworth][]
 - [Nonewallow][]
 
 
@@ -21,7 +24,6 @@ date: 2019-01-25
 [Tritanian Calendar]: Calendar.md (Tritanian Calendar)
 [Gnolls]: Gnolls.md (Gnolls)
 [Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Timeline]: Timeline.md (Timeline)
 [Azoth the Wise]: Azoth.md (Azoth the Wise)
 [Faelix]: Faelix.md (Faelix)
@@ -40,4 +42,6 @@ date: 2019-01-25
 [Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
 [Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
 [Nonewallow]: Nonewallow.md (Nonewallow)
+[Terraworth]: Terraworth.md (Terraworth)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)

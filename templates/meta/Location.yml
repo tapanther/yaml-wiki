@@ -1,12 +1,14 @@
 ---
 node : Locations
-template : Nation.md
+template : Location.md
 title : TEXT
 GeneralInfo :
   Statistics :
     Type : TEXT
     Region : TEXT
     Population : NUM
+  Description : >-
+    TEXT
 Geography :
   Description : >-
       TEXT

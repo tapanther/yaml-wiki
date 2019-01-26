@@ -9,6 +9,8 @@ GeneralInfo :
     Region : TEXT
   Ethics :
     - LIST
+  Description : >-
+    TEXT
 Society :
   Government : >-
       TEXT

@@ -58,6 +58,7 @@ date: {{ date }}
 
 {{ History.Description | autoLink }}
 {% endif %}{# Description #}
+{% if History.Timeline %}
 ### Timeline
 
 Date | Name | Event
@@ -65,6 +66,7 @@ Date | Name | Event
 {% for event in History.Timeline %}
 {{ event.Date }} | {{ event.Name }} | {{ event.Description }}
 {% endfor %}
+{% endif %}{# History #}
 {% endif %}{# History #}
 
 {% endblock %}{# Timeline #}

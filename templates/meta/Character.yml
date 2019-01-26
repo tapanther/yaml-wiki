@@ -8,6 +8,8 @@ GeneralInfo :
     Age : NUMBER
   Traits :
     - LIST
+  Description : >-
+    TEXT
 Occupation :
   Role : TEXT
   Note : TEXT
