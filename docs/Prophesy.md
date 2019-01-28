@@ -2,7 +2,7 @@
 title: Book of Prophesy
 summary: Main Page for Book of Prophesy
 authors: Juan P. Sierra
-date: 2019-01-25
+date: 2019-01-27
 ---
 
 # Book Of Prophesy
@@ -53,7 +53,7 @@ Crumbl’d, buried inne Þe ashen lot
 *Quatern II*
 
 I.  
-From Auramport to neer Þe Gate  
+From [Auramport][Leadenport] to neer Þe Gate  
 Þe entire coast wil remain desolat’d  
 Þere wil remain no suburb, city or town  
 One wil see noÞing but rubble and waste  
@@ -272,6 +272,8 @@ Inne an instant a great scatter’d flame wil leap up
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Terraworth]: Terraworth.md (Terraworth)
+[Broken Gate]: Gate.md (Broken Gate)
+[Leadenport]: Leadenport.md (Leadenport)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Faelix]: Faelix.md (Faelix)

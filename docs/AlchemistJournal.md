@@ -2,7 +2,7 @@
 title: Alchemist's Journal
 summary: Main Page for Alchemist's Journal
 authors: Juan P. Sierra
-date: 2019-01-25
+date: 2019-01-27
 ---
 
 # Alchemist's Journal
@@ -152,6 +152,8 @@ I must make preparations.
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Terraworth]: Terraworth.md (Terraworth)
+[Broken Gate]: Gate.md (Broken Gate)
+[Leadenport]: Leadenport.md (Leadenport)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Faelix]: Faelix.md (Faelix)

@@ -2,7 +2,7 @@
 title: Act 1 - The Ravenous Horde
 summary: Main Page for Act 1 - The Ravenous Horde
 authors: Juan P. Sierra
-date: 2019-01-25
+date: 2019-01-27
 ---
 
 # Act 1 - The Ravenous Horde
@@ -48,6 +48,8 @@ The Party encounters gnoll hunting parties in [Cantfall][Cantfall], indicating t
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Terraworth]: Terraworth.md (Terraworth)
+[Broken Gate]: Gate.md (Broken Gate)
+[Leadenport]: Leadenport.md (Leadenport)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Faelix]: Faelix.md (Faelix)

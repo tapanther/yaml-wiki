@@ -2,7 +2,7 @@
 title: Locations
 summary: Main Page for Locations
 authors: Juan P. Sierra
-date: 2019-01-25
+date: 2019-01-27
 ---
 
 # Locations
@@ -14,7 +14,9 @@ date: 2019-01-25
 ## Pages in Locations
 ##  First Age Ruins
 
+- [Broken Gate][]
 - [Terraworth][]
+- [Leadenport][]
 - [Nonewallow][]
 
 
@@ -26,6 +28,8 @@ date: 2019-01-25
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Terraworth]: Terraworth.md (Terraworth)
+[Broken Gate]: Gate.md (Broken Gate)
+[Leadenport]: Leadenport.md (Leadenport)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Faelix]: Faelix.md (Faelix)

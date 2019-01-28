@@ -2,7 +2,7 @@
 title: Mother Church (Religion)
 summary: Main Page for Mother Church (Religion)
 authors: Juan P. Sierra
-date: 2019-01-25
+date: 2019-01-27
 ---
 
 # Mother Church (Religion)
@@ -59,6 +59,8 @@ Where Mother Church differs from the Cult is its belief in a single, supreme bei
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Terraworth]: Terraworth.md (Terraworth)
+[Broken Gate]: Gate.md (Broken Gate)
+[Leadenport]: Leadenport.md (Leadenport)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Faelix]: Faelix.md (Faelix)

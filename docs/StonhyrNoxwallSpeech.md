@@ -2,7 +2,7 @@
 title: Stonhyr's Speech at Noxwall
 summary: Main Page for Stonhyr's Speech at Noxwall
 authors: Juan P. Sierra
-date: 2019-01-25
+date: 2019-01-27
 ---
 
 # Stonhyr's Speech At Noxwall
@@ -33,6 +33,8 @@ This is not a question of fighting for [Noxwall][Noxwall] or fighting for [Cantf
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Terraworth]: Terraworth.md (Terraworth)
+[Broken Gate]: Gate.md (Broken Gate)
+[Leadenport]: Leadenport.md (Leadenport)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Faelix]: Faelix.md (Faelix)

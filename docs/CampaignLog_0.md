@@ -2,7 +2,7 @@
 title: Act 0 - The Alchemist's Tomb
 summary: Main Page for Act 0 - The Alchemist's Tomb
 authors: Juan P. Sierra
-date: 2019-01-25
+date: 2019-01-27
 ---
 
 # Act 0 - The Alchemist's Tomb
@@ -56,6 +56,8 @@ The Party enters the Tomb of the Alchemist, a long forgotten structure built wit
 [Cult of Five]: CultOfFive.md (Cult of Five)
 [Nonewallow]: Nonewallow.md (Nonewallow)
 [Terraworth]: Terraworth.md (Terraworth)
+[Broken Gate]: Gate.md (Broken Gate)
+[Leadenport]: Leadenport.md (Leadenport)
 [Religion in Tritan]: Religion.md (Religion in Tritan)
 [Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
 [Faelix]: Faelix.md (Faelix)
