@@ -26,7 +26,9 @@ Main Page for {{ title }}
 *{{ entry.Subtitle }}*
 
 {% endif %}{# Subtitle #}
+{% if entry.Text %}
 {{ entry.Text | autoLink }}
+{% endif %}
 {% if entry.separate and not loop.last %}
 
 ---
