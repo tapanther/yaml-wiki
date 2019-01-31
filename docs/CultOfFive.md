@@ -2,7 +2,7 @@
 title: Cult of Five
 summary: Main Page for Cult of Five
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Cult Of Five

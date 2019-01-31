@@ -2,7 +2,7 @@
 title: Faelix
 summary: Character description for Faelix
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Faelix

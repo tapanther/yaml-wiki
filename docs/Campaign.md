@@ -2,7 +2,7 @@
 title: Campaign
 summary: Main Page for Campaign
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Campaign

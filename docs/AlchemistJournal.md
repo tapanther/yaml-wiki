@@ -2,7 +2,7 @@
 title: Alchemist's Journal
 summary: Main Page for Alchemist's Journal
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Alchemist's Journal

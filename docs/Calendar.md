@@ -2,7 +2,7 @@
 title: Tritanian Calendar
 summary: Main Page for Tritanian Calendar
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Tritanian Calendar

@@ -2,7 +2,7 @@
 title: Noxwall
 summary: Main Page for Noxwall
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Noxwall

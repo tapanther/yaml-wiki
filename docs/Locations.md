@@ -2,7 +2,7 @@
 title: Locations
 summary: Main Page for Locations
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Locations

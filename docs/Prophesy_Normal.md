@@ -2,7 +2,7 @@
 title: Book of Prophesy (Translated)
 summary: Main Page for Book of Prophesy (Translated)
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Book Of Prophesy (Translated)

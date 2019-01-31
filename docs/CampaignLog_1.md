@@ -2,7 +2,7 @@
 title: Act 1 - The Ravenous Horde
 summary: Main Page for Act 1 - The Ravenous Horde
 authors: Juan P. Sierra
-date: 2019-01-29
+date: 2019-01-30
 ---
 
 # Act 1 - The Ravenous Horde
@@ -73,6 +73,28 @@ Tym wows an elderly crowd at the *storytelling* competition by recounting the ha
 ---
 
 Nykolai is beckoned over by the shady huckster running the shell game, who reveals themselves to be a fellow thief. The two exchange a fragmented conversation in that most cryptic language, thieves' cant (or self-referrentially, *français*), the pair engage in a test of wits and cunning. Taking advantage of a distraction caused by Xalston's blatant mind-reading attempt, Nykolai tricks the huckster, and wins the stolen prize.
+
+---
+
+## Session 3
+
+The Unity Festival continues, as Xalston performs a magical extravaganza for [Azoth][Azoth the Wise] and [Faelix][Faelix]. Begrudgingly impressed, Faelix hands Xalston the grand prize: Faelix's Patented Lil' Wizards Kit.
+
+---
+
+While his owlbear finishes cooking, Durgu decides to participate in some of the more physical contests at the festival: the *stump chopping* contest and the *slapping* contest. As expected, Durgu excells at both, and easily claims the top prizes.
+
+---
+
+Tym and Xalston face off in [Faelix's][Faelix] *insulting* contest, a half-assed attempt by the elderly wizard to get some cheap enterntainment. The two long-time friends manage to trade a few rounds of comedic insults, but Tym quickly emerged victorious.
+
+---
+
+As the first day of the festival winds down, a [Republic][Republic of Siddarmark] sentry sounds the alarm, throwing the entire town into lockdown. Reports indicate that multiple sentries encountered lone hyenas and witherlings at random locations around the town, indicating the presence of a pack nearby. Surprisingly, no attack materializes, but the town remains on high alert.
+
+---
+
+Offering their services to the [Republic][Republic of Siddarmark] Commander, the party is sent on a recon expedition to an abandoned camp, to search for clues as to the whereabouts and plans of the gnoll pack.
 
 
 
