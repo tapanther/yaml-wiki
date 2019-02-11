@@ -2,7 +2,7 @@
 title: Act 1 - The Ravenous Horde
 summary: Main Page for Act 1 - The Ravenous Horde
 authors: Juan P. Sierra
-date: 2019-02-08
+date: 2019-02-11
 ---
 
 # Act 1 - The Ravenous Horde
@@ -76,7 +76,7 @@ Nykolai is beckoned over by the shady huckster running the shell game, who revea
 
 ---
 
-## Session 3
+## Session 4
 
 The Unity Festival continues, as Xalston performs a magical extravaganza for [Azoth][Azoth the Wise] and [Faelix][Faelix]. Begrudgingly impressed, Faelix hands Xalston the grand prize: Faelix's Patented Lil' Wizards Kit.
 
@@ -98,7 +98,7 @@ Offering their services to the [Republic][Republic of Siddarmark] Commander, the
 
 ---
 
-## Session 4
+## Session 5
 
 Arriving at the gnoll camp, the party discovers branching tracks that indicate the gnolls have split up, with about 2/3 of their numbers heading in the general direction of [Noxwall][Noxwall] and the rest heading southward.
 
@@ -113,31 +113,31 @@ Arriving at an ancient abandoned mine, the party uses their owl's enhanced heari
 
 
 
-[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
-[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
-[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
-[Cult of Five]: CultOfFive.md (Cult of Five)
-[Nonewallow]: Nonewallow.md (Nonewallow)
-[Terraworth]: Terraworth.md (Terraworth)
-[Broken Gate]: Gate.md (Broken Gate)
-[Leadenport]: Leadenport.md (Leadenport)
-[Religion in Tritan]: Religion.md (Religion in Tritan)
-[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
+[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
+[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
+[Gnolls]: Gnolls.md (Gnolls)
+[Book of Prophesy]: Prophesy.md (Book of Prophesy)
+[Timeline]: Timeline.md (Timeline)
+[Azoth the Wise]: Azoth.md (Azoth the Wise)
+[Baltatrax the Ravager]: Baltatrax.md (Baltatrax the Ravager)
 [Faelix]: Faelix.md (Faelix)
 [Greghor Stonhyr]: GreghorStonhyr.md (Greghor Stonhyr)
 [Lyhl Habborhlyn]: Lyhl_Habborlyn.md (Lyhl Habborhlyn)
-[Baltatrax the Ravager]: Baltatrax.md (Baltatrax the Ravager)
-[Azoth the Wise]: Azoth.md (Azoth the Wise)
-[Book of Prophesy]: Prophesy.md (Book of Prophesy)
-[Tritanian Calendar]: Calendar.md (Tritanian Calendar)
-[Alchemist's Journal]: AlchemistJournal.md (Alchemist's Journal)
-[Gnolls]: Gnolls.md (Gnolls)
-[Timeline]: Timeline.md (Timeline)
+[Blackpoint]: Blackpoint.md (Blackpoint)
+[Cantfall]: Cantfall.md (Cantfall)
 [Noxwall]: Noxwall.md (Noxwall)
 [Siddar City]: SiddarCity.md (Siddar City)
-[Cantfall]: Cantfall.md (Cantfall)
-[Blackpoint]: Blackpoint.md (Blackpoint)
-[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
-[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
-[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
 [Act 0 - The Alchemist's Tomb]: CampaignLog_0.md (Act 0 - The Alchemist's Tomb)
+[Act 1 - The Ravenous Horde]: CampaignLog_1.md (Act 1 - The Ravenous Horde)
+[Cult of Five]: CultOfFive.md (Cult of Five)
+[Gahrdynyr Trade House]: GahrdynyrTradeHouse.md (Gahrdynyr Trade House)
+[Republic Expeditionary Forces]: REF.md (Republic Expeditionary Forces)
+[Mother Church (Religion)]: MotherChurch.md (Mother Church (Religion))
+[Kingdom of Dohlar]: Dohlar.md (Kingdom of Dohlar)
+[Republic of Siddarmark]: Republic.md (Republic of Siddarmark)
+[Broken Gate]: Gate.md (Broken Gate)
+[Leadenport]: Leadenport.md (Leadenport)
+[Terraworth]: Terraworth.md (Terraworth)
+[Nonewallow]: Nonewallow.md (Nonewallow)
+[Religion in Tritan]: Religion.md (Religion in Tritan)
+[Stonhyr's Speech at Noxwall]: StonhyrNoxwallSpeech.md (Stonhyr's Speech at Noxwall)
