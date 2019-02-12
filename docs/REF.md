@@ -2,7 +2,7 @@
 title: Republic Expeditionary Forces
 summary: Main Page for Republic Expeditionary Forces
 authors: Juan P. Sierra
-date: 2019-02-11
+date: 2019-02-12
 ---
 
 # Republic Expeditionary Forces

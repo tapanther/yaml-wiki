@@ -2,7 +2,7 @@
 title: Gnolls
 summary: Main Page for Gnolls
 authors: Juan P. Sierra
-date: 2019-02-11
+date: 2019-02-12
 ---
 
 # Gnolls
@@ -57,15 +57,22 @@ Even more savage than a normal gnoll, Flesh Gnawers are capable of incredible bu
 
 The Pack Lord is the strongest and most intelligent gnoll within a Pack, having earned its position by taking down the previous Pack Lord in combat. Within a War Band, Pack Lords will fight for supremacy if no obvious leader emerges.
 
+
 ### Gnoll Fang of Yeenoghu
 
-Gnoll Fangs are Yeenoghu's representatives on the material plane. Although usually larger than a typical Pack Lord, Fangs are above the petty disputes of leadership, and occupy an almost religious role within a Pack.
+Where a gnoll has distinguished itself in the service of Yeenoghu, it may be rewarded with a demonic spirit, which transforms the gnoll into a Fang of Yeenoghu. A Gnoll Fang is not to be trifled with, as the demonic spirit within makes it a formidable foe.
 
-Gnoll Fangs have two main duties: interpreting Yeenoghu's will, and creating more gnolls.
+It is believed that Fangs are capble of creating new Gnolls from the hyenas that follow a pack, possibly due to their innate connection to the demon lord, though this duty is often left to a Gnoll Maw, if present.
 
-Fangs will perform all manners of arcane rituals, from interpreting the stars to reading the cracks of bones, to interpret the will of their Demon Lord. A Fang is the only gnoll capable of culling a Pack's savagery, as the only thing a gnoll truly fears is falling out of favor with Yeenoghu.
+### Gnoll Maw of Yeenoghu
 
-With regards to their second role, Gnoll Fangs are capable of channeling Yeenoghu's demonic spirit to breed new gnolls. After a hunt or battle, Fangs will perform a ritual over the uneaten remains of a corpse, and throw it to the hyenas that follow a Pack. After consuming the corrupted flesh, these hyenas will sprout into new gnolls. This can quickly replenish any losses the Pack took, and can even cause the Pack to split in two should it grow too large.
+Gnoll Maws are Yeenoghu's representatives on the material plane. Although usually larger than a typical Pack Lord, Maws are above the petty disputes of leadership, and occupy an almost religious role within a Pack.
+
+Gnoll Maws have two main duties: interpreting Yeenoghu's will, and creating more gnolls.
+
+Maws will perform all manners of arcane rituals, from interpreting the stars to reading the cracks of bones, to interpret the will of their Demon Lord. A Maw is the only gnoll capable of culling a Pack's savagery, as the only thing a gnoll truly fears is falling out of favor with Yeenoghu.
+
+With regards to their second role, Gnoll Maws are capable of channeling Yeenoghu's demonic spirit to breed new gnolls. After a hunt or battle, Maws will perform a ritual over the uneaten remains of a corpse, and throw it to the hyenas that follow a Pack. After consuming the corrupted flesh, these hyenas will sprout into new gnolls. This can quickly replenish any losses the Pack took, and can even cause the Pack to split in two should it grow too large.
 
 ### Flind
 

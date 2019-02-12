@@ -2,7 +2,7 @@
 title: Act 1 - The Ravenous Horde
 summary: Main Page for Act 1 - The Ravenous Horde
 authors: Juan P. Sierra
-date: 2019-02-11
+date: 2019-02-12
 ---
 
 # Act 1 - The Ravenous Horde

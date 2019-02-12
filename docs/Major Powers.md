@@ -2,7 +2,7 @@
 title: Major Powers
 summary: Main Page for Major Powers
 authors: Juan P. Sierra
-date: 2019-02-11
+date: 2019-02-12
 ---
 
 # Major Powers

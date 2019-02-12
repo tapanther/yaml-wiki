@@ -2,7 +2,7 @@
 title: Lyhl Habborhlyn
 summary: Character description for Lyhl Habborhlyn
 authors: Juan P. Sierra
-date: 2019-02-11
+date: 2019-02-12
 ---
 
 # Lyhl Habborhlyn

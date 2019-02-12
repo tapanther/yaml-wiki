@@ -2,7 +2,7 @@
 title: Baltatrax the Ravager
 summary: Character description for Baltatrax the Ravager
 authors: Juan P. Sierra
-date: 2019-02-11
+date: 2019-02-12
 ---
 
 # Baltatrax The Ravager

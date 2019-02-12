@@ -2,7 +2,7 @@
 title: Azoth the Wise
 summary: Character description for Azoth the Wise
 authors: Juan P. Sierra
-date: 2019-02-11
+date: 2019-02-12
 ---
 
 # Azoth The Wise

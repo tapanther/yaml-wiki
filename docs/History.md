@@ -2,7 +2,7 @@
 title: History
 summary: Main Page for History
 authors: Juan P. Sierra
-date: 2019-02-11
+date: 2019-02-12
 ---
 
 # History
