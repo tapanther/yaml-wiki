@@ -2,7 +2,7 @@
 title: Timeline
 summary: Combined Timeline from all pages
 authors: Juan P. Sierra
-date: 2019-02-12
+date: 2019-02-20
 hide_toc: true
 ---
 

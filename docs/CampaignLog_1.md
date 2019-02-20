@@ -2,7 +2,7 @@
 title: Act 1 - The Ravenous Horde
 summary: Main Page for Act 1 - The Ravenous Horde
 authors: Juan P. Sierra
-date: 2019-02-12
+date: 2019-02-20
 ---
 
 # Act 1 - The Ravenous Horde
@@ -108,7 +108,23 @@ Following the southbound tracks, the Party passes through an area with several m
 
 ---
 
-Arriving at an ancient abandoned mine, the party uses their owl's enhanced hearing to navigate the labyrinth of shafts and caverns, and discovers a demonic ritual being performed by the gnolls deep underground. A Fang of Yeenoghu leads the ritual with an idol of the demon lord. The sigils of Yeenoghu and [Baltatrax][Baltatrax the Ravager] are overlaid on the chamber floor, along with what appears to be a teleportation circle.
+Arriving at an ancient abandoned mine, the party uses their owl's enhanced hearing to navigate the labyrinth of shafts and caverns, and discovers a demonic ritual being performed by the gnolls deep underground. A Maw of Yeenoghu leads the ritual with an idol of the demon lord. The sigils of Yeenoghu and [Baltatrax][Baltatrax the Ravager] are overlaid on the chamber floor, along with what appears to be a teleportation circle.
+
+---
+
+## Session 6
+
+Using a packet of Dust of Disappearance to stealth, the Party successfully sneaks up on the gnoll shaman. With a quick lunge, Durgu rips the idol from the Maw's hands and passes it to an invisible Nykolai, who must now escape with the Idol. Before most of the gnolls can react, the Party's familiars, including Ava and Squiggles, rain down beads of fireballs on the surprised gnolls, quickly neutralizing most of them. Thanks to Tym's deception, the majority of the surviving gnolls begin to chase him instead of Nykolai. As Xalston and Durgu pick off the last of the Cultists and the Gnoll Maw, Nykolai begins making her way out of the chamber. Xalston and Durgu dimension door out of the chamber as the ritual begins to destabilize, but Nykolai is caught in the necrotic energy blast of the collapsing ritual, and barely manages to drag herself to shelter as the chamber ceiling caves in.
+
+---
+
+## Session 7
+
+With the Flind, the sole gnoll survivor, staring down Tym's neck and Nykolai badly wounded, the situation looked dire. Spending the last of their resources, Tym disengages and flees to avoid the Flind's attacks while Xalston hastens Durgu. With his newfound speed, Durgu quickly reaches the Flind, but is surprised by the ferocity of the gnoll's attacks, which nearly fell the half-orc in three sharp blows. Tym shrouds the area in Hunger of Hadar in order to buy everyone more time, which proves a wise decision, as it allows for the Party to regroup and rethink their plan. Durgu, spending a precious charge of the Horn of Valhalla, manages to summon eight berserker warrior spirits, who make short work of the Flind.
+
+---
+
+With the Flind defeated, the Party takes a short break to regain their senses, and identifies the Idol as an artifact from the Demon Lord Yeenoghu. After making their way to Lake Gilly to rest some more, the Party splits up, with Durgu heading off alone to track the rest of the gnoll pack while Xalston, Tym, and Nykolai head back to help defend [Noxwall][Noxwall] from the ongoing siege.
 
 
 

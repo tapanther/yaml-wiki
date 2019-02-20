@@ -2,7 +2,7 @@
 title: Gahrdynyr Trade House
 summary: Main Page for Gahrdynyr Trade House
 authors: Juan P. Sierra
-date: 2019-02-12
+date: 2019-02-20
 ---
 
 # Gahrdynyr Trade House

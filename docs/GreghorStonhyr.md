@@ -2,7 +2,7 @@
 title: Greghor Stonhyr
 summary: Character description for Greghor Stonhyr
 authors: Juan P. Sierra
-date: 2019-02-12
+date: 2019-02-20
 ---
 
 # Greghor Stonhyr

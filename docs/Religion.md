@@ -2,7 +2,7 @@
 title: Religion in Tritan
 summary: Main Page for Religion in Tritan
 authors: Juan P. Sierra
-date: 2019-02-12
+date: 2019-02-20
 ---
 
 # Religion In Tritan
