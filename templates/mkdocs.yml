@@ -11,7 +11,7 @@ theme:
     icon: 'account_balance'
 repo_name: 'tapanther/Tritan'
 repo_url: 'https://github.com/tapanther/Tritan'
-site_url: 'https://tapanther.github.io/Tritan/Prophesy/'
+site_url: 'https://tapanther.github.io/Tritan/'
 
 extra:
   disqus: 'tritan'
