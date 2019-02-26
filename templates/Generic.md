@@ -9,11 +9,11 @@ Main Page for {{ title }}
 {% endblock %}
 
 {%- block pagecontent %}
-{% if Description %}
+{% if GeneralInfo and GeneralInfo.Description and Content[0].separate %}
 
-{{ Description | autoLink }}
+---
 
-{% endif %}{# Description#}
+{% endif %}{# Description Separate #}
 {% for entry in Content %}
 {% if entry.separate and not loop.first %}
 
@@ -25,7 +25,11 @@ Main Page for {{ title }}
 
 {% endif %}
 {% if entry.Subtitle %}
+{% if control and 'subtitle_headings' in control %}
+### {{ entry.Subtitle }}
+{% else %}
 *{{ entry.Subtitle }}*
+{% endif %}
 
 {% endif %}{# Subtitle #}
 {% if entry.Text %}
@@ -34,25 +38,26 @@ Main Page for {{ title }}
 
 {% endif %}
 {% if entry.Table %}
-{% if entry.Table.Meta and entry.Table.Meta.Columns %}
+{% if entry.Table.Meta %}
 
 |{% for col in entry.Table.Meta.Columns %} {{ col }} |{% endfor %}
 
 |{% for col in entry.Table.Meta.Columns %}{% if not loop.last %}:---:|{% else %}:---|{% endif %}{% endfor %}
 
-{% for entry, resultArr in entry.Table.Rows.items() %}
-| {{ entry }} |{% for txt in resultArr %} {{ txt }} |{% endfor %}
+{% for resultArr in entry.Table.Meta.Rows %}
+|{% for txt in resultArr %} {{ txt }} |{% endfor %}
 
 {% endfor %}
 {% else %}
 
 | Roll | Result |
 |:----:|:-------|
-{% for roll, result in entry.Table|dictsort %}
+{% for roll, result in entry.Table|rollSort %}
 | {{roll}} | {{result}} |
 {% endfor %}
 
 {% endif %}
-{% endif %}
+{% endif %}{# Table #}
+
 {% endfor %}{# Content #}
 {% endblock %}

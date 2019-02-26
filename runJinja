@@ -76,7 +76,7 @@ env.filters['numberFormat'] = numberFormat
 env.filters['listText'] = listText
 
 #---------------------
-#
+# Custom Jinja Filters
 #---------------------
 @contextfilter
 def autoLink(ctx, rawText):
@@ -100,6 +100,29 @@ def sort_multi(L, *operators):
     return Ls
 
 env.filters['sort_multi'] = sort_multi
+
+def stringifyKeys(dictionary):
+    new_dict = dict((str(k), v) for k, v in dictionary.items())
+    return new_dict
+
+env.filters['stringifyKeys'] = stringifyKeys
+
+
+
+def humanSortIntFirst(txt):
+    if isinstance(txt, int):
+        number = txt
+        txt = str(number)
+    else:
+        numMatch = re.search(r'[0-9]+', txt).group(0)
+        number = int(numMatch) if numMatch is not None else -1
+    return (number, txt)
+
+def rollSort(dictionary):
+    sortedList = [(key, dictionary[key]) for key in sorted(dictionary, key=humanSortIntFirst)]
+    return sortedList
+
+env.filters['rollSort'] = rollSort
 
 #---------------------
 # Prepare the nav
