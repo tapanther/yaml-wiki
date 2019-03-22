@@ -2,29 +2,8 @@
 
 {% block site_nav %}
 
-  <!-- Main navigation -->
-  {% if nav %}
-    <div class="md-sidebar md-sidebar--primary"
-         data-md-component="navigation">
-      <div class="md-sidebar__scrollwrap">
-        <div class="md-sidebar__inner">
-          {% include "partials/nav.html" %}
-        </div>
-      </div>
-    </div>
-    {% endif %}
-  
-  <!-- Table of Contents -->
-  {% if page.toc and page.meta and not page.meta.hide_toc %}
-    <div class="md-sidebar md-sidebar--secondary"
-         data-md-component="toc">
-      <div class="md-sidebar__scrollwrap">
-        <div class="md-sidebar__inner">
-          {% include "partials/toc.html" %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
+{{ super() }}
+
 {% endblock %}
 
 {% block extrahead %}
@@ -32,3 +11,5 @@
     <link rel="stylesheet" type="text/css" href="{{ 'stylesheets/hide_toc.css' | url }}" >
 {% endif %}
 {% endblock %}
+
+    
