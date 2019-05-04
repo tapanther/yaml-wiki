@@ -166,7 +166,7 @@ for path in Path(args.lib).glob('**/*.yml'):
 
     
     with open(path) as y_file:
-        y_data = yaml.load(y_file)
+        y_data = yaml.load(y_file, Loader=yaml.FullLoader)
 
     outpath = PurePath(args.output, path.stem).with_suffix('.md')
 
