@@ -18,6 +18,7 @@ extra:
 
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
 
 nav:
   - Home : index.md
