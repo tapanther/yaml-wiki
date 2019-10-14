@@ -11,11 +11,12 @@ from pathlib import Path, PurePath
 from jinja2 import Environment, FileSystemLoader, contextfilter
 from shutil import copytree, rmtree
 from os import symlink
-from anytree import Node, RenderTree, Resolver
+from anytree import Node, RenderTree, Resolver, PreOrderIter, LevelOrderIter, LevelOrderGroupIter
 from anytree.search import find_by_attr as findNode
 from anytree.resolver import ResolverError, ChildResolverError
 from anytree.exporter import DictExporter
 from anytree.iterators import PreOrderIter
+from anytree.render import AsciiStyle
 
 #---------------------
 # Parse Arguments
@@ -69,6 +70,7 @@ def listText(text):
 
 env = Environment(
     loader=FileSystemLoader(args.templates),
+    extensions=['jinja2.ext.do'],
     trim_blocks = True,
     lstrip_blocks = True
 )
@@ -109,6 +111,13 @@ def stringifyKeys(dictionary):
 env.filters['stringifyKeys'] = stringifyKeys
 
 
+def getTreeDirectChildren(tree):
+    childless = [[node for node in children] for children in LevelOrderGroupIter(tree,
+                                                                                 filter_=lambda n: not n.children)][1]
+    childed = [[node for node in children] for children in LevelOrderGroupIter(tree, filter_=lambda n: n.children)][1]
+    return childless + childed
+    
+env.filters['getTreeDirectChildren'] = getTreeDirectChildren
 
 def humanSortIntFirst(txt):
     if isinstance(txt, int):

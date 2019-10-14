@@ -11,14 +11,18 @@
 
 
 {% macro printTreeLinks(tree, level) %}
+{% set cats = [] %}
 {% if tree.children %}
-{{ ( '- **' + tree.name + '**') | indent(4*level, true) }}
-{% for child in tree.children | sort(attribute='name') if not child.noLink %}
-{{ printTreeLinks(child, level+1 ) }}
-{%- endfor %}
+{% do cats.append(tree) %}
 {% else %}
 {{ ('- [' + tree.name + '][]') | indent(4*level, true) }}
 {% endif %}
+{% for cat in cats %}
+{{ ( '- **' + cat.name + '**') | indent(4*level, true) }}
+{% for child in cat.children | sort(attribute='name') if not child.noLink %}
+{{ printTreeLinks(child, level+1 ) }}
+{%- endfor %}
+{%- endfor %}
 {% endmacro %}
 
 

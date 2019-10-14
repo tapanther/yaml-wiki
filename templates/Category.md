@@ -19,7 +19,7 @@ Main Page for {{ title }}
 
 {% block pagecontent %}
 ## Pages in {{ title }}
-{% for child in navTree.children | sort_multi('parent', 'name') if not child.noLink %}
+{% for child in navTree|getTreeDirectChildren if not child.noLink %}
 {{ macros.printCatLinks(child, 0) }}
 {%- endfor %}
 {% endblock %}
