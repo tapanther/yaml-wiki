@@ -10,6 +10,7 @@ from datetime import datetime
 from pathlib import Path, PurePath
 from jinja2 import Environment, FileSystemLoader, contextfilter
 from shutil import copytree, rmtree
+from os import symlink
 from anytree import Node, RenderTree, Resolver
 from anytree.search import find_by_attr as findNode
 from anytree.resolver import ResolverError, ChildResolverError
@@ -129,7 +130,7 @@ env.filters['rollSort'] = rollSort
 #---------------------
 
 def ageDecode(event):
-    map = {'KAL' : 1, 'IDE' : 20, 'NON' : 28, 'X' : 2}
+    map_ = {'KAL' : 1, 'IDE' : 20, 'NON' : 28, 'X' : 2}
     ageStr = event['Date']
     ageList = ageStr.split(' ')
     ageList.extend(['0KAL','0KAL','0KAL'])
@@ -140,7 +141,7 @@ def ageDecode(event):
     except ValueError:
         day = 1
     mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', ageList[2])
-    ageList[2] = (32 - map[mark] - (day - 2)) % 31
+    ageList[2] = (32 - map_[mark] - (day - 2)) % 31
     return (ageList[0], ageList[1], ageList[2])
 
 
@@ -304,5 +305,6 @@ with open(index, 'w') as indexFile:
 
 
 libpath = Path('lib')
-copytree(libpath.joinpath('img'), outdir.joinpath('img'))
-copytree(libpath.joinpath('stylesheets'), outdir.joinpath('stylesheets'))
+
+symlink(Path('..').joinpath(libpath.joinpath('img')), outdir.joinpath('img'), target_is_directory=True)
+symlink(Path('..').joinpath(libpath.joinpath('stylesheets')), outdir.joinpath('stylesheets'), target_is_directory=True)
