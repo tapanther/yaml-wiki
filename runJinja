@@ -115,6 +115,9 @@ def getTreeDirectChildren(tree):
     childless = [[node for node in children] for children in LevelOrderGroupIter(tree,
                                                                                  filter_=lambda n: not n.children)][1]
     childed = [[node for node in children] for children in LevelOrderGroupIter(tree, filter_=lambda n: n.children)][1]
+    # Sort the lists
+    childless.sort(key=lambda x: x.name)
+    childed.sort(key=lambda x: x.name)
     return childless + childed
     
 env.filters['getTreeDirectChildren'] = getTreeDirectChildren
