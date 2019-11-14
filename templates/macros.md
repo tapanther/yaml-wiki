@@ -1,7 +1,7 @@
 {% macro printTreeYAML(tree, level) %}
 {% if tree.children %}
 {{ ( '- ' + tree.name ) | indent(2*level, true) }} :
-{% for child in tree.children | sort(attribute='name') if not child.noLink %}
+{% for child in tree | getTreeDirectChildren if not child.noLink %}
 {{ printTreeYAML(child, level+1 ) }}
 {%- endfor %}
 {% else %}
@@ -30,7 +30,7 @@
 {% if tree.children %}
 {{ '#' * (level + 2) }}  {{ tree.name }}
 
-{% for child in tree.children | sort(attribute='name') if not child.noLink %}
+{% for child in tree | getTreeDirectChildren if not child.noLink %}
 {{ printCatLinks(child, level+1 ) }}
 {%- endfor %}
 {% else %}

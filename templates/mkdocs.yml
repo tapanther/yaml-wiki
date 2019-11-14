@@ -22,7 +22,7 @@ markdown_extensions:
 
 nav:
   - Home : index.md
-{% for child in navTree.children | sort_multi('parent', 'name') if not child.noLink %}
+{% for child in navTree|getTreeDirectChildren if not child.noLink %}
 {{ macros.printTreeYAML(child, 1) }}
 {%- endfor %}
   - Categories :

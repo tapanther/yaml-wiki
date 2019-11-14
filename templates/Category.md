@@ -18,7 +18,7 @@ Main Page for {{ title }}
 {% endblock %}
 
 {% block pagecontent %}
-## Pages in {{ title }}
+## Uncategorized
 {% for child in navTree|getTreeDirectChildren if not child.noLink %}
 {{ macros.printCatLinks(child, 0) }}
 {%- endfor %}
