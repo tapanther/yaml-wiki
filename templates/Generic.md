@@ -32,6 +32,11 @@ Main Page for {{ title }}
 {% endif %}
 
 {% endif %}{# Subtitle #}
+{% if entry.Diagram %}
+
+{{ entry.Diagram }}
+
+{% endif %}{# Diagram #}
 {% if entry.Text %}
 
 {{ entry.Text | autoLink }}

@@ -320,3 +320,4 @@ libpath = Path('lib')
 
 symlink(Path('..').joinpath(libpath.joinpath('img')), outdir.joinpath('img'), target_is_directory=True)
 symlink(Path('..').joinpath(libpath.joinpath('stylesheets')), outdir.joinpath('stylesheets'), target_is_directory=True)
+symlink(Path('..').joinpath(libpath.joinpath('js')), outdir.joinpath('js'), target_is_directory=True)

@@ -14,6 +14,11 @@ Main Page for {{ title }}
 
 {% if Structure.Governance %}
 ### Governnance
+{% if Structure.Diagrams and Structure.Diagrams.Governance %}
+
+{{ Structure.Diagrams.Governance }}
+
+{% endif %}{# GovDiagram #}
 
 {{ Structure.Governance | autoLink }}
 

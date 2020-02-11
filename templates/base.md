@@ -37,6 +37,11 @@ date: {{ date }}
     - {{ trait }}
 {% endfor %}
 {% endif %}{# Traits #}
+{% if GeneralInfo.Diagram %}
+
+{{ GeneralInfo.Diagram }}
+
+{% endif %}{# Diagram #}
 {% if GeneralInfo.Description %}
 ### Description
 
