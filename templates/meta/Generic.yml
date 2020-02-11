@@ -5,10 +5,26 @@ title : TEXT
 GeneralInfo :
   Description: >-
     TEXT
+  Diagram : |
+    ```
+    ```
 Content:
   -
     separate: BOOL
     Subtitle: TEXT
     Title: TEXT
-    Text: |
+    Text: >-
       TEXT
+    Diagram: |
+      ```
+      ```
+    Table :
+      "# - #" : TEXT
+      Meta : 
+        Columns :
+          - COL1
+          - COL2
+        Rows :
+          -
+            - ROW1COL1
+            - ROW2COL2

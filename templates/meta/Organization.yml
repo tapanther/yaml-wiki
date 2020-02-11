@@ -9,6 +9,9 @@ GeneralInfo :
     Allegiance : TEXT
   Description : >-
     TEXT
+  Diagram : |
+    ```
+    ```
 Structure :
   Governance : >-
       TEXT
@@ -21,6 +24,10 @@ Structure :
   Associations :
     NAME : >-
       TEXT
+  Diagrams :
+    NAME : |
+      ```
+      ```
 Culture :
   Description : >-
     TEXT

@@ -18,15 +18,15 @@ extra:
 
 extra_css:
   - stylesheets/uml.css
-  - https://unpkg.com/mermaid@8.4.6/dist/mermaid.css
   
 extra_javascript:
   - js/uml.js
+  - js/mermaid.min.js
+#  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.6/mermaid.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js
   - https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js
   - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.13.0/flowchart.min.js
-  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.6/mermaid.min.js
 
 markdown_extensions:
   - admonition

@@ -11,6 +11,9 @@ GeneralInfo :
     - LIST
   Description : >-
     TEXT
+  Diagram : |
+    ```
+    ```
 Society :
   Government : >-
       TEXT
@@ -20,6 +23,10 @@ Society :
   Organizations:
     NAME : >-
       TEXT
+  Diagrams :
+    NAME : |
+      ```
+      ```
 Culture :
   Description : >-
     TEXT
