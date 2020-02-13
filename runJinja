@@ -18,6 +18,10 @@ from anytree.exporter import DictExporter
 from anytree.iterators import PreOrderIter
 from anytree.render import AsciiStyle
 
+
+import pprint
+_pp = pprint.PrettyPrinter(indent=1).pprint
+
 #---------------------
 # Parse Arguments
 #---------------------
@@ -25,17 +29,10 @@ from anytree.render import AsciiStyle
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
-    '-t',
-    '--templates',
-    default = './templates',
-    help = 'Directory path to get templates from.'
-)
-
-parser.add_argument(
-    '-l',
-    '--lib',
-    default = './lib',
-    help = 'Directory to get YAML inputs.'
+    '-y',
+    '--yaml-cfg',
+    default = 'wiki.yml',
+    help = 'Wiki configuration file, in lieu of passed options.'
 )
 
 parser.add_argument(
@@ -45,7 +42,56 @@ parser.add_argument(
     help = 'Output root directory.'
 )
 
+parser.add_argument(
+    '-t',
+    '--templates',
+    default = './templates',
+    help = 'Directory path to get custom templates from.'
+)
+
+parser.add_argument(
+    '-l',
+    '--lib',
+    default = './lib',
+    help = 'Root library directory.'
+)
+
+parser.add_argument(
+    '--stylesheets',
+    help = 'Directory relative to --lib to get custom stylesheets. Note: stylesheets must be added to mkdocs.yml.j2'
+)
+
+parser.add_argument(
+    '--js',
+    help = 'Directory relative to --lib to get custom javascript. Note: js must be added to mkdocs.yml.j2'
+)
+
+parser.add_argument(
+    '--img',
+    help = 'Directory relative to --lib to get custom images.'
+)
+
+parser.add_argument(
+    '-v',
+    '--verbose',
+    default = 0,
+    action = 'count',
+    help = 'Print debug information.'
+)
+
 args = parser.parse_args()
+
+wikiCfg = Path(args.yaml_cfg)
+if wikiCfg.exists():
+    with open(wikiCfg, 'r') as wikiCfg_file:
+        cfg_data = yaml.load(wikiCfg_file, Loader=yaml.FullLoader)
+
+    for key, value in cfg_data.items():
+        cmdVal = getattr(args, key, None)
+        if cmdVal is None:
+            setattr(args, key, value)
+        else:
+            print(f'{key} from WikiCfg overridden by command line: {cmdVal}')
 
 outdir = Path(args.output)
 if outdir.exists():
@@ -68,8 +114,11 @@ def numberFormat(value):
 def listText(text):
     return '\n    '.join(text.split('\n'))
 
+# Add in the default library
+templateLib = [args.templates, './yaml-wiki/templates']
+
 env = Environment(
-    loader=FileSystemLoader(args.templates),
+    loader=FileSystemLoader(templateLib),
     extensions=['jinja2.ext.do'],
     trim_blocks = True,
     lstrip_blocks = True
@@ -177,6 +226,8 @@ def resolveTreeNode(tree, pathStr):
 
 for path in Path(args.lib).glob('**/*.yml'):
 
+    if args.verbose > 3:
+        print(path)
     
     with open(path) as y_file:
         y_data = yaml.load(y_file, Loader=yaml.FullLoader)
@@ -216,11 +267,11 @@ for path in Path(args.lib).glob('**/*.yml'):
             timelineStruct.append(event)
 
 
-#---------------------
-# Write the Timeline
-#---------------------
+#-----------------------
+# Generate the Timeline
+#-----------------------
 
-template = env.get_template('Timeline.md')
+timelineTemplate = env.get_template('Timeline.md')
 timeline = Path('./docs', 'Timeline.md')
 
 
@@ -232,9 +283,8 @@ node.noAutoLink = False
 
 timelineSorted = sorted(timelineStruct, key=ageDecode)
 
-with open(timeline, 'w') as timelineFile:
-    timelineFile.write(template.render(timeline = timelineSorted, date=date))
-
+if args.verbose > 3:
+    _pp(timelineSorted)
 
 #---------------------
 # Prepare AutoLinker
@@ -264,6 +314,16 @@ template = env.get_template('links.j2')
 with open(links, 'w') as linkFile:
     linkFile.write(template.render(fileLinks = fileLinks))
 
+
+
+#---------------------
+# Write Timeline
+#---------------------
+
+with open(timeline, 'w') as timelineFile:
+    timelineRender = timelineTemplate.render(timeline = timelineSorted, date=date)
+    timelineFile.write(timelineRender)
+    
     
 #---------------------
 # Run Templater
@@ -297,7 +357,7 @@ for category in navTree.children:
 # Write the config
 #---------------------
 
-template = env.get_template('mkdocs.yml')
+template = env.get_template('mkdocs.yml.j2')
 config = Path('mkdocs.yml')
 with open(config, 'w') as configFile:
     configFile.write(template.render(navTree = navTree))
@@ -316,8 +376,16 @@ with open(index, 'w') as indexFile:
                                     date = date))
 
 
-libpath = Path('lib')
+libpath = Path('..', args.lib)
 
-symlink(Path('..').joinpath(libpath.joinpath('img')), outdir.joinpath('img'), target_is_directory=True)
-symlink(Path('..').joinpath(libpath.joinpath('stylesheets')), outdir.joinpath('stylesheets'), target_is_directory=True)
-symlink(Path('..').joinpath(libpath.joinpath('js')), outdir.joinpath('js'), target_is_directory=True)
+symlink(Path('../yaml-wiki/lib/stylesheets'), outdir.joinpath('stylesheets_lib'), target_is_directory=True)
+symlink(Path('../yaml-wiki/lib/js'), outdir.joinpath('js_lib'), target_is_directory=True)
+
+if args.js:
+    symlink(libpath.joinpath(args.js), outdir.joinpath(args.js), target_is_directory=True)
+
+if args.stylesheets:
+    symlink(libpath.joinpath(args.stylesheets), outdir.joinpath(args.stylesheets), target_is_directory=True)
+
+if args.img:
+    symlink(libpath.joinpath(args.img), outdir.joinpath(args.img), target_is_directory=True)

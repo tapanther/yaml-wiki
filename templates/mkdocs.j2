@@ -1,27 +1,31 @@
 {% import 'macros.md' as macros with context %}
-site_name: Tritan
+{% block site %}
+
+site_name: ''
 theme:
   name: material
-  custom_dir: 'theme'
+  custom_dir: 'yaml-wiki/theme'
   palette:
     primary: blue
     accent: blue
   favicon: 'img/favicon.ico'
   logo:
     icon: 'account_balance'
-repo_name: 'tapanther/Tritan'
-repo_url: 'https://github.com/tapanther/Tritan'
-site_url: 'https://tapanther.github.io/Tritan/'
+repo_name: ''
+repo_url: ''
+site_url: ''
 
 extra:
   disqus: 'tritan'
 
+{% endblock %}
+  
 extra_css:
-  - stylesheets/uml.css
+  - stylesheets_lib/uml.css
   
 extra_javascript:
-  - js/uml.js
-  - js/mermaid.min.js
+  - js_lib/uml.js
+  - js_lib/mermaid.min.js
 #  - https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.6/mermaid.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js
