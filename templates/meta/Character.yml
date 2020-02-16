@@ -16,3 +16,6 @@ Occupation :
   Location : TEXT
 Description : >-
   TEXT
+NotableEvents :
+  TEXT : >-
+    TEXT

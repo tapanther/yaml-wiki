@@ -28,5 +28,13 @@ Character description for {{ title }}
 
 {{ Description | autoLink }}
 {% endif %}{# Description #}
+{% if NotableEvents %}
+## Notable Events
+
+{% filter autoLink %}
+{{ macros.dictList(NotableEvents) }}
+{% endfilter %}
+
+{% endif %}{# Notable Events #}
 {% endblock pagecontent %}
 

@@ -26,19 +26,25 @@ Main Page for {{ title }}
 {% if Structure.Locations %}
 ### Notable Locations
 
+{% filter autoLink %}
 {{ macros.dictList(Structure.Locations) }}
+{% endfilter %}
 
 {% endif %}{# Locations #}
 {% if Structure.Members %}
 ### Notable Members
 
+{% filter autoLink %}
 {{ macros.dictList(Structure.Members) }}
+{% endfilter %}
 
 {% endif %}{# Members #}
 {% if Structure.Associations %}
 ### Organization Associations
 
+{% filter autoLink %}
 {{ macros.dictSection(Structure.Associations) }}
+{% endfilter %}
 
 {% endif %}{# Associations #}
 {% endif %}{# Structure #}

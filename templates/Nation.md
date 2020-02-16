@@ -26,13 +26,17 @@ Main Page for {{ title }}
 {% if Society.Locations %}
 ### Notable Locations
 
+{% filter autoLink %}
 {{ macros.dictList(Society.Locations) }}
+{% endfilter %}
 
 {% endif %}{# Locations #}
 {% if Society.Organizations %}
 ### Prominent Figures and Organizations
 
+{% filter autoLink %}
 {{ macros.dictSection(Society.Organizations) }}
+{% endfilter %}
 
 {% endif %}{# Organizations #}
 {% endif %}{# Society #}
@@ -65,18 +69,21 @@ Main Page for {{ title }}
 {% if Culture.Religion %}
 ### Religion
 
-{{ Culture.Religion }}
+{{ Culture.Religion|autoLink }}
 
 {% endif %}{# Religion #}
 {% if Culture.Traditions %}
 ### Traditions
 
+{% filter autoLink %}
 {{ macros.dictList(Culture.Traditions) }}
+{% endfilter %}
 
 {% endif %}{# Traditions #}
 {% if Culture.Heroes or Culture.Villains %}
 ### Heroes & Villains
 
+{% filter autoLink %}
 {% if Culture.Heroes %}
 #### Heroes
 
@@ -89,6 +96,7 @@ Main Page for {{ title }}
 {{ macros.dictList(Culture.Villains) }}
 
 {% endif %}{# Villains #}
+{% endfilter %}
 {% endif %}{# Heroes or Villains #}
 {% endif %}{# Culture #}
 {% endblock %}

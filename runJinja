@@ -226,6 +226,9 @@ def resolveTreeNode(tree, pathStr):
 
 for path in Path(args.lib).glob('**/*.yml'):
 
+    if '.#' in str(path):
+        continue
+
     if args.verbose > 3:
         print(path)
     
@@ -248,8 +251,8 @@ for path in Path(args.lib).glob('**/*.yml'):
     node.file = str(rFile)
     node.noLink = ('control' in y_data and 'no_link' in y_data['control'])
     node.noAutoLink = ('control' in y_data and 'no_autolink' in y_data['control'])
-    if 'altLink' in y_data:
-        node.altLink = y_data['altLink']
+    if 'altLinks' in y_data:
+        node.altLinks = y_data['altLinks']
 
     
     # Gather timeline information for a common timeline
@@ -298,9 +301,10 @@ for node in PreOrderIter(navTree):
                           'file' : node.file})
         linkedList.append({'text' : node.title,
                            'link' : node.title})
-        if hasattr(node, 'altLink'):
-            linkedList.append({'text' : node.altLink,
-                               'link' : node.title})
+        if hasattr(node, 'altLinks'):
+            for altLink in node.altLinks:
+                linkedList.append({'text' : altLink,
+                                   'link' : node.title})
 globalLinks = sorted(linkedList, key = lambda k: len(k['text']), reverse = True)
                                
     

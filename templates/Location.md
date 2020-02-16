@@ -19,13 +19,17 @@ Main Page for {{ title }}
 {% if Geography.Features %}
 ### Notable Featires
 
+{% filter autoLink %}
 {{ macros.dictList(Geography.Features) }}
+{% endfilter %}
 
 {% endif %}{# Features #}
 {% if Geography.Settlements %}
 ### Notable Settlements
 
+{% filter autoLink %}
 {{ macros.dictSection(Geography.Settlements) }}
+{% endfilter %}
 
 {% endif %}{# Settlements #}
 {% endif %}{# Geography #}
