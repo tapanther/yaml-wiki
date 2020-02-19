@@ -146,6 +146,24 @@ def autoLink(ctx, rawText):
 
 env.filters['autoLink'] = autoLink
 
+@contextfilter
+def relativeLink(ctx, rawText):
+    myTitle = ctx.resolve('title')
+    for linkTarget in globalLinks:
+        searchText = linkTarget['text']
+        linkText = linkTarget['file'].split('.', 1)[0]
+        if (linkText != myTitle):
+            searchPattern = f'(click .*?) "({searchText}(\'?s?)?)"'
+            replaceText = f'\g<1> "../{linkText}/"'
+            rawText = re.sub(searchPattern, replaceText, rawText)
+    unresolvedText = r'click .*? "((?!\.\./).*?)"'
+    unresolvedLinks = re.findall(unresolvedText, rawText)
+    if unresolvedLinks:
+        for uLinkMatch in unresolvedLinks:
+            print(f':W: Unresolved mermaid link in {ctx.resolve("yml_file")} : {uLinkMatch}')
+    return rawText
+    
+env.filters['relativeLink'] = relativeLink
 
 def sort_multi(L, *operators):
     Ls = sorted(L, key=operator.attrgetter(*operators))
@@ -235,6 +253,8 @@ for path in Path(args.lib).glob('**/*.yml'):
     with open(path) as y_file:
         y_data = yaml.load(y_file, Loader=yaml.FullLoader)
 
+    y_data['yml_file'] = path.name
+        
     outpath = PurePath(args.output, path.stem).with_suffix('.md')
 
     md_lib.append({'path' : outpath, 'data' : y_data})
@@ -300,11 +320,13 @@ for node in PreOrderIter(navTree):
         fileLinks.append({'title' : node.title,
                           'file' : node.file})
         linkedList.append({'text' : node.title,
-                           'link' : node.title})
+                           'link' : node.title,
+                           'file' : node.file})
         if hasattr(node, 'altLinks'):
             for altLink in node.altLinks:
                 linkedList.append({'text' : altLink,
-                                   'link' : node.title})
+                                   'link' : node.title,
+                                   'file' : node.file})
 globalLinks = sorted(linkedList, key = lambda k: len(k['text']), reverse = True)
                                
     
@@ -337,6 +359,9 @@ for entry in md_lib:
     outpath = entry['path']
     
     y_data = entry['data']
+
+    if 'yml_file' not in y_data:
+        _pp(y_data)
 
     template = env.get_template(y_data['template'])
 

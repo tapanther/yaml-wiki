@@ -16,7 +16,7 @@ Main Page for {{ title }}
 ### Government
 {% if Society.Diagrams and Society.Diagrams.Government %}
 
-{{ Society.Diagrams.Government }}
+{{ Society.Diagrams.Government|relativeLink }}
 
 {% endif %}
 

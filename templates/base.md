@@ -39,7 +39,7 @@ date: {{ date }}
 {% endif %}{# Traits #}
 {% if GeneralInfo.Diagram %}
 
-{{ GeneralInfo.Diagram }}
+{{ GeneralInfo.Diagram|relativeLink }}
 
 {% endif %}{# Diagram #}
 {% if GeneralInfo.Description %}

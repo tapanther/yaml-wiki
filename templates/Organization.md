@@ -16,7 +16,7 @@ Main Page for {{ title }}
 ### Governnance
 {% if Structure.Diagrams and Structure.Diagrams.Governance %}
 
-{{ Structure.Diagrams.Governance }}
+{{ Structure.Diagrams.Governance|relativeLink }}
 
 {% endif %}{# GovDiagram #}
 
