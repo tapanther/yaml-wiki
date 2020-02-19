@@ -1,13 +1,13 @@
 #! /usr/bin/env python3
 
-import sys
 import argparse
 import yaml
-import operator
 import re
+import warnings
 
+from operator import attrgetter
 from datetime import datetime
-from pathlib import Path, PurePath
+from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, contextfilter
 from shutil import copytree, rmtree
 from os import symlink
@@ -15,7 +15,6 @@ from anytree import Node, RenderTree, Resolver, PreOrderIter, LevelOrderIter, Le
 from anytree.search import find_by_attr as findNode
 from anytree.resolver import ResolverError, ChildResolverError
 from anytree.exporter import DictExporter
-from anytree.iterators import PreOrderIter
 from anytree.render import AsciiStyle
 
 
@@ -39,21 +38,21 @@ parser.add_argument(
     '-o',
     '--output',
     default = './docs',
-    help = 'Output root directory.'
+    help = 'Output root directory. Defaults to "./docs"'
 )
 
 parser.add_argument(
     '-t',
     '--templates',
     default = './templates',
-    help = 'Directory path to get custom templates from.'
+    help = 'Directory path to get custom templates from. Defaults to "./templates"'
 )
 
 parser.add_argument(
     '-l',
     '--lib',
     default = './lib',
-    help = 'Root library directory.'
+    help = 'Root library directory. Defaults to "./lib"'
 )
 
 parser.add_argument(
@@ -91,7 +90,8 @@ if wikiCfg.exists():
         if cmdVal is None:
             setattr(args, key, value)
         else:
-            print(f'{key} from WikiCfg overridden by command line: {cmdVal}')
+            msg = f'{key} from WikiCfg overridden by command line: {cmdVal}'
+            warnings.warn(msg)
 
 outdir = Path(args.output)
 if outdir.exists():
@@ -160,13 +160,14 @@ def relativeLink(ctx, rawText):
     unresolvedLinks = re.findall(unresolvedText, rawText)
     if unresolvedLinks:
         for uLinkMatch in unresolvedLinks:
-            print(f':W: Unresolved mermaid link in {ctx.resolve("yml_file")} : {uLinkMatch}')
+            msg = f'Unresolved mermaid link in {ctx.resolve("yml_file")} : {uLinkMatch}'
+            warnings.warn(msg)
     return rawText
     
 env.filters['relativeLink'] = relativeLink
 
 def sort_multi(L, *operators):
-    Ls = sorted(L, key=operator.attrgetter(*operators))
+    Ls = sorted(L, key=attrgetter(*operators))
     return Ls
 
 env.filters['sort_multi'] = sort_multi
@@ -255,7 +256,7 @@ for path in Path(args.lib).glob('**/*.yml'):
 
     y_data['yml_file'] = path.name
         
-    outpath = PurePath(args.output, path.stem).with_suffix('.md')
+    outpath = Path(args.output, path.stem).with_suffix('.md')
 
     md_lib.append({'path' : outpath, 'data' : y_data})
 
@@ -263,7 +264,7 @@ for path in Path(args.lib).glob('**/*.yml'):
     # Assemble the nav
     #---------------------
 
-    rFile = PurePath(outpath.name)
+    rFile = Path(outpath.name)
 
     node = resolveTreeNode(navTree, f"/Root/{y_data['node']}/{y_data['title']}")
 
@@ -359,9 +360,6 @@ for entry in md_lib:
     outpath = entry['path']
     
     y_data = entry['data']
-
-    if 'yml_file' not in y_data:
-        _pp(y_data)
 
     template = env.get_template(y_data['template'])
 
