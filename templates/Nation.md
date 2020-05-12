@@ -16,17 +16,17 @@ Main Page for {{ title }}
 ### Government
 {% if Society.Diagrams and Society.Diagrams.Government %}
 
-{{ Society.Diagrams.Government|relativeLink }}
+{{ Society.Diagrams.Government|relative_link }}
 
 {% endif %}
 
-{{ Society.Government | autoLink }}
+{{ Society.Government | auto_link }}
 
 {% endif %}{# Government #}
 {% if Society.Locations %}
 ### Notable Locations
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictList(Society.Locations) }}
 {% endfilter %}
 
@@ -34,7 +34,7 @@ Main Page for {{ title }}
 {% if Society.Organizations %}
 ### Prominent Figures and Organizations
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictSection(Society.Organizations) }}
 {% endfilter %}
 
@@ -43,7 +43,7 @@ Main Page for {{ title }}
 {% if Culture %}
 ## Culture
 
-{{ Culture.Description | autoLink }}
+{{ Culture.Description | auto_link }}
 
 {% if Culture.CoreBeliefs %}
 ### Core Beliefs
@@ -69,13 +69,13 @@ Main Page for {{ title }}
 {% if Culture.Religion %}
 ### Religion
 
-{{ Culture.Religion|autoLink }}
+{{ Culture.Religion|auto_link }}
 
 {% endif %}{# Religion #}
 {% if Culture.Traditions %}
 ### Traditions
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictList(Culture.Traditions) }}
 {% endfilter %}
 
@@ -83,7 +83,7 @@ Main Page for {{ title }}
 {% if Culture.Heroes or Culture.Villains %}
 ### Heroes & Villains
 
-{% filter autoLink %}
+{% filter auto_link %}
 {% if Culture.Heroes %}
 #### Heroes
 

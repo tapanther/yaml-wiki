@@ -13,13 +13,13 @@ Main Page for {{ title }}
 ## Geography
 
 {% if Geography.Description %}
-{{ Geography.Description | autoLink }}
+{{ Geography.Description | auto_link }}
 
 {% endif %}{# Description #}
 {% if Geography.Features %}
 ### Notable Featires
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictList(Geography.Features) }}
 {% endfilter %}
 
@@ -27,7 +27,7 @@ Main Page for {{ title }}
 {% if Geography.Settlements %}
 ### Notable Settlements
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictSection(Geography.Settlements) }}
 {% endfilter %}
 

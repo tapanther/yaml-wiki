@@ -22,7 +22,7 @@ date: {{ date }}
 {% endif %}{# GeneralInfo Header #}
 {% if GeneralInfo.Statistics %}
 {% for stat, data in GeneralInfo.Statistics | dictsort %}
-- {{ stat | capitalize }} : {{ data | numberFormat }}
+- {{ stat | capitalize }} : {{ data | number_format }}
 {% endfor %}
 {% endif %}{# Statistics #}
 {% if GeneralInfo.Ethics %}
@@ -39,13 +39,13 @@ date: {{ date }}
 {% endif %}{# Traits #}
 {% if GeneralInfo.Diagram %}
 
-{{ GeneralInfo.Diagram|relativeLink }}
+{{ GeneralInfo.Diagram|relative_link }}
 
 {% endif %}{# Diagram #}
 {% if GeneralInfo.Description %}
 ### Description
 
-{{ GeneralInfo.Description | autoLink }}
+{{ GeneralInfo.Description | auto_link }}
 
 {% endif %}{# Description #}
 {% endif %}{# GeneralInfo #}
@@ -61,7 +61,7 @@ date: {{ date }}
 {% if History.Description %}
 ### Historical Account
 
-{{ History.Description | autoLink }}
+{{ History.Description | auto_link }}
 {% endif %}{# Description #}
 {% if History.Timeline %}
 ### Timeline

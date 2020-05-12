@@ -16,17 +16,17 @@ Main Page for {{ title }}
 ### Governnance
 {% if Structure.Diagrams and Structure.Diagrams.Governance %}
 
-{{ Structure.Diagrams.Governance|relativeLink }}
+{{ Structure.Diagrams.Governance|relative_link }}
 
 {% endif %}{# GovDiagram #}
 
-{{ Structure.Governance | autoLink }}
+{{ Structure.Governance | auto_link }}
 
 {% endif %}{# Governance #}
 {% if Structure.Locations %}
 ### Notable Locations
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictList(Structure.Locations) }}
 {% endfilter %}
 
@@ -34,7 +34,7 @@ Main Page for {{ title }}
 {% if Structure.Members %}
 ### Notable Members
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictList(Structure.Members) }}
 {% endfilter %}
 
@@ -42,7 +42,7 @@ Main Page for {{ title }}
 {% if Structure.Associations %}
 ### Organization Associations
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictSection(Structure.Associations) }}
 {% endfilter %}
 
@@ -51,7 +51,7 @@ Main Page for {{ title }}
 {% if Culture %}
 ## Culture
 
-{{ Culture.Description | autoLink }}
+{{ Culture.Description | auto_link }}
 
 {% if Culture.Values %}
 ### Values

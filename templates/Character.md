@@ -26,12 +26,12 @@ Character description for {{ title }}
 {% if Description %}
 ## Description
 
-{{ Description | autoLink }}
+{{ Description | auto_link }}
 {% endif %}{# Description #}
 {% if NotableEvents %}
 ## Notable Events
 
-{% filter autoLink %}
+{% filter auto_link %}
 {{ macros.dictList(NotableEvents) }}
 {% endfilter %}
 

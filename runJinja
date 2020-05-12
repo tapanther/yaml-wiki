@@ -9,196 +9,197 @@ from operator import attrgetter
 from datetime import datetime
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader, contextfilter
-from shutil import copytree, rmtree
+from shutil import rmtree
 from os import symlink
-from anytree import Node, RenderTree, Resolver, PreOrderIter, LevelOrderIter, LevelOrderGroupIter
-from anytree.search import find_by_attr as findNode
+from anytree import Node, RenderTree, Resolver, PreOrderIter, LevelOrderGroupIter
 from anytree.resolver import ResolverError, ChildResolverError
-from anytree.exporter import DictExporter
-from anytree.render import AsciiStyle
-
+from os import PathLike
+from typing import Union
 
 from pprint import PrettyPrinter
+
 _pp = PrettyPrinter(indent=1).pprint
 
 # Global helper to store parsed command line arguments
-_args = None
+_args: argparse.Namespace = argparse.Namespace()
 
 # Global helper to store the Jinja environment
-_env = None
+_env: Environment = Environment()
 
 # Global helper to store links
-_globalLinks = None
+_global_links = list()
 
-#---------------------
+
+# ---------------------
 # Parse Arguments
-#---------------------
+# ---------------------
 
 def parse_arguments():
     global _args
-    
+
     parser = argparse.ArgumentParser()
 
     parser.add_argument(
         '-y',
         '--yaml-cfg',
-        default = 'wiki.yml',
-        help = 'Wiki configuration file, in lieu of passed options.'
+        default='wiki.yml',
+        help='Wiki configuration file, in lieu of passed options.'
     )
-    
+
     parser.add_argument(
         '-o',
         '--output',
-        default = './docs',
-        help = 'Output root directory. Defaults to "./docs"'
+        default='./docs',
+        help='Output root directory. Defaults to "./docs"'
     )
-    
+
     parser.add_argument(
         '-t',
         '--templates',
-        default = './templates',
-        help = 'Directory path to get custom templates from. Defaults to "./templates"'
+        default='./templates',
+        help='Directory path to get custom templates from. Defaults to "./templates"'
     )
 
     parser.add_argument(
         '-l',
         '--lib',
-        default = './lib',
-        help = 'Root library directory. Defaults to "./lib"'
+        default='./lib',
+        help='Root library directory. Defaults to "./lib"'
     )
-    
+
     parser.add_argument(
         '--stylesheets',
-        help = 'Directory relative to --lib to get custom stylesheets. Note: stylesheets must be added to mkdocs.yml.j2'
+        help='Directory relative to --lib to get custom stylesheets. Note: stylesheets must be added to mkdocs.yml.j2'
     )
-    
+
     parser.add_argument(
         '--js',
-        help = 'Directory relative to --lib to get custom javascript. Note: js must be added to mkdocs.yml.j2'
+        help='Directory relative to --lib to get custom javascript. Note: js must be added to mkdocs.yml.j2'
     )
-    
+
     parser.add_argument(
         '--img',
-        help = 'Directory relative to --lib to get custom images.'
+        help='Directory relative to --lib to get custom images.'
     )
-    
+
     parser.add_argument(
         '-v',
         '--verbose',
-        default = 0,
-        action = 'count',
-        help = 'Print debug information.'
+        default=0,
+        action='count',
+        help='Print debug information.'
     )
-    
+
     args = parser.parse_args()
-    
-    wikiCfg = Path(args.yaml_cfg)
-    if wikiCfg.exists():
-        with open(wikiCfg, 'r') as wikiCfg_file:
-            cfg_data = yaml.load(wikiCfg_file, Loader=yaml.FullLoader)
-    
+
+    wiki_cfg = Path(args.yaml_cfg)
+    if wiki_cfg.exists():
+        with open(wiki_cfg, 'r') as wiki_cfg_file:
+            cfg_data = yaml.load(wiki_cfg_file, Loader=yaml.FullLoader)
+
         for key, value in cfg_data.items():
-            cmdVal = getattr(args, key, None)
-            if cmdVal is None:
+            cmd_val = getattr(args, key, None)
+            if cmd_val is None:
                 setattr(args, key, value)
             else:
-                msg = f'{key} from WikiCfg overridden by command line: {cmdVal}'
+                msg = f'{key} from WikiCfg overridden by command line: {cmd_val}'
                 warnings.warn(msg)
 
     _args = args
 
-#--------------------------
-# Helper Functions
-#--------------------------
 
-def ageDecode(event):
-    map_ = {'KAL' : 1, 'IDE' : 20, 'NON' : 28, 'X' : 2}
-    ageStr = event['Date']
-    ageList = ageStr.split(' ')
-    ageList.extend(['0KAL','0KAL','0KAL'])
-    ageList[0] = int(re.sub(r'[^- 0-9]', '', ageList[0]))
-    ageList[1] = int(re.sub(r'[^ 0-9]', '', ageList[1]))
+# --------------------------
+# Helper Functions
+# --------------------------
+
+def age_decode(event):
+    map_ = {'KAL': 1, 'IDE': 20, 'NON': 28, 'X': 2}
+    age_str = event['Date']
+    age_list = age_str.split(' ')
+    age_list.extend(['0KAL', '0KAL', '0KAL'])
+    age_list[0] = int(re.sub(r'[^- 0-9]', '', age_list[0]))
+    age_list[1] = int(re.sub(r'[^ 0-9]', '', age_list[1]))
     try:
-        day = int(re.sub(r'([0-9]*).*', r'\1', ageList[2]))
+        day = int(re.sub(r'([0-9]*).*', r'\1', age_list[2]))
     except ValueError:
         day = 1
-    mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', ageList[2])
-    ageList[2] = (32 - map_[mark] - (day - 2)) % 31
-    return (ageList[0], ageList[1], ageList[2])
+    mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', age_list[2])
+    age_list[2] = (32 - map_[mark] - (day - 2)) % 31
+    return age_list[0], age_list[1], age_list[2]
 
 
-def resolveTreeNode(tree, pathStr):
+def resolve_tree_node(tree, path_str):
     resolver = Resolver('name')
     try:
-        node = resolver.get(tree, pathStr)
+        node = resolver.get(tree, path_str)
     except (ResolverError, ChildResolverError):
-        parent = resolveTreeNode(tree, pathStr.rsplit('/',1)[0])
-        node = Node(pathStr.split('/')[-1], parent=parent)
-        
+        parent = resolve_tree_node(tree, path_str.rsplit('/', 1)[0])
+        node = Node(path_str.split('/')[-1], parent=parent)
+
     return node
 
 
-#--------------------------
+# --------------------------
 # Custom Jinja Filters
-#--------------------------
+# --------------------------
 
 @contextfilter
-def autoLink(ctx, rawText):
+def auto_link(ctx, raw_text):
     if 'no_autolink' in ctx.resolve('control'):
-        return rawText
-    myTitle = ctx.resolve('title')
-    for linkTarget in _globalLinks:
-        searchText = linkTarget['text']
-        linkText = linkTarget['link']
-        if (linkText != myTitle):
-            searchPattern = r'\b' + f"({searchText}('?s?)?)" + r'\b' + r'(?![^[]*])'
-            replaceText = r'[\1]' + f'[{linkText}]'
-            rawText = re.sub(searchPattern, replaceText, rawText, count=1)
-    return rawText
+        return raw_text
+    my_title = ctx.resolve('title')
+    for linkTarget in _global_links:
+        search_text = linkTarget['text']
+        link_text = linkTarget['link']
+        if link_text != my_title:
+            search_pattern = r'\b' + f"({search_text}('?s?)?)" + r'\b' + r'(?![^[]*])'
+            replace_text = r'[\1]' + f'[{link_text}]'
+            raw_text = re.sub(search_pattern, replace_text, raw_text, count=1)
+    return raw_text
 
 
 @contextfilter
-def relativeLink(ctx, rawText):
-    myTitle = ctx.resolve('title')
-    for linkTarget in _globalLinks:
-        searchText = linkTarget['text']
-        linkText = linkTarget['file'].split('.', 1)[0]
-        if (linkText != myTitle):
-            searchPattern = f'(click .*?) "({searchText}(\'?s?)?)"'
-            replaceText = f'\g<1> "../{linkText}/"'
-            rawText = re.sub(searchPattern, replaceText, rawText)
-    unresolvedText = r'click .*? "((?!\.\./).*?)"'
-    unresolvedLinks = re.findall(unresolvedText, rawText)
-    if unresolvedLinks:
-        for uLinkMatch in unresolvedLinks:
-            msg = f'Unresolved mermaid link in {ctx.resolve("yml_file")} : {uLinkMatch}'
+def relative_link(ctx, raw_text):
+    my_title = ctx.resolve('title')
+    for linkTarget in _global_links:
+        search_text = linkTarget['text']
+        link_text = linkTarget['file'].split('.', 1)[0]
+        if link_text != my_title:
+            search_pattern = f'(click .*?) "({search_text}(\'?s?)?)"'
+            replace_text = f'\g<1> "../{link_text}/"'
+            raw_text = re.sub(search_pattern, replace_text, raw_text)
+    unresolved_text = r'click .*? "((?!\.\./).*?)"'
+    unresolved_links = re.findall(unresolved_text, raw_text)
+    if unresolved_links:
+        for u_link_match in unresolved_links:
+            msg = f'Unresolved mermaid link in {ctx.resolve("yml_file")} : {u_link_match}'
             warnings.warn(msg, stacklevel=7)
-    return rawText
-    
-
-def sort_multi(L, *operators):
-    Ls = sorted(L, key=attrgetter(*operators))
-    return Ls
+    return raw_text
 
 
-def stringifyKeys(dictionary):
+def sort_multi(list_in, *operators):
+    list_sorted = sorted(list_in, key=attrgetter(*operators))
+    return list_sorted
+
+
+def stringify_keys(dictionary):
     new_dict = dict((str(k), v) for k, v in dictionary.items())
     return new_dict
 
 
-def numberFormat(value):
+def number_format(value):
     try:
-        formattedStr = format(int(value), ',d')
+        formatted_str = format(int(value), ',d')
     except (TypeError, ValueError):
-        formattedStr = value
-    return formattedStr
+        formatted_str = value
+    return formatted_str
 
 
-def listText(text):
+def list_text(text):
     return '\n    '.join(text.split('\n'))
 
 
-def getTreeDirectChildren(tree):
+def get_tree_direct_children(tree):
     childless = [[node for node in children] for children in LevelOrderGroupIter(tree,
                                                                                  filter_=lambda n: not n.children)][1]
     childed = [[node for node in children] for children in LevelOrderGroupIter(tree, filter_=lambda n: n.children)][1]
@@ -208,53 +209,53 @@ def getTreeDirectChildren(tree):
     return childless + childed
 
 
-def humanSortIntFirst(txt):
+def human_sort_int_first(txt):
     if isinstance(txt, int):
         number = txt
         txt = str(number)
     else:
-        numMatch = re.search(r'[0-9]+', txt).group(0)
-        number = int(numMatch) if numMatch is not None else -1
-    return (number, txt)
+        num_match = re.search(r'[0-9]+', txt).group(0)
+        number = int(num_match) if num_match is not None else -1
+    return number, txt
 
 
-def rollSort(dictionary):
-    sortedList = [(key, dictionary[key]) for key in sorted(dictionary, key=humanSortIntFirst)]
-    return sortedList
+def roll_sort(dictionary):
+    sorted_list = [(key, dictionary[key]) for key in sorted(dictionary, key=human_sort_int_first)]
+    return sorted_list
 
 
-#--------------------------
+# --------------------------
 # Sequencer
-#--------------------------
+# --------------------------
 
 def setup_jinja():
     global _env
-    
+
     # Add in the default library
-    templateLib = [_args.templates, './yaml-wiki/templates']
+    template_lib = [_args.templates, './yaml-wiki/templates']
 
     env = Environment(
-        loader=FileSystemLoader(templateLib),
+        loader=FileSystemLoader(template_lib),
         extensions=['jinja2.ext.do'],
-        trim_blocks = True,
-        lstrip_blocks = True
+        trim_blocks=True,
+        lstrip_blocks=True
     )
 
     # Add Custom Filters
-    env.filters['autoLink'] = autoLink
-    env.filters['relativeLink'] = relativeLink
-    env.filters['numberFormat'] = numberFormat
-    env.filters['listText'] = listText
+    env.filters['auto_link'] = auto_link
+    env.filters['relative_link'] = relative_link
+    env.filters['number_format'] = number_format
+    env.filters['list_text'] = list_text
     env.filters['sort_multi'] = sort_multi
-    env.filters['stringifyKeys'] = stringifyKeys
-    env.filters['getTreeDirectChildren'] = getTreeDirectChildren
-    env.filters['rollSort'] = rollSort
+    env.filters['stringify_keys'] = stringify_keys
+    env.filters['get_tree_direct_children'] = get_tree_direct_children
+    env.filters['roll_sort'] = roll_sort
 
     _env = env
 
-    
+
 def main():
-    global _globalLinks
+    global _global_links
 
     parse_arguments()
 
@@ -263,197 +264,183 @@ def main():
     outdir = Path(_args.output)
     if outdir.exists():
         rmtree(outdir)
-    
-    outdir.mkdir(parents = True, exist_ok = True)
-    
-    #---------------------
+
+    outdir.mkdir(parents=True, exist_ok=True)
+
+    # ---------------------
     # Prepare the nav
-    #---------------------
-    
-    navTree = Node('Root')
+    # ---------------------
+
+    nav_tree = Node('Root')
     date = datetime.today().strftime('%Y-%m-%d')
-    
-    timelineStruct = list()
-    
+
+    timeline_struct = list()
+
     md_lib = list()
-    
-    
-    
+
+    path: Union[Path, PathLike]
     for path in Path(_args.lib).glob('**/*.yml'):
-    
+
         if '.#' in str(path):
             continue
-    
+
         if _args.verbose > 3:
             print(path)
-        
+
         with open(path) as y_file:
             y_data = yaml.load(y_file, Loader=yaml.FullLoader)
-    
+
         y_data['yml_file'] = path.name
-            
+
         outpath = Path(_args.output, path.stem).with_suffix('.md')
-    
-        md_lib.append({'path' : outpath, 'data' : y_data})
-    
-        #---------------------
+
+        md_lib.append({'path': outpath, 'data': y_data})
+
+        # ---------------------
         # Assemble the nav
-        #---------------------
-    
-        rFile = Path(outpath.name)
-    
-        node = resolveTreeNode(navTree, f"/Root/{y_data['node']}/{y_data['title']}")
-    
+        # ---------------------
+
+        r_file = Path(outpath.name)
+
+        node = resolve_tree_node(nav_tree, f"/Root/{y_data['node']}/{y_data['title']}")
+
         node.title = y_data['title']
-        node.file = str(rFile)
+        node.file = str(r_file)
         node.noLink = ('control' in y_data and 'no_link' in y_data['control'])
         node.noAutoLink = ('control' in y_data and 'no_autolink' in y_data['control'])
         if 'altLinks' in y_data:
             node.altLinks = y_data['altLinks']
-    
-        
+
         # Gather timeline information for a common timeline
         if ('History' in y_data) and ('Timeline' in y_data['History']):
-    
-    
+
             # Custom sort for timeline entries
             y_data['History']['Timeline'] = sorted(
                 y_data['History']['Timeline'],
-                key=ageDecode)
-    
-    
+                key=age_decode)
+
             for event in y_data['History']['Timeline']:
-                event.update({'Source' : y_data['title']})
-                timelineStruct.append(event)
-    
-    
-    #-----------------------
+                event.update({'Source': y_data['title']})
+                timeline_struct.append(event)
+
+    # -----------------------
     # Generate the Timeline
-    #-----------------------
-    
-    timelineTemplate = _env.get_template('Timeline.md')
+    # -----------------------
+
+    timeline_template = _env.get_template('Timeline.md')
     timeline = Path('./docs', 'Timeline.md')
-    
-    
-    node = resolveTreeNode(navTree, f"/Root/General/Timeline")
+
+    node = resolve_tree_node(nav_tree, f"/Root/General/Timeline")
     node.title = 'Timeline'
     node.file = str(timeline.name)
     node.noLink = False
     node.noAutoLink = False
-    
-    timelineSorted = sorted(timelineStruct, key=ageDecode)
-    
+
+    timeline_sorted = sorted(timeline_struct, key=age_decode)
+
     if _args.verbose > 3:
-        _pp(timelineSorted)
-    
-    #---------------------
+        _pp(timeline_sorted)
+
+    # ---------------------
     # Prepare AutoLinker
-    #---------------------
-    
-    linkedList = list()
-    fileLinks = list()
-    for node in PreOrderIter(navTree):
+    # ---------------------
+
+    linked_list = list()
+    file_links = list()
+    for node in PreOrderIter(nav_tree):
         if node.is_leaf and not node.noAutoLink:
-            fileLinks.append({'title' : node.title,
-                              'file' : node.file})
-            linkedList.append({'text' : node.title,
-                               'link' : node.title,
-                               'file' : node.file})
+            file_links.append({'title': node.title,
+                               'file': node.file})
+            linked_list.append({'text': node.title,
+                                'link': node.title,
+                                'file': node.file})
             if hasattr(node, 'altLinks'):
                 for altLink in node.altLinks:
-                    linkedList.append({'text' : altLink,
-                                       'link' : node.title,
-                                       'file' : node.file})
+                    linked_list.append({'text': altLink,
+                                        'link': node.title,
+                                        'file': node.file})
 
-    _globalLinks = sorted(linkedList, key = lambda k: len(k['text']), reverse = True)
-                                   
-        
-    #---------------------
+    _global_links = sorted(linked_list, key=lambda k: len(k['text']), reverse=True)
+
+    # ---------------------
     # Run link templater
-    #---------------------
-    
+    # ---------------------
+
     links = Path(_args.templates, 'links.md.j2')
     template = _env.get_template('links.j2')
-    
+
     with open(links, 'w') as linkFile:
-        linkFile.write(template.render(fileLinks = fileLinks))
-    
-    
-    #---------------------
+        linkFile.write(template.render(fileLinks=file_links))
+
+    # ---------------------
     # Write Timeline
-    #---------------------
-    
+    # ---------------------
+
     with open(timeline, 'w') as timelineFile:
-        timelineRender = timelineTemplate.render(timeline = timelineSorted, date=date)
-        timelineFile.write(timelineRender)
-        
-        
-    #---------------------
+        timeline_render = timeline_template.render(timeline=timeline_sorted, date=date)
+        timelineFile.write(timeline_render)
+
+    # ---------------------
     # Run Templater
-    #---------------------
+    # ---------------------
     for entry in md_lib:
-    
         outpath = entry['path']
-        
+
         y_data = entry['data']
-    
+
         template = _env.get_template(y_data['template'])
-    
+
         with open(outpath, 'w') as outfile:
             outfile.write(template.render(y_data, date=date))
-                
-    #---------------------
+
+    # ---------------------
     # Write the Cat Pages
-    #---------------------
-    
+    # ---------------------
+
     template = _env.get_template('Category.md')
-    for category in navTree.children:
+    for category in nav_tree.children:
         # Make sure it really is a category
         if category.children:
             page = Path(outdir, category.name).with_suffix('.md')
             category.file = page.name
             with open(page, 'w') as pageFile:
-                pageFile.write(template.render(navTree = category,
-                                               date = date))
-    
-    #---------------------
+                pageFile.write(template.render(navTree=category,
+                                               date=date))
+
+    # ---------------------
     # Write the config
-    #---------------------
-    
+    # ---------------------
+
     template = _env.get_template('mkdocs.yml.j2')
     config = Path('mkdocs.yml')
     with open(config, 'w') as configFile:
-        configFile.write(template.render(navTree = navTree))
-    
-    
-        
-    #---------------------
+        configFile.write(template.render(navTree=nav_tree))
+
+    # ---------------------
     # Write the Main Page
-    #---------------------
-    
+    # ---------------------
+
     template = _env.get_template('index.md')
     index = Path(outdir, 'index.md')
-    
+
     with open(index, 'w') as indexFile:
-        indexFile.write(template.render(navTree = navTree,
-                                        date = date))
-    
-    
+        indexFile.write(template.render(navTree=nav_tree,
+                                        date=date))
+
     libpath = Path('..', _args.lib)
-    
+
     symlink(Path('../yaml-wiki/lib/stylesheets'), outdir.joinpath('stylesheets_lib'), target_is_directory=True)
     symlink(Path('../yaml-wiki/lib/js'), outdir.joinpath('js_lib'), target_is_directory=True)
-    
+
     if _args.js:
         symlink(libpath.joinpath(_args.js), outdir.joinpath(_args.js), target_is_directory=True)
-    
+
     if _args.stylesheets:
         symlink(libpath.joinpath(_args.stylesheets), outdir.joinpath(_args.stylesheets), target_is_directory=True)
-    
+
     if _args.img:
         symlink(libpath.joinpath(_args.img), outdir.joinpath(_args.img), target_is_directory=True)
-        
-    
+
 
 if __name__ == "__main__":
     main()

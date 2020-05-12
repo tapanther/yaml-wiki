@@ -19,7 +19,7 @@ Main Page for {{ title }}
 
 {% block pagecontent %}
 ## Uncategorized
-{% for child in navTree|getTreeDirectChildren if not child.noLink %}
+{% for child in navTree|get_tree_direct_children if not child.noLink %}
 {{ macros.printCatLinks(child, 0) }}
 {%- endfor %}
 {% endblock %}

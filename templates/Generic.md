@@ -39,7 +39,7 @@ Main Page for {{ title }}
 {% endif %}{# Diagram #}
 {% if entry.Text %}
 
-{{ entry.Text | autoLink }}
+{{ entry.Text | auto_link }}
 
 {% endif %}
 {% if entry.Table %}
@@ -57,7 +57,7 @@ Main Page for {{ title }}
 
 | Roll | Result |
 |:----:|:-------|
-{% for roll, result in entry.Table|rollSort %}
+{% for roll, result in entry.Table|roll_sort %}
 | {{roll}} | {{result}} |
 {% endfor %}
 
