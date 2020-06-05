@@ -1,0 +1,5 @@
+anytree
+Jinja2
+PyYAML
+mkdocs
+mkdocs-material

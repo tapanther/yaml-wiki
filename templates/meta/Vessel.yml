@@ -1,0 +1,24 @@
+---
+node : Vessels
+template : Vessel.md
+title : TEXT
+GeneralInfo :
+  Statistics :
+    Spaceframe : TEXT
+    Designation : TEXT
+    Mission Profile : TEXT
+    Service Date : NUMBER
+    Refit : TEXT
+  Traits :
+    - LIST
+  Description : >-
+    TEXT
+Mission :
+  Role : TEXT
+  Note : TEXT
+  Location : TEXT
+Description : >-
+  TEXT
+NotableEvents :
+  TEXT : >-
+    TEXT

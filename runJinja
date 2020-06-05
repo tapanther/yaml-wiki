@@ -15,6 +15,7 @@ from anytree import Node, RenderTree, Resolver, PreOrderIter, LevelOrderGroupIte
 from anytree.resolver import ResolverError, ChildResolverError
 from os import PathLike
 from typing import Union
+from dateutil.parser import parse as dateparse
 
 from pprint import PrettyPrinter
 
@@ -112,19 +113,31 @@ def parse_arguments():
 # Helper Functions
 # --------------------------
 
-def age_decode(event):
-    map_ = {'KAL': 1, 'IDE': 20, 'NON': 28, 'X': 2}
-    age_str = event['Date']
-    age_list = age_str.split(' ')
-    age_list.extend(['0KAL', '0KAL', '0KAL'])
-    age_list[0] = int(re.sub(r'[^- 0-9]', '', age_list[0]))
-    age_list[1] = int(re.sub(r'[^ 0-9]', '', age_list[1]))
+def is_date(string, fuzzy=False):
     try:
-        day = int(re.sub(r'([0-9]*).*', r'\1', age_list[2]))
+        return dateparse(string, fuzzy=fuzzy)
     except ValueError:
-        day = 1
-    mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', age_list[2])
-    age_list[2] = (32 - map_[mark] - (day - 2)) % 31
+        return False
+
+
+def age_decode(event):
+    age_str = event['Date']
+    date = is_date(age_str)
+    if date:
+        timetuple = date.timetuple()
+        return timetuple[0], timetuple[1], timetuple[2]
+    else:
+        map_ = {'KAL': 1, 'IDE': 20, 'NON': 28, 'X': 2}
+        age_list = age_str.split(' ')
+        age_list.extend(['0KAL', '0KAL', '0KAL'])
+        age_list[0] = int(re.sub(r'[^- 0-9]', '', age_list[0]))
+        age_list[1] = int(re.sub(r'[^ 0-9]', '', age_list[1]))
+        try:
+            day = int(re.sub(r'([0-9]*).*', r'\1', age_list[2]))
+        except ValueError:
+            day = 1
+        mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', age_list[2])
+        age_list[2] = (32 - map_[mark] - (day - 2)) % 31
     return age_list[0], age_list[1], age_list[2]
 
 
@@ -222,6 +235,12 @@ def human_sort_int_first(txt):
 def roll_sort(dictionary):
     sorted_list = [(key, dictionary[key]) for key in sorted(dictionary, key=human_sort_int_first)]
     return sorted_list
+
+
+class SafeLoaderIgnoreUnknown(yaml.SafeLoader):
+    @staticmethod
+    def default_ctor(loader, tag_suffix, node):
+        return tag_suffix + ' ' + node.value
 
 
 # --------------------------
@@ -420,11 +439,17 @@ def main():
     # Write the Main Page
     # ---------------------
 
+    SafeLoaderIgnoreUnknown.add_multi_constructor('', SafeLoaderIgnoreUnknown.default_ctor)
+
+    with open('mkdocs.yml') as mkdocs_ctrl_file:
+        mkdocs_ctrl = yaml.load(mkdocs_ctrl_file, Loader=SafeLoaderIgnoreUnknown)
+
     template = _env.get_template('index.md')
     index = Path(outdir, 'index.md')
 
     with open(index, 'w') as indexFile:
         indexFile.write(template.render(navTree=nav_tree,
+                                        mkdocs_yaml=mkdocs_ctrl,
                                         date=date))
 
     libpath = Path('..', _args.lib)

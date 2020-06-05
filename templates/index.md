@@ -1,9 +1,7 @@
 {% extends 'base.md' %}
 
-{% set title = 'Tritan' %}
-
 {% block title %}
-{{ title }}
+{{ mkdocs_yaml.site_name }}
 {% endblock %}
 
 {% block summary %}
@@ -17,7 +15,7 @@ Main Page
 
 ## Using this Site
 
-Use the navigation bar to explore the different aspects of Tritan.
+Use the navigation bar to explore the different aspects of {{ mkdocs_yaml.site_name }}.
 
 
 You can alternatively use the category pages below to narrow your
