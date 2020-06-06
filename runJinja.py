@@ -150,17 +150,18 @@ def age_decode(event: str) -> DateTuple:
         timetuple = date.timetuple()
         return timetuple[0], timetuple[1], timetuple[2]
     else:
-    map_ = {'KAL': 1, 'IDE': 20, 'NON': 28, 'X': 2}
-    age_list = age_str.split(' ')
-    age_list.extend(['0KAL', '0KAL', '0KAL'])
-    age_list[0] = int(re.sub(r'[^- 0-9]', '', age_list[0]))
-    age_list[1] = int(re.sub(r'[^ 0-9]', '', age_list[1]))
-    try:
-        day = int(re.sub(r'([0-9]*).*', r'\1', age_list[2]))
-    except ValueError:
-        day = 1
-    mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', age_list[2])
-    age_list[2] = (32 - map_[mark] - (day - 2)) % 31
+        map_ = {'KAL': 1, 'IDE': 20, 'NON': 28, 'X': 2}
+        age_list = age_str.split(' ')
+        age_list.extend(['0KAL', '0KAL', '0KAL'])
+        age_list[0] = int(re.sub(r'[^- 0-9]', '', age_list[0]))
+        age_list[1] = int(re.sub(r'[^ 0-9]', '', age_list[1]))
+        try:
+            day = int(re.sub(r'([0-9]*).*', r'\1', age_list[2]))
+        except ValueError:
+            day = 1
+        mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', age_list[2])
+        age_list[2] = (32 - map_[mark] - (day - 2)) % 31
+        
     return age_list[0], age_list[1], age_list[2]
 
 
