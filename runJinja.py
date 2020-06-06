@@ -14,7 +14,7 @@ from os import symlink
 from anytree import Node, RenderTree, Resolver, PreOrderIter, LevelOrderGroupIter
 from anytree.resolver import ResolverError, ChildResolverError
 from os import PathLike
-from typing import Union, Tuple
+from typing import Union, Tuple, Optional
 from dateutil.parser import parse as dateparse
 
 from pprint import PrettyPrinter
@@ -37,7 +37,12 @@ _global_links = list()
 
 def parse_arguments():
     """
-Parse command line arguments using argparse.
+    Parse command line arguments to a global variable.
+
+    Returns
+    -------
+    None
+        Sets global _args variable to store command line arguments.
     """
     global _args
 
@@ -116,7 +121,26 @@ Parse command line arguments using argparse.
 # Helper Functions
 # --------------------------
 
-def is_date(string, fuzzy=False):
+DateOrNone = Optional[datetime]
+
+
+def is_date(string: str, fuzzy: bool = False) -> DateOrNone:
+    """
+    Uses the dateutils parser to check if a string is a standard date format.
+
+    Parameters
+    ----------
+    string : str
+        String to test for date-y-ness
+    fuzzy : bool
+        Controls if "fuzzy" formats are allowed ("Today is January 1 of 2020")
+
+    Returns
+    -------
+    DateOrNone
+        None if the string is not a date, otherwise datetime.datetime object
+
+    """
     try:
         return dateparse(string, fuzzy=fuzzy)
     except ValueError:
@@ -161,7 +185,7 @@ def age_decode(event: str) -> DateTuple:
             day = 1
         mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', age_list[2])
         age_list[2] = (32 - map_[mark] - (day - 2)) % 31
-        
+
     return age_list[0], age_list[1], age_list[2]
 
 
@@ -279,11 +303,40 @@ def sort_multi(list_in, *operators):
 
 
 def stringify_keys(dictionary):
+    """
+    Jinja filter to convert all keys in a dictionary to strings.
+
+    Parameters
+    ----------
+    dictionary : dict
+        dictionary to process
+
+    Returns
+    -------
+    dict
+        original `dictionary` with keys converted to strings
+
+    """
     new_dict = dict((str(k), v) for k, v in dictionary.items())
     return new_dict
 
 
 def number_format(value):
+    """
+    Attempt to format a string as a number
+
+    Parameters
+    ----------
+    value : str
+        String which could be a number
+
+    Returns
+    -------
+    str
+        String with comma separators for thousands if number, otherwise
+        just the original string.
+
+    """
     try:
         formatted_str = format(int(value), ',d')
     except (TypeError, ValueError):
@@ -292,10 +345,36 @@ def number_format(value):
 
 
 def list_text(text):
+    """
+    Jinja2 filter to allow text to be properly formatted as a list in markdown
+
+    Parameters
+    ----------
+    text : str
+
+    Returns
+    -------
+    str
+        `text` with corrected indentation to support markdown lists
+
+    """
     return '\n    '.join(text.split('\n'))
 
 
 def get_tree_direct_children(tree):
+    """
+    Get only the direct children of a given anytree Node
+
+    Parameters
+    ----------
+    tree : Node
+
+    Returns
+    -------
+    List[Node]
+        Child-less nodes first, then sorted by name.
+
+    """
     childless = [[node for node in children] for children in LevelOrderGroupIter(tree,
                                                                                  filter_=lambda n: not n.children)][1]
     childed = [[node for node in children] for children in LevelOrderGroupIter(tree, filter_=lambda n: n.children)][1]
@@ -305,7 +384,25 @@ def get_tree_direct_children(tree):
     return childless + childed
 
 
+StringOrInteger = Union[str, int]
+
+
 def human_sort_int_first(txt):
+    """
+    Human-sort strings that contain numbers.
+
+    For example, `["10", "5", "51"]` should sort as
+    `["5", "10", "51"]`
+
+    Parameters
+    ----------
+    txt : str
+
+    Returns
+    -------
+    StringOrInteger, str
+        The numerical interpretation of the string (if any) and the original text.
+    """
     if isinstance(txt, int):
         number = txt
         txt = str(number)
@@ -316,6 +413,21 @@ def human_sort_int_first(txt):
 
 
 def roll_sort(dictionary):
+    """
+    Jinja filter to sort dictionaries using human sort.
+
+    Typically used to sort roll tables `{"roll value" : "result" }`
+
+    Parameters
+    ----------
+    dictionary : dict
+
+    Returns
+    -------
+    List[Tuple[str, object]]
+        sorted list of (key, value) tuples
+
+    """
     sorted_list = [(key, dictionary[key]) for key in sorted(dictionary, key=human_sort_int_first)]
     return sorted_list
 
@@ -323,6 +435,20 @@ def roll_sort(dictionary):
 class SafeLoaderIgnoreUnknown(yaml.SafeLoader):
     @staticmethod
     def default_ctor(loader, tag_suffix, node):
+        """
+        YAML Loader that safely ignores python object tags
+
+        Parameters
+        ----------
+        loader
+        tag_suffix
+        node
+
+        Returns
+        -------
+        str
+
+        """
         return tag_suffix + ' ' + node.value
 
 
@@ -331,6 +457,9 @@ class SafeLoaderIgnoreUnknown(yaml.SafeLoader):
 # --------------------------
 
 def setup_jinja():
+    """
+    Set up Jinja2 Environment for templates.
+    """
     global _env
 
     # Add in the default library
@@ -357,6 +486,12 @@ def setup_jinja():
 
 
 def main():
+    """
+    Main function.
+
+    This function builds the wiki navigation tree, then runs the
+    Jinja template engine to write out the markdown pages.
+    """
     global _global_links
 
     parse_arguments()

@@ -5,3 +5,4 @@ runJinja module
    :members:
    :undoc-members:
    :show-inheritance:
+   :exclude-members: SafeLoaderIgnoreUnknown
