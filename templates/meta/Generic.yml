@@ -2,6 +2,8 @@
 node : General
 template : Generic.md
 title : TEXT
+altLinks :
+  - LINK
 GeneralInfo :
   Description: >-
     TEXT
@@ -28,3 +30,5 @@ Content:
           -
             - ROW1COL1
             - ROW2COL2
+Links :
+  - LINK
