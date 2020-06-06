@@ -14,7 +14,7 @@ from os import symlink
 from anytree import Node, RenderTree, Resolver, PreOrderIter, LevelOrderGroupIter
 from anytree.resolver import ResolverError, ChildResolverError
 from os import PathLike
-from typing import Union
+from typing import Union, Tuple
 from dateutil.parser import parse as dateparse
 
 from pprint import PrettyPrinter
@@ -36,6 +36,9 @@ _global_links = list()
 # ---------------------
 
 def parse_arguments():
+    """
+Parse command line arguments using argparse.
+    """
     global _args
 
     parser = argparse.ArgumentParser()
@@ -120,28 +123,62 @@ def is_date(string, fuzzy=False):
         return False
 
 
-def age_decode(event):
+DateTuple: Tuple = Tuple[int, int, int]
+"""Tuple of three integers."""
+
+
+def age_decode(event: str) -> DateTuple:
+    """Decode Tritanian-style date strings to (Y, M, D) integers.
+
+    Tritan Date-Strings have a special pattern {###}Y {##}M [{##}]<Day>
+    This function converts them into a tuple of numbers that represent
+    year, month, day as sortable numbers.
+
+    Parameters
+    ----------
+    event : str
+        Tritanian Date-String
+
+    Returns
+    -------
+    DateTuple
+        (Year, Month, Day)
+    """
     age_str = event['Date']
     date = is_date(age_str)
     if date:
         timetuple = date.timetuple()
         return timetuple[0], timetuple[1], timetuple[2]
     else:
-        map_ = {'KAL': 1, 'IDE': 20, 'NON': 28, 'X': 2}
-        age_list = age_str.split(' ')
-        age_list.extend(['0KAL', '0KAL', '0KAL'])
-        age_list[0] = int(re.sub(r'[^- 0-9]', '', age_list[0]))
-        age_list[1] = int(re.sub(r'[^ 0-9]', '', age_list[1]))
-        try:
-            day = int(re.sub(r'([0-9]*).*', r'\1', age_list[2]))
-        except ValueError:
-            day = 1
-        mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', age_list[2])
-        age_list[2] = (32 - map_[mark] - (day - 2)) % 31
+    map_ = {'KAL': 1, 'IDE': 20, 'NON': 28, 'X': 2}
+    age_list = age_str.split(' ')
+    age_list.extend(['0KAL', '0KAL', '0KAL'])
+    age_list[0] = int(re.sub(r'[^- 0-9]', '', age_list[0]))
+    age_list[1] = int(re.sub(r'[^ 0-9]', '', age_list[1]))
+    try:
+        day = int(re.sub(r'([0-9]*).*', r'\1', age_list[2]))
+    except ValueError:
+        day = 1
+    mark = re.sub(r'[0-9]*(KAL|IDE|NON|X)', r'\1', age_list[2])
+    age_list[2] = (32 - map_[mark] - (day - 2)) % 31
     return age_list[0], age_list[1], age_list[2]
 
 
-def resolve_tree_node(tree, path_str):
+def resolve_tree_node(tree: Node, path_str: str) -> Node:
+    """Given a path string, return the corresponding node from a tree
+
+    Parameters
+    ----------
+    tree : Node
+        anytree Node object
+    path_str : str
+        String representation of anytree node path
+
+    Returns
+    -------
+    Node
+        Referenced anytree Node object
+    """
     resolver = Resolver('name')
     try:
         node = resolver.get(tree, path_str)
@@ -158,6 +195,20 @@ def resolve_tree_node(tree, path_str):
 
 @contextfilter
 def auto_link(ctx, raw_text):
+    """Jinja2 Custom Filter to automatically link keywords in text to their pages.
+
+    Parameters
+    ----------
+    ctx : jinja2.runtime.Context
+        Template Context
+    raw_text : str
+        Template text
+
+    Returns
+    -------
+    str
+        `raw_text` with known keywords linked to their pages
+    """
     if 'no_autolink' in ctx.resolve('control'):
         return raw_text
     my_title = ctx.resolve('title')
@@ -173,6 +224,24 @@ def auto_link(ctx, raw_text):
 
 @contextfilter
 def relative_link(ctx, raw_text):
+    """Inject mermaid-style relative links.
+
+    Mermaid diagrams use relative links to the generated HTML, rather than
+    markdown-style links to named references.
+
+    Parameters
+    ----------
+    ctx : jinja2.runtime.Context
+        Template Context
+    raw_text : str
+        Template text
+
+    Returns
+    -------
+    str
+        `raw_text` with known keywords linked to their generated pages
+
+    """
     my_title = ctx.resolve('title')
     for linkTarget in _global_links:
         search_text = linkTarget['text']
@@ -191,6 +260,19 @@ def relative_link(ctx, raw_text):
 
 
 def sort_multi(list_in, *operators):
+    """Jinja2 Custom Filter to sort by multiple attributes
+
+    Parameters
+    ----------
+    list_in : list
+    operators : \*attrs
+        `operator.attrgetter` style attributes to retrieve
+
+    Returns
+    -------
+    list
+        Sorted list based on attributes specified
+    """
     list_sorted = sorted(list_in, key=attrgetter(*operators))
     return list_sorted
 
