@@ -37,6 +37,24 @@ date: {{ date }}
     - {{ trait }}
 {% endfor %}
 {% endif %}{# Traits #}
+{% if GeneralInfo.AddInfo %}
+{% for blk_name, blk_info in GeneralInfo.AddInfo|dictsort %}
+
+### {{ blk_name }}
+
+{% if blk_info is mapping %}
+{% for stat, data in blk_info|dictsort %}
+  - {{ stat | capitalize }} : {{ data | number_format }}
+{% endfor %}
+{% elif blk_info is iterable %}
+{% for datum in blk_info %}
+  - {{ datum }}
+{% endfor %}
+{% else %}
+    {{ blk_info }}
+{% endif %}
+{% endfor %}
+{% endif %}{# AddInfo #}
 {% if GeneralInfo.Diagram %}
 
 {{ GeneralInfo.Diagram|relative_link }}
