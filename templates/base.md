@@ -99,7 +99,11 @@ Date | Name | Event
 ## Related Links
 
 {% for link in Links %}
+{% if link.startswith('[') %}
+- {{ link }}
+{% else %}
 - [{{ link }}][]
+{% endif %}
 {% endfor %}
 {% endif %}{# Links #}
 {% endblock %}

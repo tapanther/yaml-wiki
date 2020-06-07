@@ -141,6 +141,7 @@ def is_date(string: str, fuzzy: bool = False) -> DateOrNone:
         None if the string is not a date, otherwise datetime.datetime object
 
     """
+    string = str(string)
     try:
         return dateparse(string, fuzzy=fuzzy)
     except ValueError:
