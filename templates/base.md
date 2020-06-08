@@ -14,6 +14,10 @@ date: {{ date }}
 
 {% endblock %}{# pagetitle #}
 
+{% block image %}
+{{ Image }}
+{% endblock %}
+
 {% block generalinformation %}
 {% if GeneralInfo %}
 {% if GeneralInfo.Statistics or GeneralInfo.Ethics or GeneralInfo.Ethics %}
