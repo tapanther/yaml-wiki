@@ -14,7 +14,7 @@ GeneralInfo :
     ```
 Structure :
   Governance : >-
-      TEXT
+    TEXT
   Locations :
     NAME : >-
       TEXT

@@ -15,11 +15,17 @@ Main Page
 
 ## Using this Site
 
+{% if not mkdocs_yaml.index_tag_text %}
 Use the navigation bar to explore the different aspects of {{ mkdocs_yaml.site_name }}.
 
 
 You can alternatively use the category pages below to narrow your
 scope, or use the search bar at the top to find a specific page.
+{% else %}
+
+{{ mkdocs_yaml.index_tag_text }}
+
+{% endif %}
 
 ## Category Pages
 
