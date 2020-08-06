@@ -45,6 +45,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
+{% block add_extensions %}
+{% endblock %}
 
 nav:
   - Home : index.md
