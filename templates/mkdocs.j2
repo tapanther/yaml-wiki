@@ -22,6 +22,10 @@ extra:
   
 extra_css:
   - stylesheets_lib/uml.css
+{% filter indent(width=2, first=True) %}
+  {% block extra_css %}
+  {% endblock %}
+{% endfilter %}
   
 extra_javascript:
   - js_lib/uml.js
@@ -31,6 +35,11 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js
   - https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js
   - https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.13.0/flowchart.min.js
+{% filter indent(width=2, first=True) %}
+  {% block extra_javascript %}
+  {% endblock %}
+{% endfilter %}
+
 
 markdown_extensions:
   - admonition
