@@ -25,7 +25,7 @@ Main Page for {{ title }}
 
 {% endif %}
 {% if entry.Subtitle %}
-{% if control and 'subtitle_headings' in control %}
+{% if (control and 'subtitle_headings' in control) or entry.subtitle_heading %}
 ### {{ entry.Subtitle }}
 {% else %}
 *{{ entry.Subtitle }}*
@@ -44,6 +44,12 @@ Main Page for {{ title }}
 {% endif %}
 {% if entry.Table %}
 {% if entry.Table.Meta %}
+{% set indent_w = 4 if entry.Table.Meta.Admonition else 0 %}
+{% if entry.Table.Meta.Admonition %}
+{{ "???" if entry.Table.Meta.Admonition.Collapse else "!!!"}} {{ entry.Table.Meta.Admonition.Type }} "{{ entry.Table.Meta.Admonition.Title }}"
+
+{% endif %}
+{% filter indent(indent_w, first=True) %}
 
 |{% for col in entry.Table.Meta.Columns %} {{ col }} |{% endfor %}
 
@@ -53,6 +59,7 @@ Main Page for {{ title }}
 |{% for txt in resultArr %} {{ txt }} |{% endfor %}
 
 {% endfor %}
+{% endfilter %}
 {% else %}
 
 | Roll | Result |
